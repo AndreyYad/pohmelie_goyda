@@ -1,0 +1,35 @@
+state={
+	id=1083
+	name="STATE_1083"
+	provinces={
+		7576 14999 15000 15001 15002 15003 
+	}
+	manpower=164720
+	state_category = city
+	resources={
+	    steel=5 # was: 8
+		chromium=8 # was: 9
+	}
+	
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			7576 = {
+			naval_base = 4
+			}
+		}
+		add_core_of = SAF
+		victory_points = {
+			7576 5
+		}
+		victory_points = {
+			15002 1
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

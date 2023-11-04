@@ -1,0 +1,38 @@
+capital = 5
+
+oob = "BCA_1952"
+set_research_slots = 2
+set_stability = 0.35
+set_war_support = 0.4
+set_convoys = 0
+
+GCA = {
+	set_autonomy = {
+		target = BCA
+		autonomy_state = autonomy_warlord_gca
+	}
+}
+
+set_technology = {
+}
+
+set_popularities = {
+	etatism = 100
+}
+
+recruit_character = BCA_jean_schramme
+
+set_politics = {
+	ruling_party = etatism
+}
+
+add_ideas = {
+  BCA_congo_forever
+  BCA_schramme_property
+  BCA_e_groups
+  BCA_safari
+  BCA_colonialism_arena
+}
+
+
+

@@ -1,0 +1,33 @@
+capital = 559
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+add_ideas = {
+FAL_amhartsy
+FAL_jew_emmigration
+FAL_jew_capital
+}
+
+set_convoys = 0
+set_research_slots = 2
+set_stability = 0.50
+set_war_support = 0.47
+
+recruit_character = FAL_viterbo
+recruit_character = FAL_bogale
+ITA = {
+	set_autonomy = {
+		target = FAL
+		autonomy_state = autonomy_protektorat
+	}
+}
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 86
+	conservatism = 14
+}

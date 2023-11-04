@@ -1,0 +1,33 @@
+state={
+	id=836
+	name="STATE_836"
+	provinces={
+		1984 2040 5097 13137 13250 13253 13254 13255 13256 
+	}
+	manpower=512389
+	resources={
+		rubber=2 # was: 2
+	}
+	
+	state_category = town
+	
+	history=
+	{
+		owner = FAL
+		buildings = {
+			infrastructure = 3
+			fuel_silo = 1
+			synthetic_refinery = 1
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = { 
+			1984 3
+		}
+		add_core_of = FAL
+	}
+	
+	buildings_max_level_factor=4.000
+	local_supplies=0.000
+}

@@ -1,0 +1,38 @@
+capital = 928
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_convoys = 0
+set_research_slots = 2
+set_stability = 0.63
+set_war_support = 0.46
+
+add_ideas = {
+KAM_wings
+KAM_peacemakers
+KAM_djihad
+KAM_antirome
+KAM_virtouz
+}
+recruit_character = KAM_seidu
+recruit_character = KAM_rozen
+
+GCA = {
+	set_autonomy = {
+		target = KAM
+		autonomy_state = autonomy_warlord_gca
+	}
+}
+
+set_politics = {
+	ruling_party = etatism
+	elections_allowed = no
+}
+set_popularities = {
+	etatism = 73
+	fascism = 27
+}

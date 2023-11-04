@@ -1,0 +1,28 @@
+state={
+	id=901
+	name="STATE_901"
+	provinces={
+		13664 13671 13673 13674 13677 13684 13689 
+	}
+	manpower=351283
+	resources={
+		chromium=26 # was: 21
+	}
+	
+	state_category = rural
+	
+	
+	history={
+		victory_points = {
+			13671 1
+		}
+		owner = RHO
+		add_core_of = RHO
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

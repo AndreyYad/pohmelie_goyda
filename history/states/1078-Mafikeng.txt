@@ -1,0 +1,27 @@
+state={
+	id=1078
+	name="STATE_1078"
+	provinces={
+		2213 10668 14902 14903 14904 14905 14906 14907 14908 14909 14910 14911 14912 14913 
+	}
+	manpower=398627
+	state_category = rural
+	resources={
+		tungsten=7 # was: 15
+	    steel=10 # was: 10
+		chromium=16 # was: 22
+	}
+	
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SAF
+		victory_points = {
+			14908 3
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

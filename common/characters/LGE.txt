@@ -1,0 +1,17 @@
+characters={
+	LGE_ameri={
+		name=LGE_ameri
+		portraits={
+			civilian = {
+				large = "gfx/leaders/LGE/dzhon_ameri_legion_georgia.dds"
+			}
+		}
+		country_leader={
+			ideology=militocracy
+			traits={LGE_kid}
+			expire="1988.12.14.1"
+			id=-1
+		}
+	}
+}
+

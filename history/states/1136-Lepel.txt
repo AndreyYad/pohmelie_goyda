@@ -1,0 +1,39 @@
+state={
+	id=1136
+	name="STATE_1136"
+	provinces={
+		3331 6220 6371 9241 
+	}
+	manpower=289400
+	state_category = rural
+	
+	history={
+		add_core_of = SOV
+		add_core_of = BLR
+		add_core_of = POL
+		owner = POL
+		victory_points = {
+			6220 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			3331 = {
+				bunker = 3
+
+			}
+			6371 = {
+				bunker = 3
+
+			}
+			9241 = {
+				bunker = 3
+
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

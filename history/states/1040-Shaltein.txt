@@ -1,0 +1,33 @@
+state={
+	id=1040
+	name="STATE_1040"
+	provinces={
+		4910 7156 10844 14727 14729 
+	}
+	manpower=20121
+	state_category = wasteland
+	resources={
+		steel=3.000
+		chromium=2.000
+	}
+	
+	
+	history = {
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+			14727 = {
+			        bunker = 2
+			}
+		}
+
+		victory_points = {
+			14727 1
+		}
+
+		add_core_of = EGY
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=543
+	name="STATE_543"
+	manpower = 369461
+	
+	state_category = city
+	resources={
+		steel=5 # was: 3
+		chromium=4 # was: 3
+	}
+	
+	history={
+		add_core_of = MAD
+		owner = MAD
+		victory_points = {
+			15155 6
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+
+	}
+
+	provinces={
+		11015 15153 15154 15155 15156 15157 15158 15159 15160
+	}
+
+	local_supplies=6.0 
+}

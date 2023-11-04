@@ -1,0 +1,36 @@
+capital = 2
+
+oob = "PIN_1952"
+recruit_character = PIN_Julius_the_first
+recruit_character = PIN_Nicolaos_Matussis
+set_naval_oob = "PIN_1952_Naval"
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.42
+set_convoys = 0
+
+set_technology = {
+	
+}
+ITA = {
+	set_autonomy = {
+		target = PIN
+		autonomy_state = autonomy_accor_state
+	}
+}
+set_popularities = {
+	etatism  = 41
+	fascism = 59
+}
+
+
+set_politics = {
+	ruling_party = fascism
+}
+
+add_ideas = {
+	PIN_Romanian_legion
+	PIN_low_legitimity
+	PIN_Romanian_politics_support
+	PIN_kingdom_gaze
+}

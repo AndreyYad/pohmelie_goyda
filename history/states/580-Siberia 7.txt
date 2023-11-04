@@ -1,0 +1,33 @@
+
+state = {
+	id = 580
+	name = "STATE_580" # Tobolsk
+	manpower = 88126
+	
+	state_category = pastoral
+
+	history = {
+		victory_points = {
+			1659 4
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			industrial_complex = 1
+			air_base = 2
+			1659 = {
+			naval_base = 5
+			}
+
+		}
+		add_core_of = SOV
+		add_core_of = OVO
+	}
+
+	provinces = {
+		1659 1744 4710 4746 4774 4846 7733 7796 7895 10604 12630 12700 1880 3169 1780
+	}
+
+	local_supplies = 3.0 
+}

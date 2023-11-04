@@ -1,0 +1,24 @@
+state={
+	id=955
+	name="STATE_955"
+	provinces={
+		12896 12925 12945 14042 14048 14056 14059 14064 14067 14069 14078 14083 14084 14088 
+	}
+	manpower=412670
+	state_category = town
+	history={
+		owner = LAN
+		add_core_of = LAN
+		add_core_of = COG
+		victory_points = {
+			12896 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,51 @@
+characters = {
+	UBG_William_Sibruk = {
+		name = UBG_william_sibruk
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UBG/sibruk.dds"
+			}
+			army = {
+				large = "gfx/leaders/UBG/sibruk.dds"
+				small = "gfx/interface/advisors/UBG/UBG_Sibruk.png"
+			}
+			navy = {
+				large = "gfx/leaders/UBG/sibruk.dds"
+				small = "gfx/interface/advisors/UBG/UBG_Sibruk.png"
+			}
+		}
+		country_leader = {
+			ideology = occult_vudhuism
+			traits = { 
+				UBG_Baron_saturday
+				UBG_cannibal
+				UBG_call_of_jungles
+			}
+			desc = William_Sibruk_desc
+		}
+	}
+
+	UBG_Martin_Whithgaupth = {
+		name = UBG_martin_whithgaupth
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UBG/Whithgaupth.dds"
+			}
+			army = {
+				large = "gfx/leaders/UBG/Whithgaupth.dds"
+				small = "gfx/interface/advisors/UBG/UBG_Whithgaupth.png"
+			}
+			navy = {
+				large = "gfx/leaders/UBG/Whithgaupth.dds"
+				small = "gfx/interface/advisors/UBG/UBG_Whithgaupth.png"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_subtype
+			traits = { 
+				UBG_anticomm_propagandon
+				UBG_avia_avanturist
+			}
+			desc = William_Sibruk_desc
+		}
+	}

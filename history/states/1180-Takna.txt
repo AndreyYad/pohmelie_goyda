@@ -1,0 +1,31 @@
+state={
+	id=1180
+	name="STATE_1180"
+	provinces={
+		13086 15279 15280 15281 
+	}
+	manpower=91460
+	resources={
+		tungsten=8 # was: 6.000
+		steel=4 # was: 4.000
+	}
+	
+	state_category = town
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			13086 = {
+			naval_base = 1
+			}
+		}
+		add_core_of = BOL
+		victory_points = {
+			13086 3 
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,58 @@
+characters={
+	 PER_Kashani={
+		name=PER_Kashani
+		portraits={
+			civilian={
+				large=GFX_portrait_PER_Kashani
+			}
+		}
+		country_leader={
+			ideology=shia_islamism
+			traits={antiimperial_woe anticapitalistic_will}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PER_Davud={
+		name=PER_Davud
+		portraits={
+			civilian={
+				large=GFX_portrait_PER_Davud
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={ sick_gaur hitler_simp }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={ sick_gaur hitler_simp }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={ sick_gaur hitler_simp }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+    PER_Nurettin={
+		name=PER_Nurettin
+		portraits={
+			civilian={
+				large=GFX_portrait_PER_Nurettin
+			}
+		}
+		country_leader={
+			ideology=islamic_socialism
+			traits={ avangardist_architecture stalinist_muslim_but_how  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

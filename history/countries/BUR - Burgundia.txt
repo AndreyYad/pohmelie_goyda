@@ -1,0 +1,38 @@
+capital = 27
+
+oob = "BUR_1952"
+set_naval_oob = "BUR_1952_Naval"
+set_research_slots = 3
+set_stability = 0.52
+set_war_support = 0.64
+set_convoys = 64
+
+GER = {
+	set_autonomy = {
+		target = BUR
+		autonomy_state = autonomy_ordenstaat
+	}
+}
+
+set_popularities = {
+	left_nationalism = 8
+	fascism = 2
+	ultranationalism = 3
+	occult_nazism = 87
+}
+
+set_politics = {
+	ruling_party = occult_nazism
+}
+
+recruit_character = BUR_stuckart
+recruit_character = BUR_degrelle
+recruit_character = BUR_thiriart
+
+add_ideas = {
+   BUR_occult_stateorden
+   BUR_spartan_gigens
+   BUR_deurbanisation
+   BUR_generalplan_west
+   BUR_friend_germany
+}

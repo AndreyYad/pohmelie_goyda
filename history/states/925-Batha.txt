@@ -1,0 +1,19 @@
+state={
+	id=925
+	name="STATE_925"
+	provinces={
+		4897 4978 13826 13833 
+	}
+	manpower=56210
+	state_category = pastoral
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

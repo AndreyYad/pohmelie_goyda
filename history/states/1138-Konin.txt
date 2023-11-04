@@ -1,0 +1,36 @@
+state={
+	id=1138
+	name="STATE_1138"
+	provinces={
+		17 243 3381 9532 11558 11515 9439
+	}
+	manpower=415380
+	state_category = town
+	
+	history={
+		add_core_of = POL
+		add_claim_by = GER
+		owner = POL
+		victory_points = {
+			9439 2
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			radar_station = 1
+			anti_air_building = 1
+			17 = {
+			bunker = 3
+			}
+			9532 = {
+			bunker = 3
+			}
+			3381 = {
+		    bunker = 3
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+}

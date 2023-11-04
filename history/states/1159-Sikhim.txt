@@ -1,0 +1,21 @@
+state={
+	id=1159
+	name="STATE_1159"
+	provinces={
+		4435 12338 
+	}
+	manpower=60560
+	state_category = pastoral
+	history={
+		owner = AZH
+		victory_points = {
+			12338 2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=6.000
+}

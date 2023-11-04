@@ -1,0 +1,19 @@
+state={
+	id=1019
+	name="STATE_1019"
+	provinces={
+		1095 7041 
+	}
+	manpower=81340
+	state_category = wasteland
+	impassable = yes
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=1183
+	name="STATE_1183"
+	provinces={
+		15315 
+	}
+	manpower=7400
+	state_category = small_island
+	history={
+		add_core_of = GRE
+		owner = ITA
+		victory_points = {
+			15315 1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			15315 = {
+				naval_base = 2
+			}
+		}
+		
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

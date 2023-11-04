@@ -1,0 +1,33 @@
+state=
+{
+	id=457
+	name="STATE_457" # Arabian Desert
+	manpower = 92194
+	
+	state_category = pastoral
+	resources={
+		oil=4.000
+	}
+	
+	history = {
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12002 = {
+			    naval_base = 2
+			}
+		}
+
+		victory_points = {
+			12002 5
+		}
+
+		add_core_of = EGY
+	}
+	provinces={
+		12002 14728 9957 1080 10126 
+	}
+
+	local_supplies=2.0 
+}

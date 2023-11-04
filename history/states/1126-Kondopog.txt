@@ -1,0 +1,28 @@
+state={
+	id=1126
+	name="STATE_1126"
+	provinces={
+		90 92 2356 3033 3084 3144 6057 6106 6172 11150 11153 11159 13194 13198 15213 15214 15215 15216 
+	}
+	manpower=173200
+	state_category = rural
+	victory_points = {
+			11159 3 
+		}
+	
+	history={
+		add_claim_by = FIN
+		add_core_of = SOV
+		owner = SOV
+		victory_points = {
+			11183 3
+		}
+		buildings = {
+			infrastructure = 2
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

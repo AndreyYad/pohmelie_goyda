@@ -1,0 +1,62 @@
+ideas = {
+	country = {
+		KAT_confederation = {
+			picture = GFX
+			modifier = {
+			stability_factor = 0.1
+			required_garrison_factor = -0.05
+			autsoc_acceptance = -80
+			left_nationalism_acceptance = -80
+			libsoc_acceptance = -80
+			consumer_goods_factor = 0.05
+			conscription_factor = 0.18
+			cic_to_overlord_factor = -0.25
+			mic_to_overlord_factor = -0.5
+			extra_trade_to_overlord_factor = -0.5
+			}
+		}
+		KAT_nedra = {
+			picture = GFX
+			modifier = {
+			local_resources_factor = 0.25
+			production_speed_infrastructure_factor = 0.1
+			subversive_activites_upkeep = 0.25
+			army_defence_against_major_factor = -0.1
+			}
+			targeted_modifier = {
+				tag = ENG
+				extra_trade_to_target_factor = 0.25
+			}
+		}
+		KAT_commandos = {
+			picture = GFX
+			modifier = {
+			weekly_manpower = 250
+			conscription_factor = -0.0085
+			special_forces_cap = 0.25
+			acclimatization_hot_climate_gain_factor = 0.1
+			heat_attrition_factor = -0.125
+			pocket_penalty = -0.085
+			extra_paratrooper_supply_grace = 18
+			operative_slot = 1
+			commando_trait_chance_factor = 0.8
+			}
+		}
+		KAT_missions = {
+			picture = GFX
+			modifier = {
+			
+			}
+			targeted_modifier = {
+				tag = RHO
+				cic_to_target_factor = 0.5
+			}
+			targeted_modifier = {
+				tag = RHO
+				mic_to_target_factor = 0.5
+			}
+			targeted_modifier = {
+				tag = RHO
+				extra_trade_to_target_factor = 0.15
+			}
+		}

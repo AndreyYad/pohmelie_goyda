@@ -1,0 +1,42 @@
+capital = 44
+
+oob = "ALB_1952"
+set_research_slots = 2
+set_stability = 0.78
+set_war_support = 0.65
+set_convoys = 14
+
+set_technology = {
+}
+
+ITA = {
+	set_autonomy = {
+		target = ALB
+		autonomy_state = autonomy_accor_state
+	}
+}
+set_popularities = {
+	ultranationalism = 16
+	autsoc = 10
+	fascism = 74
+}
+
+recruit_character = ALB_Mustafa_Kruja
+recruit_character = ALB_Deva
+recruit_character = ALB_Hoxha
+
+set_politics = {
+	ruling_party = fascism
+}
+
+add_ideas = {
+  ALB_ITA_colonizing
+  ALB_rome_heritage
+  ALB_red_and_black_i_dress_eagle_on_my_chest_it_is_good_to_be_an_albanian
+  ALB_fascist_militia
+  ALB_vultenari
+  ALB_national_front
+}
+
+
+

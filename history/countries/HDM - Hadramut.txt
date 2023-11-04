@@ -1,0 +1,36 @@
+capital = 292
+oob = "SAU_1951"
+set_research_slots = 2
+set_stability = 0.74
+set_war_support = 0.48
+set_convoys = 10
+
+set_technology = {
+}
+
+ITA = {
+	set_autonomy = {
+		target = HDM
+		autonomy_state = autonomy_protektorat
+	}
+}
+
+set_popularities = {
+	fascism = 33
+	etatism = 67
+}
+
+recruit_character = HDM_Ali
+
+set_politics = {
+	ruling_party = etatism
+}
+
+add_ideas = {
+  HDM_inertity
+  HDM_italian_so_called_defenders
+  HDM_placedarm 
+}
+
+
+

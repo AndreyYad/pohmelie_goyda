@@ -1,0 +1,38 @@
+capital = 110
+
+oob = "NOR_1952"
+set_naval_oob = "NOR_1952_Naval"
+set_research_slots = 3
+set_stability = 0.68
+set_war_support = 0.71
+set_convoys = 80
+
+GER = {
+	set_autonomy = {
+		target = NOR
+		autonomy_state = autonomy_unterstat
+	}
+}
+
+set_popularities = {
+	fascism = 16
+	ultranationalism = 60
+	occult_nazism = 24
+}
+
+set_politics = {
+	ruling_party = ultranationalism
+}
+
+recruit_character = NOR_hagelin
+recruit_character = NOR_poulos
+recruit_character = NOR_lie
+add_ideas = {
+  NOR_festung
+  NOR_legacy_viking
+  NOR_hird
+  NOR_religion_universe
+  NOR_great_accosiation
+  NOR_fate_russia
+  NOR_untrust_kwiling
+}

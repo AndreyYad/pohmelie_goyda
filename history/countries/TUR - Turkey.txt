@@ -1,0 +1,35 @@
+capital = 49
+
+oob = "TUR_1951"
+set_research_slots = 2
+set_stability = 0.37
+set_war_support = 0.31
+set_convoys = 17
+
+set_technology = {
+}
+
+set_popularities = {
+	ultranationalism = 27
+	etatism = 20
+	autsoc = 53
+}
+
+recruit_character = TUR_cemal_madanoglu
+recruit_character = TUR_Necip_Fazil
+recruit_character = TUR_Alparslan_Turkes
+
+set_politics = {
+	ruling_party = autsoc
+}
+add_ideas = {
+  TUR_unizheniye
+  TUR_boskurtler
+  TUR_based_resistance
+  TUR_ideology_crisis
+  TUR_counterguerilla
+  TUR_politised_army
+}
+
+
+

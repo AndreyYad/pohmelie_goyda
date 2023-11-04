@@ -1,0 +1,77 @@
+characters={
+	
+	FFR_lavals={
+		name=FFR_lavals
+		portraits={
+			civilian={
+				large=GFX_portrait_laval
+			}
+		}
+		country_leader={
+			ideology=petenism
+			traits={flagmat_speaker legacy_peten}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	FFR_bukar={
+		name=FFR_bukar
+		portraits={
+			civilian={
+				large=GFX_portrait_bukar
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={leader_revolution_vaci}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	FFR_dea={
+		name=FFR_dea
+		portraits={
+			civilian={
+				large=GFX_portrait_dea
+			}
+		}
+		country_leader={
+			ideology=neosocialism
+			traits={flame_mariana}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	FFR_pujad={
+		name=FFR_pujad
+		portraits={
+			civilian={
+				large=GFX_portrait_pujad
+			}
+		}
+		country_leader={
+			ideology=pujadism
+			traits={defencer_small_business}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	FFR_vynkyr={
+		name=FFR_vynkyr
+		portraits={
+			civilian={
+				large=GFX_portrait_vynkyr
+			}
+		}
+		country_leader={
+			ideology=national_conservatism
+			traits={atlant_republic}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+}

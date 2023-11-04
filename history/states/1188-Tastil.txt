@@ -1,0 +1,31 @@
+state={
+	id=1188
+	name="STATE_1188"
+	provinces={
+		5131 8217 8231 
+	}
+	manpower=91090
+	resources={
+		tungsten=3 # was: 2.000
+		oil=5 # was: 2.000
+	}
+	
+	state_category = town
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 3
+		}
+		add_core_of = ARG
+		add_core_of = CHL
+		victory_points = {
+			8217 3 
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

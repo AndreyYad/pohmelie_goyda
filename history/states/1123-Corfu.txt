@@ -1,0 +1,30 @@
+state={
+	id=1123
+	name="STATE_1123"
+	provinces={
+		10203 
+	}
+	manpower=57300
+	state_category = small_island
+	
+	history={
+		add_core_of = GRE
+		add_core_of = ALB
+		add_claim_by = ITA
+		owner = ALB
+		victory_points = {
+			10203 1
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			air_base = 2
+			10203 = {
+			naval_base = 3
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

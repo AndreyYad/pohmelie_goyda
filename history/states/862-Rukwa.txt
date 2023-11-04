@@ -1,0 +1,31 @@
+state={
+	id=862
+	name="STATE_862"
+	provinces={
+		2176 8144 10988 13390 13395 13396 13400 13405 13413 13423 
+	}
+	manpower=1004300
+	resources={
+		chromium=6 # was: 6
+		steel=8 # was: 8
+	}
+	
+	state_category = town
+
+	history=
+	{
+		owner = BEA
+		add_core_of = BEA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 
+			13390 2 
+		}
+		
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

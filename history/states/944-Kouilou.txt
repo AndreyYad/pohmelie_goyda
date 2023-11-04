@@ -1,0 +1,32 @@
+state={
+	id=944
+	name="STATE_944"
+	provinces={
+		12975 13969 13970 13971 13973 13977 13979 
+	}
+	manpower=149310
+	state_category = town
+	resources={
+		steel=4.000
+		oil=5.000
+	}
+	history={
+		owner = EZO
+		add_core_of = EZO
+		add_core_of = RCG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			fuel_silo = 1
+			air_base = 3
+			12975 = {
+				naval_base = 5
+				coastal_bunker = 5
+			}
+		}
+		victory_points = {
+			12975 6 
+		}
+	}
+	local_supplies=0.000
+}

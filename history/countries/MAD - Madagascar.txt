@@ -1,0 +1,36 @@
+﻿capital = 543
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+MAD_getto
+MAD_sakelika
+MAD_shock
+MAD_polish_admin
+}
+
+set_convoys = 56
+set_research_slots = 2
+set_stability = 0.37
+set_war_support = 0.25
+
+recruit_character = MAD_lepetski
+recruit_character = MAD_raseta
+recruit_character = MAD_tsianana
+
+set_politics = {
+	ruling_party = etatism
+	elections_allowed = no
+}
+set_popularities = {
+	etatism = 11
+	left_nationalism = 29
+	autsoc = 10
+	libsoc = 28
+	social_democracy = 22 
+}

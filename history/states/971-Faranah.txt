@@ -1,0 +1,22 @@
+state={
+	id=971
+	name="STATE_971"
+	provinces={
+		4957 14339 14340 14341 14342 14343 
+	}
+	manpower=116210
+	state_category = rural
+	resources={
+		aluminium=21.000
+		steel=4.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = GNA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	local_supplies=0.000
+}

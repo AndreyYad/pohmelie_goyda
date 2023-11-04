@@ -1,0 +1,32 @@
+state={
+	id=1039
+	name="STATE_1039"
+	provinces={
+		4068 5069 12889 14743 14744 
+	}
+	manpower=73113
+	state_category = rural
+	resources={
+		steel=5.000
+		chromium=5.000
+	}
+	
+	history = {
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			4068 = {
+			    naval_base = 1
+			}
+		}
+
+		victory_points = {
+			4068 1
+		}
+
+		add_core_of = EGY
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

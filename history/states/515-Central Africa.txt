@@ -1,0 +1,22 @@
+state={
+	id=515
+	name="STATE_515"
+	
+	provinces={
+		1956 14481 14482 14483 14484 14485 14486 
+	}
+	manpower=51900
+	state_category = pastoral
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14484 1 
+		}
+	}
+	local_supplies=1.000
+}

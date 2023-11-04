@@ -1,0 +1,18 @@
+characters={
+    HDM_Ali={
+		name=HDM_Ali
+		portraits={
+			civilian={
+				large=GFX_portrait_HDM_Ali
+			}
+		}
+		country_leader={
+			ideology=monarchy
+			traits={ teadrink_hater_nationalist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

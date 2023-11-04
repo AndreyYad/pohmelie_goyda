@@ -1,0 +1,29 @@
+characters = {
+	ORO_guglielmo_nasi = {
+		name = ORO_guglielmo_nasi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ORO/ORO_guglielmo_nasi.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			traits = { 
+				ORO_upravlienets ORO_soprotivlenets
+			}
+		}
+	}
+	ORO_jagama_kello = {
+		name = ORO_jagama_kello
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ORO/ORO_jagama_kello.dds"
+			}
+		}
+		country_leader = {
+			ideology = etatism_subtype
+			traits = { 
+				ORO_vernost	ORO_master_partisan
+			}
+		}
+	}

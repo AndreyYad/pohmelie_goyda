@@ -1,0 +1,42 @@
+ideas = {
+
+	country = {
+    ALW_individualism_apolit = {
+			modifier = {
+			drift_defence_factor = 0.1
+			foreign_subversive_activites = -0.2
+			political_power_gain = -0.25
+			stability_factor = 0.125
+			war_support_factor = -0.175
+			conscription_factor = -0.3
+			autonomy_gain_global_factor = -0.15
+			}
+		}
+    ALW_ITA_integration = {
+			modifier = {
+			production_speed_dockyard_factor = 0.1
+			production_speed_naval_bas_factor = 0.1
+			production_speed_infrastructure_factor = 0.15
+			monthly_population = 0.37
+			autonomy_gain_global_factor = -0.35
+			autonomy_gain = -0.1
+			}			
+		}
+   ALW_staff_planning = {
+			modifier = {
+			industrial_capacity_dockyard = -0.15
+			air_range_factor = 0.125
+			production_speed_air_base_factor = 0.225
+			air_strategic_bomber_bombing_factor = 0.1
+			production_speed_radar_station_factor = 0.1
+            }	
+		}
+   ALW_seckta = {
+   			modifier = {
+			 autonomy_gain = 1
+			 conscription_factor = -0.1
+			 stability_factor = -0.15
+			 resistance_growth_on_our_occupied_states = 0.15	 
+            }
+		}
+	}

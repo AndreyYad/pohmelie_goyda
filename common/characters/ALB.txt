@@ -1,0 +1,46 @@
+characters={
+	 ALB_Mustafa_Kruja={
+		name=ALB_Mustafa_Kruja
+		portraits={
+			civilian={
+				large=GFX_portrait_ALB_Mustafa_Kruja
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={telegrafer}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ALB_Deva={
+		name=ALB_Deva
+		portraits={
+			civilian={
+				large=GFX_portrait_ALB_Deva
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={ based_man_islamist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+    ALB_Hoxha={
+		name=ALB_Hoxha
+		portraits={
+			civilian={
+				large=GFX_portrait_ALB_Hoxha
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ teacher_hoxha albanian_stalin }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

@@ -1,0 +1,38 @@
+capital = 16
+
+oob = "FRA_1952"
+set_naval_oob = "FRA_1952_Naval"
+set_research_slots = 3
+set_stability = 0.67
+set_war_support = 0.58
+set_convoys = 50
+
+GER = {
+	set_autonomy = {
+		target = FRA
+		autonomy_state = autonomy_reichsgrigurung
+	}
+}
+
+set_popularities = {
+	left_nationalism = 10
+	ultranationalism = 67	
+	occult_nazism = 23
+}
+
+set_politics = {
+	ruling_party = ultranationalism
+}
+
+recruit_character = FRA_sabiani
+recruit_character = FRA_doriot
+recruit_character = FRA_augier
+
+add_ideas = {
+  FRA_second_compain_peace
+  FRA_new_mission_france
+  FRA_antibolshevits_legion
+  FRA_criminal_state
+  FRA_france_butchers
+  FRA_galli
+}

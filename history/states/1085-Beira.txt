@@ -1,0 +1,38 @@
+state={
+	id=1085
+	name="STATE_1085"
+	provinces={
+		2120 5155 12935 15027 15028 15029 15032 15033 15034 15035 15036 15030 15031 
+	}
+	manpower = 178230
+	
+	state_category = town
+	resources={
+		rubber=9 # was: 9
+		aluminium=21 # was: 19
+		steel=16 # was: 17
+	}
+	
+	history=
+	{
+		owner = POL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+			15036 ={
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			15036 7 
+		}
+		victory_points = {
+			15033 5 
+		}
+		add_core_of = MZB
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

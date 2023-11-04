@@ -1,0 +1,22 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			GER = {
+				create_railway_gun = {
+						equipment = railway_rocket_complex_equipment_1
+						location = 6521
+					}
+
+					create_railway_gun = {
+						equipment = railway_rocket_complex_equipment_1
+						location = 6488
+					}
+
+					create_railway_gun = {
+						equipment = railway_rocket_complex_equipment_1
+						location = 11542
+					}
+			}
+		}
+	}
+}

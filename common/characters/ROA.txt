@@ -1,0 +1,20 @@
+characters={
+	ROA_merenberg = {
+		name = ROA_merenberg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROA/pushkin_roa.dds"
+			}
+		}
+		country_leader = {
+			ideology = militocracy
+			expire="3333.1.1.1"
+			id=-1
+			desc = ROA_merenberg_desc
+			traits = { 
+				ROA_blood_of_the_best
+				ROA_bogatyr
+				ROA_pushkins_genium
+			}
+		}
+	}

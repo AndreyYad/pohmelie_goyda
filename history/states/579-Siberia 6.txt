@@ -1,0 +1,31 @@
+
+state = {
+	id = 579
+	name = "STATE_579" # Salekhard
+	manpower = 45484
+	
+	state_category = pastoral
+
+	history = {
+		victory_points = {
+			1684 4
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			air_base = 4
+			1684 = {
+			naval_base = 5
+			}
+		}
+		add_core_of = SOV
+		add_core_of = YAM
+	}
+
+	provinces = {
+		1664 1684 7689 7738 9142 1812 4817 12574 
+	}
+
+	local_supplies = 0.0 
+}

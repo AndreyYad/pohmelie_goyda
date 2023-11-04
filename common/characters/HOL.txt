@@ -1,0 +1,46 @@
+characters={
+	HOL_feldmejer={
+		name=HOL_feldmejer
+		portraits={
+			civilian={
+				large=GFX_portrait_feldmayer
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={ legacy_falkish founder_westland_ss ordenfuhrer_westland_german}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	HOL_rappard={
+		name=HOL_rappard
+		portraits={
+			civilian={
+				large=GFX_portrait_rappard
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={ radical_supporter_pangermanism }
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	HOL_kettman={
+		name=HOL_kettman
+		portraits={
+			civilian={
+				large=GFX_portrait_ketmann
+			}
+		}
+		country_leader={
+			ideology=national_syndicalism
+			traits={ideology_unstability supporter_natsoc veteran_polar}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+}

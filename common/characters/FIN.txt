@@ -1,0 +1,49 @@
+characters={
+	FIN_ryti={
+		name=FIN_ryti
+		portraits={
+			civilian={
+				large=GFX_portrait_ryti
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={ anglophil vaytel_fin_greating}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			traits={ anglophil vaytel_fin_greating}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	FIN_hedman={
+		name=FIN_hedman
+		portraits={
+			civilian={
+				large=GFX_portrait_hedman
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={ selectioner_gen_geniality }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=turanism
+			traits={ selectioner_gen_geniality }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=social_darvinism
+			traits={ selectioner_gen_geniality }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

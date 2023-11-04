@@ -1,0 +1,16 @@
+characters={
+   LAN_muller={
+		name=LAN_muller
+		portraits={
+			civilian={
+				large = "gfx/leaders/LAN/myuller.dds"
+			}
+		}
+		country_leader={
+			ideology=militocracy
+			traits={ laughing_man specialist_antitank_fight}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

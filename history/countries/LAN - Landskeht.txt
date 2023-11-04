@@ -1,0 +1,35 @@
+capital = 954
+
+oob = "LAN_1952"
+set_naval_oob = "LAN_1952_Naval"
+set_research_slots = 2
+set_stability = 0.43
+set_war_support = 0.86
+set_convoys = 0
+
+GCA = {
+	set_autonomy = {
+		target = LAN
+		autonomy_state = autonomy_warlord_gca
+	}
+}
+
+set_popularities = {
+	etatism = 100
+}
+
+set_politics = {
+	ruling_party = etatism
+}
+
+
+recruit_character = LAN_muller
+
+
+add_ideas = {
+  LAN_best_in_hell
+  LAN_fireman_gering
+  LAN_hunt_on_lumumbu
+  LAN_blood_greed
+  LAN_their_buisnes_death
+}

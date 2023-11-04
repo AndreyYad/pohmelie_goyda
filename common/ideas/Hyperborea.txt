@@ -1,0 +1,143 @@
+ideas = {
+   country = {
+       HYP_lost_in_ice = {
+			picture = zateryannye_vo_ldakh
+
+			allowed = {
+				original_tag = HYP
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = -0.25
+				research_speed_factor = 0.075
+				monthly_population = 0.1
+				ai_join_ally_desire_factor = -50
+				trade_opinion_factor = -0.75
+				political_advisor_cost_factor = -0.2
+				military_leader_cost_factor = -0.2
+				min_export = -1
+				supply_factor = 0.1
+				cic_to_overlord_factor = -0.375
+				acclimatization_cold_climate_gain_factor = 0.125
+			} 
+		}
+		
+		 HYP_polar_bastion = {
+			picture = polyarny_bastion
+
+			allowed = {
+				original_tag = HYP
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_coastal_bunker_factor = 0.185
+				production_speed_naval_base_factor = 0.185
+				production_speed_radar_station_factor = 0.25
+				recon_factor = 0.075
+				recon_factor_while_entrenched = 0.105
+				production_speed_air_base_factor = 0.215
+				production_speed_supply_node_factor = 0.1
+				air_weather_penalty = -0.25
+				navy_weather_penalty = -0.25
+				navy_visibility = -0.15
+				mic_to_overlord_factor = -0.2
+				industrial_factory_donations = 5
+				military_factory_donations = 5
+			} 
+		}
+		
+		HYP_dreams_matriarch = {
+			picture = pervobytny_matriarkhat
+
+			allowed = {
+				original_tag = HYP
+			}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				industry = -0.185
+			}
+			
+			modifier = {
+				monthly_population = 0.5
+				female_random_operative_chance = 0.55
+				female_random_country_leader_chance = 0.75
+				stability_factor = 0.1
+				production_factory_max_efficiency_factor = -0.25
+				line_change_production_efficiency_factor = 0.275
+				army_morale_factor = 0.1
+				army_core_defence_factor = 0.175
+				army_attack_factor = 0.05
+				conscription = 0.08
+				cic_to_overlord_factor = -0.15
+				local_building_slots = 3
+			} 
+		}
+		
+		 HYP_search_mythic_motherland = {
+			picture = poisk_mist_rodiny
+
+			allowed = {
+				original_tag = HYP
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				operative_slot = 3
+				operation_risk = -0.15
+				commando_trait_chance_factor = 0.125
+				research_speed_factor = 0.075
+				political_power_cost = 0.4
+				war_support_factor = 0.125
+				forced_surrender_limit = 0.125
+				SUBVERSIVE_ACTIVITES_UPKEEP = -0.15
+			} 
+		}
+		
+		HYP_arctic_sun = {
+			picture = arktik_solntse
+
+			allowed = {
+				original_tag = HYP
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				acclimatization_cold_climate_gain_factor = 0.75
+				winter_attrition_factor = -0.5
+				attrition = -0.125
+				political_power_factor = 0.15
+				war_support_weekly_factor = 0.0035
+			} 
+		}
+		
+		HYP_ice_cleaner_atlant = {
+			picture = ledyanaya_chistota_ariev
+
+			allowed = {
+				original_tag = HYP
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.27
+				army_org_factor = 0.075
+				army_org_regain = 0.125
+				experience_loss_factor = -0.1
+				special_forces_no_supply_grace = 48
+				special_forces_cap = 0.2
+				stability_factor = -0.175
+				ace_effectiveness_factor = 0.1
+				sickness_chance = -0.15
+			} 
+		}
+	}
+}

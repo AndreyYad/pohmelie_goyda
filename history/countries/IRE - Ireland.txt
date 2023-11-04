@@ -1,0 +1,37 @@
+capital = 113
+
+oob = "IRE_1952"
+set_naval_oob = "IRE_1952_Naval"
+set_research_slots = 2
+set_stability = 0.61
+set_war_support = 0.13
+set_convoys = 35
+
+
+
+set_popularities = {
+	conservatism = 27
+	etatism = 47
+	left_nationalism = 15
+	social_democracy = 11
+}
+
+set_politics = {
+	ruling_party = etatism
+}
+
+recruit_character = IRE_macbraid
+recruit_character = IRE_costello
+recruit_character = IRE_valera
+
+add_ideas = {
+	IRE_strength_neutrality
+	IRE_question_six_county
+	IRE_influence_panketlism
+	IRE_economic_addiction_eng
+}
+
+add_opinion_modifier = {
+    target = ENG
+    modifier = IRE_olster
+}

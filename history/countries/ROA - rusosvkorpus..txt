@@ -1,0 +1,45 @@
+capital = 1
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+GCA = {
+	set_autonomy = {
+		target = ROA
+		autonomy_state = autonomy_warlord_gca
+	}
+}
+
+add_ideas = {
+ROA_ROA
+ROA_sotrudnichestvo_with_ENG
+ROA_karateli
+ROA_aristocratic
+}
+
+set_convoys = 0
+set_research_slots = 2
+set_stability = 0.58
+set_war_support = 0.52
+
+set_politics = {
+	ruling_party = etatism
+}
+
+set_popularities = {
+	etatism = 100
+}
+
+recruit_character = ROA_merenberg

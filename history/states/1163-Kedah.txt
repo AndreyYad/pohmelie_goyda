@@ -1,0 +1,30 @@
+state={
+	id=1163
+	name="STATE_1163"
+	provinces={
+		1291 12144 15257 
+	}
+	manpower=271300
+	resources={
+		rubber=22 # was: 18
+		steel=20 # was: 17
+		tungsten=7 # was: 11
+		aluminium = 7 # was: 10
+	}
+	state_category = town
+	history={
+		add_core_of = MAL
+		add_core_of = SIA
+		owner = SIA
+        victory_points = {
+			1291 3 
+		}
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			air_base = 2
+			}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

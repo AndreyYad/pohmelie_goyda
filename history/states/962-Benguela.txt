@@ -1,0 +1,48 @@
+state={
+	id=962
+	name="STATE_962"
+	provinces={
+		5158 8138 8202 10966 12958 12985 14248 14249 14250 14251 14252 14253 14254 14255 14256 14257 14258 14259 14260 14261 14262 14263 14264 14265 14266 14267 14268 14269 14270 14271 14272 14273 
+	}
+	manpower=2751200
+	state_category = city
+
+	resources={
+		tungsten=7 # was: 4
+		steel=19 # was: 17
+	}
+
+	history={
+		owner = ANG
+		victory_points = {
+			14250 4
+		}
+		victory_points = {
+			14252 1
+		}
+		victory_points = {
+			14271 3
+		}
+		victory_points = {
+			10966 6
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			14250 = {
+				naval_base = 5
+				coastal_bunker = 4
+			}
+			14252 = {
+				naval_base = 4
+				coastal_bunker = 3
+			}
+			10966 = {
+				bunker = 3
+			}
+		}
+		add_core_of = ANG
+	}
+	local_supplies=2.000
+}

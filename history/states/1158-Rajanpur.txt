@@ -1,0 +1,26 @@
+state={
+	id=1158
+	name="STATE_1158"
+	provinces={
+		7903 15242 15243 
+	}
+	manpower=125300
+	state_category = pastoral
+	history={
+		add_core_of = TUR
+		add_core_of = ARM
+		owner = ENG
+		victory_points = {
+			7903 1
+		}
+		buildings = {
+			infrastructure = 1
+			7903 = {
+			bunker = 3
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

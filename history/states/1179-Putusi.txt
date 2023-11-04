@@ -1,0 +1,31 @@
+state={
+	id=1179
+	name="STATE_1179"
+	provinces={
+		10952 13134 13195 15298 15299 15300 15301 15302 15303 15304 15305 15306 15307 15308 
+	}
+	manpower=2321600
+	resources={
+		tungsten=7 # was: 5
+		steel=5 # was: 5
+	}
+	
+	state_category = rural
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = BOL
+		victory_points = {
+			15298 2 
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

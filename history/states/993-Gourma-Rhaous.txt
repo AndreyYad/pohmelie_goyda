@@ -1,0 +1,23 @@
+state={
+	id=993
+	name="STATE_993"
+	provinces={
+		7930 7954 14530 14531 14532 14533 14534 
+	}
+	manpower=204170
+	state_category = pastoral
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			14531 2 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

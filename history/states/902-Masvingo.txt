@@ -1,0 +1,25 @@
+state={
+	id=902
+	name="STATE_902"
+	provinces={
+		2151 13658 13660 13661 13667 13668 
+	}
+	manpower=175280
+	resources={
+		chromium=11 # was: 7
+	}
+	
+	state_category = pastoral
+	
+	
+	history={
+		owner = RHO
+		add_core_of = RHO
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

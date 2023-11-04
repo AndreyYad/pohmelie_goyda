@@ -1,0 +1,42 @@
+ideas = {
+	country = {
+		SOM_porta_benadira = {
+			picture = GFX
+			modifier = {
+			monthly_population = 0.17
+			autonomy_gain = -0.3
+			production_speed_dockyard_factor = 0.195
+			production_speed_naval_base_factor = 0.195
+			production_speed_industrial_complex_factor = -0.065
+			global_building_slots_factor = -0.1
+			local_resources_factor = -0.085
+			repair_speed_factor = 0.2
+			}
+		}
+		SOM_nationalism = {
+			picture = GFX
+			modifier = {
+			drift_defence_factor = 0.2
+			conscription_factor = 0.15
+			army_core_defence_factor = 0.085
+			war_support_factor = 0.1
+			}
+		}
+		SOM_zaptie = {
+			picture = GFX
+			modifier = {
+			autonomy_gain = -0.05
+			required_garrison_factor = -0.085
+			resistance_damage_to_garrison = -0.04
+			enemy_operative_intel_extraction_rate = -0.15
+			recon_factor = 0.05
+			}
+			equipment_bonus = {
+				irregular_infantry = {
+					defense = 0.125
+					
+				}
+			}
+		}
+	}
+}

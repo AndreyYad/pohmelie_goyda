@@ -1,0 +1,29 @@
+characters = {
+	FAL_viterbo = {
+		name = FAL_viterbo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/FAL_viterbo.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			traits = { 
+				FAL_rebe
+			}
+		}
+	}
+	FAL_bogale = {
+		name = FAL_bogale
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FAL/FAL_bogale.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { 
+				FAL_aliya FAL_jews
+			}
+		}
+	}

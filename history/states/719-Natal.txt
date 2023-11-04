@@ -1,0 +1,22 @@
+state={
+	id=719
+	name="STATE_719" # Natal
+	manpower = 19000
+	
+	state_category = pastoral
+
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		14941
+	}
+
+	local_supplies=0.0 
+}

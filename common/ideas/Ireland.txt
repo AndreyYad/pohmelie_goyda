@@ -1,0 +1,73 @@
+ideas = {
+	country = {
+		IRE_strength_neutrality = {
+			allowed = {
+				original_tag = IRE
+			}
+			
+			removal_cost = -1
+			
+			rule = {
+				can_send_volunteers = no
+			}
+			
+			modifier = {
+				stability_weekly_factor = 0.0001
+				war_support_factor = -0.15
+				drift_defence_factor = -0.1
+				trade_opinion_factor = 0.2
+			} 
+		}
+		
+		IRE_question_six_county = {
+			allowed = {
+				original_tag = IRE
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.05
+				resistance_growth_on_our_occupied_states = 0.072
+			} 
+		}
+		
+		IRE_influence_panketlism = {
+			allowed = {
+				original_tag = IRE
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				surrender_limit = -0.15
+				drift_defence_factor = -0.05
+				war_support_weekly_factor = 0.0025
+				left_nationalism_drift = 0.025
+				occult_nazism_drift = 0.025
+				foreign_subversive_activities = 0.2
+				resistance_damage_to_garrison = -0.05
+				own_operative_capture_chance_factor = -0.1
+			} 
+		}
+		
+		IRE_economic_addiction_eng = {
+			allowed = {
+				original_tag = IRE
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = -0.105
+				consumer_goods_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.075
+			} 
+			
+			targeted_modifier = {
+				tag = ENG
+				trade_cost_for_target_factor = -0.5
+			}
+		}
+	}
+}

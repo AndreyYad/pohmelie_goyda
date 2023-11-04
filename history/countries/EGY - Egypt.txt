@@ -1,0 +1,43 @@
+﻿capital = 907
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+add_ideas = {
+EGY_pharaoh
+EGY_london
+EGY_brothers_muslims
+EGY_green_shirts
+EGY_faruk_dekadant
+}
+
+set_convoys = 20
+set_research_slots = 2
+set_stability = 0.65
+set_war_support = 0.53
+
+set_politics = {
+	ruling_party = etatism
+}
+
+set_popularities = {
+	etatism = 62
+	fascism = 15
+	ultranationalism = 23
+}
+
+recruit_character = EGY_farouk
+recruit_character = EGY_husayn
+recruit_character = EGY_al_banna

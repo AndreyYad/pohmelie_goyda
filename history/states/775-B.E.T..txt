@@ -1,0 +1,26 @@
+state={
+	id=775
+	name="STATE_775" # BET - Borkou-Ennedi-Tibesti region
+	
+	state_category = pastoral
+
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = CHA
+		victory_points = {
+			1473 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		4902 1473 13830 13832 13834 13836 13838
+	}
+	manpower=48744
+	buildings_max_level_factor=1.000
+
+	local_supplies=1.0 
+}

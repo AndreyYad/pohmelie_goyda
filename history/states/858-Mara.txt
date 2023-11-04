@@ -1,0 +1,22 @@
+state={
+	id=858
+	name="STATE_858"
+	provinces={
+		13436 13437 
+	}
+	manpower=103450
+	state_category = rural
+	
+	history={
+		owner = BEA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13437 1
+		}
+		add_core_of = BEA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

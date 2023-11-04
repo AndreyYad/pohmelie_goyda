@@ -1,0 +1,31 @@
+state={
+	id=1177
+	name="STATE_1177"
+	provinces={
+		5230 8225 13174 15282 15283 15284 15285 15286 15287 15288 15289 15290 15291 15292 15293 15294 15295 15296 15297 
+	}
+	manpower=2321600
+	resources={
+		tungsten=42 # was: 62.000
+		steel=12 # was: 12.000
+	}
+	
+	state_category = large_city
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 2
+
+		}
+		add_core_of = BOL
+		victory_points = {
+			5230 10 
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+}

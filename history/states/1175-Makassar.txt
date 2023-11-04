@@ -1,0 +1,30 @@
+state={
+	id=1175
+	name="STATE_1175"
+	provinces={
+		1589 4349 10263 15269 15270 
+	}
+	manpower=133500
+	state_category = large_town
+	history={
+		add_core_of = INS
+		owner = JAP
+       victory_points = {
+			10263 7 
+		}
+		buildings = {
+		    infrastructure = 3
+			dockyard = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 7
+			10263 = {
+			naval_base = 7
+			coastal_bunker = 4
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+}

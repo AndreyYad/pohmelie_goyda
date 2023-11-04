@@ -1,0 +1,36 @@
+state={
+	id=1192
+	name="STATE_1192"
+	provinces={
+		12512 15364 15365 15366 15367 15368 15369 15370 15371 15372 15373 15374 15375 15376 15377 15378 15379 15380 15381 15382 
+	}
+	manpower=16872
+	state_category = rural
+	history={
+		owner = HYP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+			dockyard = 1
+			air_base = 3
+			radar_station = 3
+			12512= {
+				coastal_bunker = 1
+				naval_base = 3
+			}
+			15379 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HYP
+		victory_points = {
+			12512 5
+		}
+		victory_points = {
+			15379 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=6.000
+}

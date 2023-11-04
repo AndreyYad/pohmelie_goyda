@@ -1,0 +1,33 @@
+capital = 352
+
+oob = "KUR_1951"
+set_research_slots = 2
+set_stability = 0.58
+set_war_support = 0.60
+set_convoys = 0
+
+set_technology = {
+}
+
+set_popularities = {
+	etatism = 29
+	left_nationalism = 61
+	autsoc = 10
+}
+
+recruit_character = KUR_Said_Nursi
+recruit_character = KUR_Mustafa_Barzani
+
+set_politics = {
+	ruling_party = left_nationalism
+}
+add_ideas = {
+  KUR_freedom
+  KUR_syncretic_sectarians
+  KUR_tribal_structure
+  KUR_Nurcular
+  KUR_arab_tribes
+}
+
+
+

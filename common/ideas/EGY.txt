@@ -1,0 +1,60 @@
+ideas = {
+	country = {
+		EGY_pharaoh = {
+			picture = GFX
+			modifier = {
+			industrial_capacity_dockyard = 0.075
+			drift_defence_factor = 0.15
+			mobilization_speed = -0.25	
+			research_speed_factor = 0.075
+			compliance_growth = -0.075
+			opinion_gain_monthly_factor = 0.05
+			}
+		}
+		EGY_london = {
+			picture = GFX
+			modifier = {
+			political_power_factor = -0.185
+			war_support_factor = -0.1	
+			enemy_operative_intel_extraction_rate = 0.1
+			}
+			targeted_modifier = {
+				tag = ENG
+				defence = -0.15
+			}
+			targeted_modifier = {
+				tag = ENG
+				cic_to_target_factor = 0.1
+			}
+		}
+		EGY_brothers_muslims = {
+			picture = GFX
+			modifier = {
+			war_support_weekly = -0.002
+			ultranationalism_drift = 0.07
+			resistance_growth_on_our_occupied_states = 0.05
+			subversive_activites_upkeep = -0.1
+			}
+			targeted_modifier = {
+				tag = PAL
+				defence = -0.2
+			}
+		}
+		EGY_green_shirts = {
+			picture = GFX
+			modifier = {
+			stability_weekly = -0.0035
+			fascism_drift = 0.05
+			conscription_factor = -0.1
+			fascism_acceptance = 20
+			}
+		}
+		EGY_faruk_dekadant = {
+			picture = GFX
+			modifier = {
+			drift_defence_factor = -0.2
+			civilian_factory_use = 2
+			consumer_goods_factor = 0.05
+			}
+		}
+		

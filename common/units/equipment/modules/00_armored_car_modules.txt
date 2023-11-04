@@ -1,0 +1,63 @@
+equipment_modules = {
+	###Suspension Types
+
+	armored_car_track_suspension = {
+		abbreviation = "tra"
+		category = armored_car_track_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 1
+			reliability = 0.15
+		}
+		dismantle_cost_ic  = 2
+
+		multiply_stats = {
+		}
+	}
+
+	armored_car_wheel_suspension = {
+		abbreviation = "whe"
+		category = armored_car_wheel_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 1
+			reliability = 0.15
+		}
+		dismantle_cost_ic  = 2
+
+		multiply_stats = {
+		}
+	}
+
+	armored_car_half_track_suspension = {
+		abbreviation = "hts"
+		category = armored_car_half_track_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 1
+			reliability = 0.15
+		}
+		dismantle_cost_ic  = 2
+
+		multiply_stats = {
+		}
+	}
+
+	armored_car_special_suspension = {
+		abbreviation = "spe"
+		category = armored_car_special_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 1
+			reliability = 0.15
+		}
+		dismantle_cost_ic  = 2
+
+		multiply_stats = {
+		}
+	}
+}

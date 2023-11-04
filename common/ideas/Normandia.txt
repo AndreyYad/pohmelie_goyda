@@ -1,0 +1,122 @@
+ideas = {
+   country = {
+       NRM_normand_secret = {
+			picture = normandy_secret
+
+			allowed = {
+				original_tag = NRM
+			}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				industry = -0.25
+			}
+			
+			modifier = {
+				stability_factor = -0.275
+				global_building_slots_factor = 0.25
+				non_core_manpower = -0.375
+				enemy_operative_intel_extraction_rate = -0.5
+				army_leader_start_level = 3
+				required_garrison_factor = 0.125
+				compliance_growth = 0.125
+				political_power_factor = 0.25
+				army_org_factor = 0.15
+				min_export = -1
+				trade_opinion_factor = -1
+				etatism_acceptance = 50
+				occult_nazism_acceptance = 75
+				conservatism_acceptance = -100
+				liberalism_acceptance = -100
+				social_democracy_acceptance = -100
+			} 
+		}
+		
+		NRM_worker_front = {
+			picture = arbeitsfrontetotrudovoyfront
+
+			allowed = {
+				original_tag = NRM
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.085
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				monthly_population = 0.25
+				fascism_drift = 0.15
+				left_nationalism_drift = 0.15
+				production_factory_efficiency_gain_factor = 0.2
+				conversion_cost_civ_to_mil_factor = 0.35
+			} 
+		}
+		
+		NRM_heart_atlant_val = {
+			picture = atlantic_wall
+
+			allowed = {
+				original_tag = NRM
+			}
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.35
+				max_dig_in_factor = 0.15
+				army_morale_factor = 0.075
+				local_supplies = 0.1
+				industry_air_damage_factor = -0.35
+				
+			} 
+		}
+		
+		NRM_diplomatic_laz = {
+			picture = diplomat
+
+			allowed = {
+				original_tag = NRM
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				operative_slot = 2
+				industrial_factory_donations = 5
+				military_factory_donations = 3
+				propaganda_mission_factor = 0.25
+				improve_relations_maintain_cost_factor = -0.35
+			} 
+		}
+		
+		NRM_island_duoruler = {
+			picture = dvoevlastie
+
+			allowed = {
+				original_tag = NRM
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = -0.25
+				mobilization_speed = -0.25
+				coordination_bonus = -0.2
+				political_advisor_cost_factor = 0.5
+				political_power_cost = 0.5
+				war_support_factor = -0.15
+				stability_weekly_factor = -0.003
+			} 
+		}
+	}
+}

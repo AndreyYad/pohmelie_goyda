@@ -1,0 +1,25 @@
+state={
+	id=1205
+	name="STATE_1205"
+	provinces={
+		7867 
+	}
+	manpower=4700
+	state_category = rual
+	history={
+		owner = SOV
+		victory_points = {
+			7867 3
+		}
+		buildings = {
+			infrastructure = 2
+			7867 = {
+			naval_base = 4
+			}
+		}
+		add_core_of = SOV
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

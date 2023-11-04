@@ -1,0 +1,36 @@
+
+state={
+	id=556
+	name="STATE_556" # Mali (previously French West Africa)
+	manpower = 1324782
+	
+	state_category = city
+	resources={
+		aluminium=9.000
+		steel=3.000
+	}
+
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = MLI
+		victory_points = {
+			14501 5
+		}
+		victory_points = {
+			10829 2
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+
+	provinces={
+		10829 10812 10915 12751 14491 14492 14493 14494 14495 14496 14497 14498 14499 14500 14501 14502 14503 14504 14505 14506 14507 14509 
+	}
+
+	local_supplies=2.0 
+}

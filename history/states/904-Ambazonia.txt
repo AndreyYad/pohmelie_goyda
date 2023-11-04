@@ -1,0 +1,32 @@
+state={
+	id=904
+	name="STATE_904"
+	manpower=1024360
+	state_category = rural
+	resources={
+		oil=4 # was: 2
+		rubber=9 # was: 8
+	}
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 2
+			13699 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13699 2 
+		}
+		victory_points = {
+			13706 1 
+		}
+		add_core_of = NIG
+	}
+
+	provinces={
+		13699 13706 13712
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

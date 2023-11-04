@@ -1,0 +1,13 @@
+bookmarks = {
+	bookmark = {
+		name = "FUHRERS_HANGOVER_AMERICA_NAME"
+		desc = "FUHRERS_HANGOVER_AMERICA_DESC"
+		date = 1952.1.1.12
+		picture = "GFX_plutokratia"
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

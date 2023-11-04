@@ -1,0 +1,28 @@
+state={
+	id=844
+	name="STATE_844"
+	provinces={
+		11014 12941 13319 13320 13322 13324 
+	}
+	manpower=392475
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = SOM
+		buildings = {
+			infrastructure = 2
+			12941 = {
+				naval_base = 1
+			}
+
+		}
+		victory_points = { 
+			12941 1
+		}
+		add_core_of = SOM
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

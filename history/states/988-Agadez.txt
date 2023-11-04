@@ -1,0 +1,24 @@
+state={
+	id=988
+	name="STATE_988"
+	provinces={
+		4913 8128 10917 14465 14466 14467 14468 14469 14470 14471 14472 14473 14474 14475 14476 14477 
+	}
+	manpower=69875
+	state_category = pastoral
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = NGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14468 2 
+		}
+		victory_points = {
+			14475 1 
+		}
+	}
+	local_supplies=0.000
+}

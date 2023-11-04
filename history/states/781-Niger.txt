@@ -1,0 +1,32 @@
+
+state={
+	id=781
+	name="STATE_781" # Niger
+	manpower = 513817
+	
+	state_category = town
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = NGR
+		victory_points = {
+			1975 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
+	}
+
+	provinces={
+		1975 14434 14435 14436 14437 14438 14439 14440
+	}
+
+	local_supplies=1.0 
+}

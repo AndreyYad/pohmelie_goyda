@@ -1,0 +1,37 @@
+state={
+	id=540
+	name="STATE_540"
+	resources={
+		oil=9.000
+		steel=7.000
+	}
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 4
+			industrial_complex = 1
+			8248 = {
+				naval_base = 6
+				coastal_bunker = 5
+			}
+		}
+		victory_points = {
+			8248 7 
+		}
+		victory_points = {
+			14189 2 
+		}
+		add_core_of = ANG
+	}
+
+	provinces={
+		8248 8219 14180 14181 14182 14183 14184 14185 14186 14187 14188 14189 14190 14191 14192
+	}
+	manpower=1200000
+	state_category=city
+
+	local_supplies=2.0 
+}

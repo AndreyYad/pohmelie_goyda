@@ -1,0 +1,34 @@
+state={
+	id=887
+	name="STATE_887"
+	provinces={
+		1977 2003 12725 13569 13571 13577 
+	}
+	manpower=201362
+	resources={
+		steel=4 # was: 3
+	}
+	
+	state_category = town
+	
+	
+	history={
+		victory_points = {
+			12725 2
+		}
+		owner = SUD
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			12725 = {
+				naval_base = 3
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+}

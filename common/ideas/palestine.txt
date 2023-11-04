@@ -1,0 +1,128 @@
+ideas = {
+
+	country = {
+    PAL_black_hole = {
+			picutre = PAL_black_hole
+			modifier = {
+			trade_opinion_factor = -1
+			min_export = -1
+			improve_relations_maintain_cost_factor = 1.5
+			stability_factor = -0.185
+			subversive_activites_upkeep = -0.45
+			enemy_operative_detection_chance_factor = 0.215
+			intelligence_agency_defense = 0.21
+			research_speed_factor = -0.1
+			production_lack_of_resource_penalty_factor = -0.2 
+			ai_focus_aggressive_factor = 80
+			}
+
+		}
+    PAL_low_loyality_army = {
+			picture = PAL_low_loyality_army
+			modifier = {
+			army_org_Factor = -0.175
+			planning_speed = -0.215
+			max_planning = -0.215
+			max_command_power_mult = -0.2
+			assign_army_leader_cp_cost = 50
+			land_doctrine_cost_factor = 0.15
+			air_doctrine_cost_factor = 0.15
+			naval_doctrine_cost_factor = 0.15
+			war_support_factor = -0.175
+			political_power_cost = 0.4
+			}
+		}
+   PAL_Jihad = {
+			picture = PAL_Jihad
+			modifier = {
+			conscription_factor = 0.15
+			attrition = -0.115
+			pocket_penalty = 0.245
+			heat_attrition_factor = -0.2	
+			surrender_limit = 0.15
+			weekly_casualties_war_support = 0.009
+			weekly_bombing_war_support = 0.0025
+			operative_slot = 2
+			resistance_growth_on_our_occupied_states = 0.1
+			army_breakthrough_against_major_factor = 0.075
+			}
+			equipment_bonus = {
+			armored_car_equipment = {
+				build_cost_ic = -0.115 reliability = -0.115
+			}
+			infantry_equipment = {
+				build_cost_ic = -0.115 reliability = -0.115
+			}
+		    }
+			targeted_modifier = {
+            tag = ITA
+            attack_bonus_against = 0.1
+            }	
+		    targeted_modifier = {
+            tag = SOV
+            attack_bonus_against = 0.1
+            }
+		    targeted_modifier = {
+            tag = PER
+            attack_bonus_against = 0.1
+            }		
+		    targeted_modifier = {
+            tag = SAU
+            attack_bonus_against = 0.1
+            }			
+		}
+   PAL_oil_iraqi = {
+			picture = PAL_oil_iraqi
+   			modifier = {
+			army_defence_against_major_factor = -0.095
+			max_fuel_factor = 0.15 
+			fuel_gain_factor = 0.1
+            production_speed_fuel_silo_factor = 0.1	
+			}
+			targeted_modifier = {
+            tag = GER
+            extra_trade_to_target_factor = 0.085
+            }
+		}
+   PAL_von_leers_mission = {
+			picture = PAL_von_leers_mission
+			modifier = {
+			experience_gain_army_factor = 0.1
+			experience_gain_air_factor = 0.1
+			industrial_factory_donations = 2
+			}
+			research_bonus = {
+	            air_equipment = 0.075
+	        }
+		    research_bonus = {
+				armor = 0.075
+			}
+		    equipment_bonus = {
+			armor = {
+				build_cost_ic = -0.075
+			}
+		    }
+	        targeted_modifier = {
+            tag = GER
+            extra_trade_to_target_factor = 0.15
+			cic_to_target_factor = 0.05
+			trade_cost_for_target_factor = -0.1
+            }
+		}
+ PAL_hizb_ut_tahrir = {
+			picture = PAL_hizb_ut_tahrir
+			modifier = {
+			training_time_army_factor = -0.1
+			minimum_training_level = -0.125
+			offensive_war_stability_factor = 0.15
+			drift_defence_factor = 0.25
+			operative_slot = 1
+			compliance_growth = 0.095
+            non_core_manpower = 0.1
+			war_support_weekly = 0.005
+            army_core_attack_factor = 0.115
+			political_power_cost = 0.3
+			mobilization_speed = 0.7
+			}
+		}
+	}

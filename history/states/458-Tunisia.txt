@@ -1,0 +1,40 @@
+
+state={
+	id=458
+	name="STATE_458"
+	manpower = 1982940
+	state_category = city
+	resources={
+		steel=12 # was: 8
+	}
+
+	history={
+		owner = ITA
+		add_core_of = TUN
+		victory_points = {
+			11969 15 
+		}
+		victory_points = {
+			9994 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			arms_factory = 1
+			air_base = 8
+			9994 = {
+				naval_base = 8
+			}
+			11969 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		9994 1046 4163 7180 10091 11969
+	}
+
+	local_supplies=0.0 
+}

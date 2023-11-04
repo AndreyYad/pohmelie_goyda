@@ -1,0 +1,51 @@
+characters={
+    SAF_svart={
+		name=SAF_svart
+		portraits={
+			civilian={
+				large=GFX_portrait_svart
+			}
+		}
+		country_leader={
+			ideology=afrikaner_nationalism
+			traits={ father_republic }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	SAF_ferwurd={
+		name=SAF_ferwurd
+		portraits={
+			civilian={
+				large=GFX_portrait_ferwurd
+			}
+		}
+		country_leader={
+			ideology=white_nationalism
+			traits={ architector_aparteida }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={ architector_aparteida }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAF_graaf={
+		name=SAF_graaf
+		portraits={
+			civilian={
+				large=GFX_portrait_graaf
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={ loyal_empire_baronet }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

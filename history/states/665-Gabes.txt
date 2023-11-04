@@ -1,0 +1,36 @@
+state={
+	id=665
+	name="STATE_665"
+
+	history={
+		owner = ITA
+		add_core_of = TUN
+		victory_points = {
+			7005 3 
+		}
+		victory_points = {
+			11921 5 
+		}
+		buildings = {
+			infrastructure = 3
+            industrial_complex = 1
+			dockyard = 1
+			air_base = 7
+			7005 = {
+				naval_base = 2
+			}
+			11921 = {
+				naval_base = 4
+			}
+		}
+	}
+	
+	state_category = city
+
+	provinces={
+		7005 10026 11921
+	}
+	manpower=327824
+
+	local_supplies=0.0 
+}

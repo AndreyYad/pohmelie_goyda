@@ -1,0 +1,33 @@
+state={
+	id=1201
+	name="STATE_1201"
+	provinces={
+		1679 1726 1828 1856 4730 7750 7781 7837 7849 7882 10533 10561 10576 10663 10705 12514 12599 12672 
+	}
+	manpower=35700
+	state_category = large_town
+	history={
+		owner = SOV
+		victory_points = {
+			1726 7
+		}
+		victory_points = {
+			10705 5
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			industrial_complex = 1
+			1726 = {
+			naval_base = 5
+			}
+			10705 = {
+			naval_base = 3
+			}
+		}
+		add_core_of = SOV
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+}

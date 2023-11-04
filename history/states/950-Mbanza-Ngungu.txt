@@ -1,0 +1,24 @@
+state={
+	id=950
+	name="STATE_950"
+	provinces={
+		14061 14062 14063 14068 
+	}
+	manpower=152670
+	resources={
+		aluminium=7.000
+    }
+	state_category = town
+	history={
+		owner = GCA
+		add_core_of = GCA
+		add_core_of = COG
+		victory_points = {
+			14068 2
+		}
+		buildings = {
+			infrastructure = 4
+			}
+		}
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=965
+	name="STATE_965"
+	provinces={
+		14298 
+	}
+	manpower=11200
+	state_category = pastoral
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = TOG
+		add_core_of = VOL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	local_supplies=0.000
+}

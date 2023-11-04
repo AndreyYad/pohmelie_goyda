@@ -1,0 +1,27 @@
+state={
+	id=1146
+	name="STATE_1146"
+	provinces={
+		1549 1578 1606 1634 6883 10882 
+	}
+	manpower=200148
+	state_category = rural
+	history={
+		add_core_of = PAL
+		add_core_of = KUR
+		owner = KUR
+		victory_points = {
+			1549 1
+		}
+		victory_points = {
+			6883 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

@@ -1,0 +1,35 @@
+state={
+	id=702
+	name="STATE_702"
+	manpower = 90600
+	
+	state_category = rural
+
+	history={
+		owner = GCA
+		victory_points = {
+			13014 3
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			radar_station = 3
+			anti_air_building = 1
+			air_base = 4
+			13014 ={
+				naval_base = 5
+				coastal_bunker = 3
+			}
+			15474 ={
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+	}
+
+	provinces={
+		13014 15474
+	}
+
+	local_supplies=6.0 
+}

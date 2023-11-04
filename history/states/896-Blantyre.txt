@@ -1,0 +1,26 @@
+state={
+	id=896
+	name="STATE_896"
+	provinces={
+		12908 13592 13593 13604 13605 
+	}
+	manpower=1001785
+	resources={
+		aluminium=2 # was: 1
+	}
+	state_category = rural
+	
+	
+	history={
+	    victory_points = {
+			13593 1
+		}
+		owner = RHO
+		add_core_of = RHO
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

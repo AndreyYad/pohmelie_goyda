@@ -1,0 +1,25 @@
+
+state={
+	id=538
+	name="STATE_538" # Central Congo
+	manpower = 1693974
+	
+	state_category = rural
+	resources={
+		rubber=20 # was: 19
+	}
+	history={
+		owner = LAN
+		add_core_of = LAN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = COG
+	}
+
+	provinces={
+		1731 7219 8016 12775 14085 14086 14089 14091 14095 14097 14099 14100 14101 14103 14104 14108 14114 14115 14118 14119 14123  
+	}
+
+	local_supplies=1.0 
+}

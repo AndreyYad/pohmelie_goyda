@@ -1,0 +1,77 @@
+characters={
+	ITA_balbo={
+		name=ITA_balbo
+		portraits={
+			civilian={
+				large=GFX_portrait_balbo
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={marshal_air charming_fascist influencer_skvardist}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	ITA_evola={
+		name=ITA_evola
+		portraits={
+			civilian={
+				large=GFX_portrait_evola
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={ aryaroman_tradition supporter_pagan_imperialism messenger_race_awaking}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	ITA_bianchi={
+		name=ITA_bianchi
+		portraits={
+			civilian={
+				large=GFX_portrait_bianchi
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			traits={ syndical_opposiner warrior_irrendist fading_star_fascism}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	ITA_bottai={
+		name=ITA_bottai
+		portraits={
+			civilian={
+				large=GFX_portrait_bottai
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={ neofascist_revolutioner aggresive_intervetion ideolog_race_supreority}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	ITA_bruno={
+		name=ITA_bruno
+		portraits={
+			civilian={
+				large=GFX_portrait_bruno
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={famous_ace legacy_duchi}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+}

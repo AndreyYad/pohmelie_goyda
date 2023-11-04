@@ -1,0 +1,32 @@
+characters={
+	 ALW_Antonio={
+		name=ALW_Antonio
+		portraits={
+			civilian={
+				large=GFX_portrait_ALW_Antonio
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={Famous_aviator_bomber Regia_aeronaftica_ties}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ALW_Salman_Murshid={
+		name=ALW_Salman_Murshid
+		portraits={
+			civilian={
+				large=GFX_portrait_ALW_Salman_Murshid
+			}
+		}
+		country_leader={
+			ideology=panislamic_traditionalism
+			traits={ Pseudo_Messiah Eastern_liberator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

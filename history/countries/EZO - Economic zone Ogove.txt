@@ -1,0 +1,36 @@
+capital = 944
+
+oob = "EZO_1952"
+set_naval_oob = "EZO_1952_Naval"
+set_research_slots = 2
+set_stability = 0.6
+set_war_support = 0.7
+set_convoys = 20
+
+GCA = {
+	set_autonomy = {
+		target = EZO
+		autonomy_state = autonomy_warlord_gca
+	}
+}
+
+set_popularities = {
+	ultranationalism = 100
+}
+
+set_politics = {
+	ruling_party = ultranationalism
+}
+
+
+recruit_character = EZO_vegelt
+
+
+add_ideas = {
+  EZO_black_heart_black_continent
+  EZO_slave_work
+  EZO_race_definition
+  EZO_plunder_tropic
+  EZO_wings_for_pig
+  EZO_service_bold
+}

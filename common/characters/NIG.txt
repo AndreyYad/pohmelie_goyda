@@ -1,0 +1,23 @@
+characters = {
+	NIG_John_Makferson = {
+		name = NIG_john_makferson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIG/Makferson.dds"
+			}
+			army = {
+				large = "gfx/leaders/NIG/Makferson.dds"
+				small = "gfx/interface/advisors/NIG/NIG_Makferson.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			traits = { 
+				NIG_african_federalist
+			}
+			desc = John_Makferson_desc
+		}
+	}
+}

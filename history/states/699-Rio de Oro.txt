@@ -1,0 +1,29 @@
+state={
+	id=699
+	name="STATE_699"
+	manpower = 20056
+	
+	state_category = pastoral
+
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = WES
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 1
+			8038 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			8038 1
+		}
+	}
+	
+	provinces={
+		8038 4920 7979 8111 14628 14629 14630 14631
+	}
+
+	local_supplies=0.0 
+}

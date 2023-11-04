@@ -1,0 +1,30 @@
+state={
+	id=1012
+	name="STATE_1012"
+	provinces={
+		4046 4131 7166 10078 11939 13077 14654 14655 
+	}
+	manpower=239520
+	state_category = town
+	resources={
+		steel=7.000
+		chromium=4.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			7166 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			7166 3 
+		}
+	}
+	local_supplies=0.000
+}

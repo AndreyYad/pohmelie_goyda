@@ -1,0 +1,35 @@
+state={
+	id=968
+	name="STATE_968"
+	provinces={
+		10762 14301 14302 14303 14306 14307 14308 14309 14311 
+	}
+	manpower=1451200
+	state_category = town
+	resources={
+		oil=6.000
+		aluminium=4.000
+		steel=6.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+            air_base = 2
+			10762 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			14307 3 
+		}
+		victory_points = {
+			10762 1 
+		}
+		add_core_of = IVO
+	}
+	local_supplies=0.000
+}

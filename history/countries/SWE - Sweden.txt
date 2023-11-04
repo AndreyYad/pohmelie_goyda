@@ -1,0 +1,37 @@
+capital = 141
+
+oob = "SWE_1952"
+set_naval_oob = "SWE_1952_Naval"
+set_research_slots = 3
+set_stability = 0.70
+set_war_support = 0.57
+set_convoys = 28
+
+
+
+set_popularities = {
+	social_democracy = 62
+	liberalism = 8
+	conservatism = 14
+	etatism = 15
+	ultranationalism = 0.7
+	occult_nazism = 0.3
+}
+
+set_politics = {
+	ruling_party = social_democracy
+	elections_allowed = yes
+}
+
+recruit_character = SWE_erlander
+recruit_character = SWE_hjalmarson
+recruit_character = SWE_dahlerus
+
+add_ideas = {
+  SWE_our_blaga
+  SWE_political_influence_intersea
+  SWE_forced_cooperation_germany
+  SWE_last_light_democracy
+  SWE_sweden_tiger
+  SWE_gustav_adolf
+}

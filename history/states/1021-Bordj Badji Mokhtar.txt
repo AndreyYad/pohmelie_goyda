@@ -1,0 +1,21 @@
+state={
+	id=1021
+	name="STATE_1021"
+	provinces={
+		14680 14681 14682 14683 14684 14685 
+	}
+	manpower=36289
+	state_category = wasteland
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14683 1 
+		}
+	}
+	local_supplies=0.000
+}

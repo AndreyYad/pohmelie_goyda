@@ -1,0 +1,11 @@
+focus_tree = {
+	id = Slovakia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SLO
+		}
+	}
+	
+}

@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		ERI_prom_center = {
+			picture = GFX
+			modifier = {
+				stability_factor = 0.075
+				production_speed_buildings_factor = 0.115
+				production_speed_infrastructure_factor = 0.125
+				production_speed_rail_way_factor = 0.125
+				local_resources_factor = 0.15
+				cic_to_overlord_factor = 0.25
+				mic_to_overlord_factor = 0.25
+				defence = 0.05
+			}
+		}
+		ERI_italion_migration = {
+			picture = fathers_and_not_fathers
+			modifier = {
+				monthly_population = 0.37
+				autonomy_gain = -1.8
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				autonomy_gain_ll_to_overlord_factor = -0.25
+				resistance_growth_on_our_occupied_states = -0.1
+				Research_sharing_per_country_bonus_factor = 0.45
+			}
+		}
+		ERI_askari = {
+			picture = fathers_and_not_fathers
+			modifier = {
+				conscription = 0.185
+				army_attack_factor = 0.065
+				army_defence_factor = 0.065
+				breakthrough_factor = 0.065
+				special_forces_cap = 0.175
+				}
+				equipment_bonus = {
+					mountaineers = {
+						max_organisation = 0.15
+						soft_attack = 0.15
+						defense = 0.15
+					
+					}
+				}
+			}
+		}
+	}
+}

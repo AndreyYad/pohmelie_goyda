@@ -1,0 +1,23 @@
+state={
+	id=1026
+	name="STATE_1026"
+	provinces={
+		12022 14699 14700 14701 14702 14703 14704 14705 14706 
+	}
+	manpower=79340
+	state_category = rural
+	resources={
+		steel=4.000
+	}
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14701 3 
+		}
+	}
+	local_supplies=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=956
+	name="STATE_956"
+	provinces={
+		4128 10025 14176 14177 14178 14179 
+	}
+	manpower=215100
+	state_category = rural
+	history={
+		owner = ANG
+		add_core_of = ANG
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	local_supplies=0.000
+}

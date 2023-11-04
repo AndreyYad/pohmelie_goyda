@@ -1,0 +1,59 @@
+characters = {
+	YUG_Milan_Stojadinovich = {
+		name = YUG_milan_stojadinovich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/Stojadinovich.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_syndicalism
+			traits = { 
+				YUG_economic_reformer
+				YUG_podrazhatel_Duce
+			}
+		}
+	}
+
+	YUG_Peter_Karageorgievich = {
+		name = YUG_peter_karageorgievich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/Karageorgievich.dds"
+			}
+			army = {
+				large = "gfx/leaders/YUG/Karageorgievich.dds"
+				small = "gfx/interface/advisors/YUG/YUG_Karageorgievich.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = liberalism_subtype
+			traits = {
+				YUG_konstitutional_federalist
+				YUG_liberty_wanted
+				YUG_anglophil
+			}
+			desc = Milan_Stojadinovich_desc
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = {
+				YUG_konstitutional_federalist
+				YUG_liberty_wanted
+				YUG_anglophil
+			}
+			desc = Peter_Karageorgievich_desc
+		}
+		country_leader = {
+			ideology = monarchy
+			traits = {
+				YUG_konstitutional_federalist
+				YUG_liberty_wanted
+				YUG_anglophil
+			}
+			desc = Peter_Karageorgievich_desc
+		}
+	}
+}

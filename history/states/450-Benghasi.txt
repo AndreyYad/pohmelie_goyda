@@ -1,0 +1,35 @@
+
+state={
+	id=450
+	name="STATE_450"
+	manpower = 82535
+	
+	state_category = town
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = ITA
+		
+		victory_points = {
+			11954 10 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+			fuel_silo = 1
+			industrial_complex = 1
+			11954 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = LBA
+	}
+
+	provinces={
+		4120 10123 11954 12094
+	}
+
+	local_supplies=0.0 
+}

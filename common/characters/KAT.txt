@@ -1,0 +1,18 @@
+characters={
+	KAT_hoar = {
+		name = KAT_hoar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KAT/khoar_katanga.dds"
+			}
+		}
+		country_leader = {
+			ideology = militocracy
+			expire="3333.1.1.1"
+			id=-1
+			desc = KAT_hoar_desc
+			traits = { 
+				KAT_dog
+			}
+		}
+	}

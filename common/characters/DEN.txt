@@ -1,0 +1,31 @@
+characters={
+	DEN_christensen={
+		name=DEN_christensen
+		portraits={
+			civilian={
+				large=GFX_portrait_milfa
+			}
+		}
+		country_leader={
+			ideology=anarcho_synd
+			traits={ great_mother}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	DEN_kam={
+		name=DEN_kam
+		portraits={
+			civilian={
+				large=GFX_portrait_otto_kumm
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={ caratel}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+}

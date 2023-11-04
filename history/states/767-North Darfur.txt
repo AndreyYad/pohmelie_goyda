@@ -1,0 +1,21 @@
+state=
+{
+	id=767
+	name="STATE_767" # North Darfur
+	manpower = 19245
+	
+	state_category = pastoral
+	
+	history= {
+		add_core_of = SUD
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		8103 13527 13528 13530 13533
+	}
+
+	local_supplies=0.0 
+}

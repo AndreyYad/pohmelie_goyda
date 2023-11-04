@@ -1,0 +1,154 @@
+ideas = {
+   country = {
+       NOR_festung = {
+			picture = festung
+
+			allowed = {
+				original_tag = NOR
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_coastal_bunker_factor = 0.2
+				production_speed_nuclear_reactor_factor = 0.2
+				production_speed_air_base_factor = 0.15
+				production_speed_naval_base_factor = 0.15
+				nuclear_production_factor = 0.2
+				surender_limit = 0.05
+				transport_capacity = -0.1
+				amphibious_invasion_defence = 0.15
+				mic_to_overlord_factor = 0.075
+				production_factory_max_efficiency_factor = 0.1
+			} 
+		}
+		
+		NOR_legacy_viking = {
+			picture = nasl_vikingov
+
+			allowed = {
+				original_tag = NOR
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				navy_max_range_factor = 0.1
+				army_org_factor = 0.05
+				naval_invasion_capacity = 5
+				amphibious_invasion = 0.125
+				navy_weather_penalty = -0.145
+				offensive_war_stability_factor = 0.115
+				annex_cost_factor = -0.1
+			} 
+		}
+		
+		NOR_hird = {
+			picture = hirden
+
+			allowed = {
+				original_tag = NOR
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_loss_factor = -0.1
+				army_org_regain = 0.085
+				winter_attrition_factor = -0.15
+				army_attack_factor = 0.1
+				experience_gain_air_factor = 0.2
+				experience_gain_navy_factor = 0.2
+				naval_accidents_chance = 0.25
+				air_accidents_factor = 0.2
+				ship_hull_submarine_design_cost_factor = -0.1
+				fighter_design_cost_factor = -0.1
+				navy_capital_ship_attack_factor = -0.25
+				air_untrained_pilots_penalty_factor = 0.375
+				air_training_xp_gain_factor = 0.175
+			} 
+		}
+		
+		NOR_religion_universe = {
+			picture = universalism
+
+			allowed = {
+				original_tag = NOR
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.1
+				stability_factor = -0.075
+				non_core_manpower = 0.05
+				resistance_target = -0.05
+				political_power_cost = 0.02
+				party_popularity_stability_factor = 0.15
+			} 
+		}
+		
+		NOR_great_accosiation = {
+			picture = velikaya_nord_ass
+
+			allowed = {
+				original_tag = NOR
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				mic_to_overlord_factor = 0.2
+				civ_to_overlord_factor = 0.2
+				production_speed_infrastructure_factor = 0.175
+				conscription_factor = 0.1
+				monthly_population = 0.575
+				overlord_trade_cost_factor = -0.25
+				production_factory_efficiency_gain_factor = 0.1
+			} 
+		}
+		
+		NOR_fate_russia = {
+			picture = memorandum
+
+			allowed = {
+				original_tag = NOR
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = SOV
+				breakthrough_bonus_against = 0.1
+			}
+			
+			modifier = {
+				autonomy_gain_warscore_factor = 0.25
+				acclimatization_cold_climate_gain_factor = 0.125
+				compliance_growth = 0.085
+				required_garrison_factor = 0.05
+				attrition = -0.1
+				mobilization_speed = 0.25
+			} 
+		}
+		
+		NOR_untrust_kwiling = {
+			picture = nedoverie_kvislingu
+
+			allowed = {
+				original_tag = NOR
+			}
+			
+			removal_cost = -1
+			
+			
+			modifier = {
+				political_power_factor = -0.2
+				war_support_factor = -0.1
+				stability_weekly_factor = -0.0015
+				autonomy_gain_global_factor = -0.075
+				political_advisor_cost_factor = 0.15
+			} 
+		}
+	}
+}

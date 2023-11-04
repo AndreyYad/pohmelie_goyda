@@ -1,0 +1,20 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		4022 5046 7203 14638 
+	}
+	manpower=12231
+	state_category = pastoral
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 1
+	    }
+		victory_points = {
+			5046 1 
+		}
+	}
+	local_supplies=0.000
+}

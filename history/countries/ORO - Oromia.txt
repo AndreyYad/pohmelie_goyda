@@ -1,0 +1,33 @@
+capital = 559
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+add_ideas = {
+ORO_prom_contrast
+ORO_nationalism
+ORO_partisan
+}
+set_convoys = 0
+set_research_slots = 2
+set_stability = 0.50
+set_war_support = 0.47
+
+recruit_character = ORO_guglielmo_nasi 
+recruit_character = ORO_jagama_kello
+ITA = {
+	set_autonomy = {
+		target = ORO
+		autonomy_state = autonomy_protektorat
+	}
+}
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 72
+	etatism = 18
+	left_nationalism = 10
+}

@@ -1,0 +1,105 @@
+ideas = {
+
+	country = {
+    PER_withdraw_from_plato = {
+			modifier = {
+				war_support_factor = -0.185
+				repair_speed_industrial_complex_factor = -0.25
+				production_speed_buildings_factor = -0.2
+				max_command_power = -20
+				political_power_cost = 0.003
+				drift_defence_factor = -0.2
+			}
+
+		}
+    PER_road_iran = {
+			modifier = {
+			training_time_army_factor = -0.005
+			org_loss_when_moving = -0.075
+			attrition = -0.075
+			offensive_war_stability_factor = 0.1
+			annex_cost_factor = -0.1
+			heat_attrition = -0.085
+			}	
+		   targeted_modifier = {
+            tag = SOV
+            breakthrough_bonus_against = 0.15
+            }
+		    targeted_modifier = {
+            tag = PAL
+            attack_bonus_against = 0.1
+            }
+		    targeted_modifier = {
+            tag = AFG
+            attack_bonus_against = 0.1
+            }		
+		    targeted_modifier = {
+            tag = TUR
+            attack_bonus_against = 0.1
+            }	
+		}
+   PER_flame = {
+			modifier = {
+			stability_weekly = 0.0015	
+			war_support_factor = 0.125
+			research_speed_factor = -0.105
+			army_attack_factor = 0.075
+			surrender_limit = 0.025
+			weekly_casualties_war_support = 0.0025
+            }	
+		}
+   PER_resistance = {
+   			modifier = {
+			stability_factor = -0.2
+			resistance_growth = -0.25
+			etatism_drift = 0.03
+			autsoc_drift = 0.02
+			army_core_defence_factor = -0.15
+			local_factory_sabotage	= 0.15
+			mobilization_speed = -0.2
+			foreign_subversive_activities = 0.15
+			local_resources_factor = -0.1 
+            }
+	targeted_modifier = {
+	tag = SOV
+	defense_bonus_against = -0.15	
+	}
+	targeted_modifier = {
+	tag = PAL
+	defense_bonus_against = -0.15	
+	}
+		}
+   PER_militians = {
+			modifier = {
+			conscription_factor = 0.2
+			land_doctrine_cost_factor = 0.18
+			air_doctrine_cost_factor = 0.18
+			naval_doctrine_cost_factor = 0.18
+			army_org_Factor = -0.15
+			army_core_attack_factor = 0.125		
+            local_supplies = 0.05
+            experience_loss_factor = 0.05					
+	        resistance_damage_to_garrison = -0.05
+            militia_attack_factor = 0.125
+            }	
+		equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.085 
+					instant = yes
+			}	
+			}			
+		}
+   PER_anenerbe_ties = {
+			modifier = {
+			operative_slot = 1
+			occult_nazism_acceptance = 85
+			air_attack_factor - 0.1
+			armor_attack_factor = 0.1
+			drift_defence_factor = 0.05
+			experience_gain_air_factor = 0.1
+			experience_gain_army_factor	= 0.1
+            extra_paratrooper_supply_grace = 18
+			}	
+		}
+	}
+}

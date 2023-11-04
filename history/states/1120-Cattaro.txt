@@ -1,0 +1,32 @@
+state={
+	id=1120
+	name="STATE_1120"
+	provinces={
+		15203 
+	}
+	manpower=12300
+	state_category = town
+	
+	history={
+		add_core_of = YUG
+		add_core_of = MNT
+		add_claim_by = ITA
+		owner = ITA
+		victory_points = {
+			15203 2
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			15203 = {
+				naval_base = 5
+				coastal_bunker = 2
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

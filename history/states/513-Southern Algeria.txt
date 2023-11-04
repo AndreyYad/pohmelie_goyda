@@ -1,0 +1,26 @@
+
+state={
+	id=513
+	name="STATE_513" # Tlmecen
+	manpower = 71486
+	
+	state_category = pastoral
+
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = ALG
+		victory_points = {
+			14689 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		5095 14686 14687 14688 14689 14690 14691 
+	}
+
+	local_supplies=0.0 
+}

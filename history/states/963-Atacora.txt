@@ -1,0 +1,25 @@
+state={
+	id=963
+	name="STATE_963"
+	provinces={
+		12762 12874 14284 14285 14286 14287 14288 14289 14290 
+	}
+	manpower=490120
+	state_category = rural
+	resources={
+		steel=3.000
+		chromium=2.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = DAH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14286 1 
+		}
+	}
+	local_supplies=1.000
+}

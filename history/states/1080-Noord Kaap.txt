@@ -1,0 +1,26 @@
+state={
+	id=1080
+	name="STATE_1080"
+	provinces={
+		1509 4528 14914 14915 14916 14917 14918 14919 14920 14921 14922 14923 14924 14925 14926 14927 14928 5203 12419
+	}
+	manpower=194243
+	state_category = rural
+	resources={
+	    steel=8 # was: 9
+		chromium=3 # was: 6
+	}
+	
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SAF
+		victory_points = {
+			14920 4
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

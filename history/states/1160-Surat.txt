@@ -1,0 +1,32 @@
+state={
+	id=1160
+	name="STATE_1160"
+	provinces={
+		4187 7150 7165 11952 
+	}
+	manpower=4389200
+	resources={
+		oil=3 # was: 4
+	}
+	state_category = large_town
+	history={
+		owner = AZH
+        victory_points = {
+			7150 7 
+		}
+		buildings = {
+		    infrastructure = 3
+			dockyard = 1
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+			7150 = {
+			naval_base = 2
+			bunker = 2
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

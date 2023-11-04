@@ -1,0 +1,18 @@
+state={
+	id=910
+	name="STATE_910"
+	provinces={
+		1992 4889 13721 13726 13731 
+	}
+	manpower=627390
+	state_category = rural
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NIG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

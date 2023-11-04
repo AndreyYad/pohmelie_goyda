@@ -1,0 +1,53 @@
+characters={
+	SPR_segura={
+		name=SPR_segura
+		portraits={
+			civilian={
+				large=GFX_portrait_segura
+			}
+		}
+		country_leader={
+			ideology=christian_fundamentalism
+			traits={great_primas_iberia catolic_revolutioner}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	SPR_hedilia={
+		name=SPR_hedilia
+		portraits={
+			civilian={
+				large=GFX_portrait_hedilia
+			}
+		}
+		country_leader={
+			ideology=national_syndicalism
+			traits={contiuner_falanga folkpower_syndycalist street_assasulter}
+			expire="1995.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			traits={contiuner_falanga folkpower_syndycalist street_assasulter}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	SPR_najera={
+		name=SPR_najera
+		portraits={
+			civilian={
+				large=GFX_portrait_najera
+			}
+		}
+		country_leader={
+			ideology=social_darvinism
+			traits={doctor_biophysc healer_marxisma}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+}

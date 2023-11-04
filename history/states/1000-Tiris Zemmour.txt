@@ -1,0 +1,24 @@
+state={
+	id=1000
+	name="STATE_1000"
+	provinces={
+		8035 10779 14592 14593 14594 14595 14596 14597 14598 
+	}
+	manpower=11900
+	state_category = pastoral
+	resources={
+		steel=8.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14593 1 
+		}
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,37 @@
+capital = 100
+
+oob = "HYP_1952"
+set_naval_oob = "HYP_1952_Naval"
+set_research_slots = 2
+set_stability = 0.78
+set_war_support = 0.63
+set_convoys = 48
+
+GER = {
+	set_autonomy = {
+		target = HYP
+		autonomy_state = autonomy_ordenstaat
+	}
+}
+
+set_popularities = {
+	conservatism = 21
+	occult_nazism = 79
+}
+
+set_politics = {
+	ruling_party = occult_nazism
+}
+
+
+recruit_character = HYP_wirth
+recruit_character = HYP_schiling
+
+add_ideas = {
+  HYP_lost_in_ice
+  HYP_polar_bastion
+  HYP_dreams_matriarch
+  HYP_search_mythic_motherland
+  HYP_arctic_sun
+  HYP_ice_cleaner_atlant
+}

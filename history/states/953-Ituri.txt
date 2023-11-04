@@ -1,0 +1,33 @@
+state={
+	id=953
+	name="STATE_953"
+	provinces={
+		2154 6027 14148 14152 14155 14157 14163 14169 14172 
+	}
+	manpower=623100
+	resources={
+		rubber=4.000
+		steel=12.000
+		}
+	state_category = city
+	history={
+		owner = ROA
+		add_core_of = ROA
+		add_core_of = COG
+		victory_points = {
+			14163 3 
+		}
+		victory_points = {
+			14148 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 3
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

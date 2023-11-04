@@ -1,0 +1,54 @@
+characters={
+	EGY_farouk = {
+		name = EGY_farouk
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EGY/EGY_farouk.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarchy
+			expire="3333.1.1.1"
+			id=-1
+			desc = EGY_farouk_desc
+			traits = { 
+				EGY_playboy
+				EGY_press_F_for_popularity
+			}
+		}
+	}
+	EGY_husayn = {
+		name = EGY_husayn
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EGY/EGY_husayn.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire="3333.1.1.1"
+			id=-1
+			desc = EGY_husayn_desc
+			traits = { 
+				EGY_shariat
+			}
+		}
+	}
+	EGY_al_banna = {
+		name = EGY_al_banna
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EGY/EGY_al_banna.dds"
+			}
+		}
+		country_leader = {
+			ideology = panarabism
+			expire="3333.1.1.1"
+			id=-1
+			desc = EGY_al_banna_desc
+			traits = { 
+				EGY_jihadist
+			}
+		}
+	}
+}

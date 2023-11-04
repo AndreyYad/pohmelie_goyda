@@ -1,0 +1,22 @@
+state={
+	id=1174
+	name="STATE_1174"
+	provinces={
+		1630 5057 5100 12327 12776 
+	}
+	manpower=1000500
+	state_category = town
+	history={
+		owner = XSM
+		add_core_of = XSM
+        victory_points = {
+			5057 7
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

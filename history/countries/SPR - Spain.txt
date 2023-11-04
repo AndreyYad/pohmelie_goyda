@@ -1,0 +1,33 @@
+capital = 41
+
+oob = "SPR_1952"
+set_naval_oob = "SPR_1952_Naval"
+set_research_slots = 1
+set_stability = 0.68
+set_war_support = 0.60
+set_convoys = 14
+
+set_popularities = {
+	etatism = 74
+	fascism = 25.5
+	occult_nazism = 0.5
+}
+
+set_politics = {
+	ruling_party = etatism
+}
+
+
+recruit_character = SPR_segura
+recruit_character = SPR_hedilia
+recruit_character = SPR_najera
+
+add_ideas = {
+  SPR_coming_acsesion
+  SPR_bonfire_redemption
+  SPR_destruction_pristanich
+  SPR_sinless_army
+  SPR_carl_pi
+  SPR_revival_feodalism
+  SPR_assasult_falangist
+}

@@ -1,0 +1,27 @@
+state={
+	id=1104
+	name="STATE_1104"
+	provinces={
+		10993 15090 15091 15092 15093 15094 15095 15096 15097 15098 15099 15100 15101 15102 
+	}
+	manpower=336739
+	state_category = rural
+	
+	history={
+		add_core_of = MAD
+		owner = MAD
+		victory_points = {
+			15094 3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	resources={
+		rubber=4 # was: 2
+		steel=6 # was: 3
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

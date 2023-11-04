@@ -1,0 +1,28 @@
+state={
+	id=936
+	name="STATE_936"
+	provinces={
+		13916 13917 13923 13931 
+	}
+	manpower=57250
+	state_category = rural
+	resources={
+		steel=1.000
+	}
+	history={
+		owner = UBG
+		add_core_of = UBG
+		add_core_of = CAR
+		buildings = {
+			infrastructure = 1
+			13917 = {
+				bunker = 3
+			}
+		}
+		victory_points = {
+			13917 2 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

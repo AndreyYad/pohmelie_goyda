@@ -1,0 +1,27 @@
+state={
+	id=1141
+	name="STATE_1141"
+	provinces={
+		7671 12473 15224 
+	}
+	manpower=8562300
+	state_category = city
+	
+	history={
+		add_core_of = SYR
+		add_core_of = KUR
+		owner = KUR
+		victory_points = {
+			12473 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 3
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=991
+	name="STATE_991"
+	provinces={
+		12838 14508 14510 14511 14544 
+	}
+	manpower=351290
+	state_category = town
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			14511 4 
+		}
+	}
+	local_supplies=2.000
+}

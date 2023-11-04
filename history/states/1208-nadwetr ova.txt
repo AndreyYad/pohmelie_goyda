@@ -1,0 +1,27 @@
+state={
+	id=1208
+	name="STATE_1208"
+	provinces={
+		15472 15473 
+	}
+	manpower=45200
+	state_category = tiny_island
+
+	history={
+		owner = GCA
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			15472 ={
+				naval_base = 3
+				coastal_bunker = 2
+			}
+			15473 ={
+				naval_base = 2
+				coastal_bunker = 2
+			}
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+}

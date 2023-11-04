@@ -1,0 +1,31 @@
+capital = 219
+
+oob = "SOV_1952"
+set_naval_oob = "SOV_1952_Naval"
+set_research_slots = 4
+set_stability = 0.79
+set_war_support = 0.74
+set_convoys = 120
+
+
+
+set_popularities = {
+	left_nationalism = 85
+	autsoc = 15
+}
+
+set_politics = {
+	ruling_party = left_nationalism
+}
+
+recruit_character = SOV_tukhachevcki
+
+
+add_ideas = {
+  SOV_military_communism
+  SOV_revive_slavyan_rodnoveria
+  SOV_peace_on_dnepr
+  SOV_experiment_rearmed
+  SOV_turn_sibirean_rivers
+  SOV_state_comitet_work_defence
+}

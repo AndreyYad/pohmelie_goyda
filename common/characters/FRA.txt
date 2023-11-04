@@ -1,0 +1,47 @@
+characters={
+	FRA_sabiani={
+		name=FRA_sabiani
+		portraits={
+			civilian={
+				large=GFX_portrait_sabiani
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			traits={don_work_class}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	FRA_doriot={
+		name=FRA_doriot
+		portraits={
+			civilian={
+				large=GFX_portrait_dorio
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={shef_french_nation neosocialist_legacy radical_collabration}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	FRA_augier={
+		name=FRA_augier
+		portraits={
+			civilian={
+				large=GFX_portrait_mark_ozhye
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={leader_gallov azart_alpinist}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+}

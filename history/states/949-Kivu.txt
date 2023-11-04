@@ -1,0 +1,32 @@
+state={
+	id=949
+	name="STATE_949"
+	provinces={
+		1181 4201 4941 12783 13176 14077 14090 14092 14094 14098 14106 14111 14117 14124 14133 14139 14143 
+	}
+	manpower=3100340
+	resources={
+		steel=14.000
+		tungsten=9.000
+		chromium=9.000
+		}
+	state_category = town
+	history={
+		owner = LGE
+		add_core_of = LGE
+		add_core_of = COG
+		victory_points = {
+			14111 6
+		}
+		victory_points = {
+			14133 3
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+
+	}
+	local_supplies=2.000
+}

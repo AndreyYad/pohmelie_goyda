@@ -1,0 +1,52 @@
+characters={
+	ROM_antonescu={
+		name=ROM_antonescu
+		portraits={
+			civilian={
+				large=GFX_portrait_ROM_antonescu
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={conducator slav_asian_hater}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	    country_leader={
+			ideology=klerk_facism
+			traits={conducator slav_asian_hater }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROM_mihay_i={
+		name=ROM_mihay_i
+		portraits={
+			civilian={
+				large=GFX_portrait_ROM_mihay_i
+			}
+		}
+		country_leader={
+			ideology=monarchy
+			traits={ air_fan speed_lover moral_reorganisation_adept }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+    ROM_radu_mironovici={
+		name=ROM_radu_mironovici
+		portraits={
+			civilian={
+				large=GFX_portrait_ROM_radu_mironovici
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={ codranu_shadow kapitanul }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

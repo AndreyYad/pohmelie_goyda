@@ -1,0 +1,24 @@
+state={
+	id=975
+	name="STATE_975"
+	provinces={
+		12747 14365 14366 
+	}
+	manpower=196534
+	state_category = pastoral
+	resources={
+		aluminium=2.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14366 1 
+		}
+		add_core_of = GNB
+	}
+	local_supplies=0.000
+}

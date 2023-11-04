@@ -1,0 +1,61 @@
+ideas = {
+	country = {
+		NIG_kosvennoe_pravlenie = {
+			removal_cost = -1
+			allowed = { }
+			picture = ""
+			modifier = {
+				autonomy_gain = 0.5
+				cic_to_overlord_factor = -0.1
+				autonomy_gain_ll_to_subject_factor = -0.15
+				autonomy_gain_warscore_factor = -0.15	
+				stability_factor = 0.075
+			}
+		}
+
+		NIG_vzor_na_neft = {
+			removal_cost = -1
+			allowed = { }
+			picture = ""
+			modifier = {
+				local_resources_factor = 0.175
+				production_speed_infrastructure_factor = 0.05
+				production_speed_synthetic_refinery_factor = 0.175
+				production_speed_fuel_silo_factor = 0.175
+				consumer_goods_factor = -0.035
+			}
+			targeted_modifier = {
+    				tag = ENG
+				extra_trade_to_target_factor = 0.25
+			}
+		}
+
+
+		NIG_regionalizm = {
+			removal_cost = -1
+			allowed = { }
+			picture = ""
+			modifier = {
+				political_power_factor = -0.25
+				war_support_factor = -0.15
+				conscription_factor = -0.22
+				surrender_limit = -0.05
+				autonomy_gain = -0.2
+				mic_to_overlord_factor = 0.125
+			}
+		}
+
+		NIG_afroyankee_vs_afrodixie = {
+			removal_cost = -1
+			allowed = { }
+			picture = ""
+			modifier = {
+				compliance_growth_on_our_occupied_states = -0.095
+				party_popularity_stability_factor = -0.1
+				army_core_defence_factor = -0.15
+				drift_defence_factor = -0.2
+				drift_defence_factor = -0.2
+			}
+		}
+	}
+}

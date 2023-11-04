@@ -1,0 +1,81 @@
+ideas = {
+
+	country = {
+    LEB_phoenician_heritage = {
+			modifier = {
+			    navy_max_range_factor = 0.215
+			    transport_capacity = -0.125
+			    industrial_capacity_dockyard = 0.25
+			    refit_speed = 0.175
+				production_speed_dockyard_factor = 0.175
+			}
+		    targeted_modifier = {
+            tag = PAL
+            defense_bonus_against = 0.05
+            }	
+		}
+    LEB_bastion = {
+			modifier = {
+			surrender_limit = 0.075
+			army_core_defence_factor = 0.115
+			max_dig_in_factor = 0.15
+			dig_in_speed_factor = 0.2
+			political_power_gain = 0.15
+			stability_factor = -0.085
+			stability_weekly = 0.0025
+			cic_to_overlord_factor = 0.1
+			autonomy_gain_global_factor = -0.1
+			}	
+	        targeted_modifier = {
+            tag = PAL
+            defense_bonus_against = 0.1
+            }			
+		}
+   LEB_social_progress = {
+			modifier = {
+			global_building_slots_factor = -0.1
+			political_advisor_cost_factor = 0.185
+			military_leader_cost_factor = 0.185
+			industrial_concern_cost_factor = 0.3
+			political_power_gain = -0.285
+			promote_cost_factor = 0.2
+			research_speed_factor = 0.185
+			stability_factor = 0.1
+			production_speed_buildings_factor = 0.1
+			production_factory_max_efficiency_factor = 0.15
+			consumer_goods_factor = 0.05
+			autonomy_gain = -0.1
+            }	
+		}
+   LEB_falangist_militia = {
+   			modifier = {
+			 compliance_growth = 0.095
+             required_garrison_factor = -0.05
+			 drift_defence_factor = 0.25
+			 training_time_army_factor = 0.075
+			 militia_organization_factor = 0.2
+			 
+			 army_core_attack_factor = 0.1
+			 army_org_regain = 0.05
+			 enemy_operative_detection_chance_factor = 0.085		 
+            }
+		}
+   LEB_resistance_islamic = {
+			modifier = {
+			war_support_factor = -0.215
+			stability_factor = -0.175
+			surrender_limit = -0.2
+			resistance_target = 0.125
+			industry_repair_factor = -0.35
+			foreign_subversive_activities = 0.25
+			conscription_factor = -0.18
+	        resistance_damage_to_garrison = 0.085
+	        ultranationalism_drift = 0.3
+            left_nationalism_drift = 0.15			
+            }
+		    targeted_modifier = {
+            tag = PAL
+            attack_bonus_against = -0.105
+            }		
+		}
+	}

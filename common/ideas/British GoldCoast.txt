@@ -1,0 +1,76 @@
+ideas = {
+   country = {
+       BGC_afrikan_nationalism = {
+			picture =
+
+			allowed = {
+				original_tag = BGC
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				autonomy_gain = 2
+				autsoc_drift = 0.04
+				stability_weekly_factor = -0.005
+				local_factory_sabotage = 0.4
+				autonomy_gain_warscore = 0.25
+				extra_trade_to_overlord_factor = -0.2
+			} 
+		}
+		
+		 BGC_age_progress = {
+			picture =
+
+			allowed = {
+				original_tag = BGC
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.075
+				consumer_goods_factor = -0.035
+				production_speed_infrastructure_factor = 0.135
+				production_speed_buildings_factor = 0.1
+				production_speed_rail_way_factor = 0.15
+				ocal_resources_factor = 0.15
+			} 
+		}
+		
+		BGC_strategic_ardena = {
+			picture =
+
+			allowed = {
+				original_tag = BGC
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				autonomy_gain = 0.5
+				stability_weekly_factor = 0.004
+				political_power_cost = 0.5
+				cic_to_overlord_factor = 0.05
+			} 
+		}
+		
+		BGC_administration_architicture = {
+			picture =
+
+			allowed = {
+				original_tag = BGC
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.1
+				drift_defence_factor = -0.1
+				autonomy_gain = -0.3
+				autonomy_gain_ll_to_subject_factor = -0.15
+				mic_to_overlord_factor = 0.08
+			} 
+		}
+	}
+}

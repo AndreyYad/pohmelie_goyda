@@ -1,0 +1,27 @@
+state={
+	id=931
+	name="STATE_931"
+	provinces={
+		2080 13854 13856 13857 13858 13860 13862 13864 13865 13868 
+	}
+	manpower=2805100
+	state_category = town
+	resources={
+		aluminium=21.000
+	}
+	history={
+		owner = EZO
+		add_core_of = EZO
+		add_core_of = CMR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			2080 5 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

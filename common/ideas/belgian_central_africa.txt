@@ -1,0 +1,71 @@
+ideas = {
+	country = {
+		BCA_congo_forever = {
+				modifier = {
+					political_power_factor = 0.25
+					compliance_growth_on_our_occupied_states = 0.1
+					research_speed_factor = -0.275
+					global_building_slots = 2
+					local_resources = 0.2
+					stability_factor = -0.2
+					surrender_limit = 0.085
+				}
+		}
+		BCA_schramme_property = {
+				modifier = {
+					cic_to_overlord_factor = -0.3
+					mic_to_overlord_factor = -0.3
+					extra_trade_to_overlord_factor = -0.5
+					consumer_goods_factor = -0.1
+					political_advisor_cost_factor = -0.75
+					promote_cost_factor = -0.75
+					mobilization_speed = 0.5
+					airforce_intel_to_others = -35
+					army_intel_to_others = -35
+					civilian_intel_to_others = -35
+					navy_intel_to_others = -35
+					coordination_bonus = 0.05
+					production_factory_max_efficiency_factor = -0.375
+					state_production_speed_buildings_factor = -0.375
+				}
+		}
+		BCA_e_groups = {
+				modifier = {
+					planning_speed = 0.175
+					army_speed_factor = 0.125
+					breakthrough_factor = 0.075
+					truck_attrition = -0.15
+					armored_car_chassis = {
+						build_cost_ic_factor = -0.2
+						reliability = -0.18
+					}
+					army_org_factor = -0.18
+					experience_loss_factor = 0.215
+				}
+		}
+		BCA_safari = {
+				modifier = {
+					war_support_factor = -0.115
+					monthly_population = -0.115
+					recruitable_population_factor = -0.145
+					industrial_factory_donations = -2
+					trade_opinion_factor = -0.5
+				}
+		}
+		BCA_colonialism_arena = {
+				modifier = {
+					weekly_manpower = -75
+					industry_free_repair_factor = -0.4
+					pocket_penalty = 0.2
+					resistance_damage_to_garrison_on_our_occupied_states = 0.2
+					resistance_target = 0.15
+				}
+				targeted_modifier = {
+					tag = LAN
+					cic_to_target_factor = 0.3
+					extra_trade_to_target_factor = 0.6
+					
+				}
+		}
+	}
+}

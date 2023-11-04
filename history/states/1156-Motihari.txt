@@ -1,0 +1,24 @@
+state={
+	id=1156
+	name="STATE_1156"
+	provinces={
+		4459 15247 
+	}
+	manpower=326180
+	state_category = rural
+	history={
+		add_core_of = NEP
+		add_core_of = ARM
+		add_core_of = TUR
+		owner = NEP
+		victory_points = {
+			4459 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

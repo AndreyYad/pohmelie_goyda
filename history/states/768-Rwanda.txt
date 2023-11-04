@@ -1,0 +1,29 @@
+state={
+	id=768
+	name="STATE_768" # Rwanda
+	
+	state_category = town
+
+	history={
+		owner = LGE
+		add_core_of = LGE
+		add_core_of = RWA
+		victory_points = {
+			9962 2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		9962 14275 14276
+	}
+	manpower=2716564
+	buildings_max_level_factor=1.000
+
+	local_supplies=1.0 
+}

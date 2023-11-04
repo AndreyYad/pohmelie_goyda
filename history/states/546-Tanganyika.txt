@@ -1,0 +1,29 @@
+state={
+	id=546
+	name="STATE_546"
+	
+	state_category = town
+	resources={
+		rubber=2 # was: 2
+	}
+	history={
+		owner = BEA
+		victory_points = {
+			13407 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+			add_core_of = BEA
+	}
+
+	provinces={
+		2206 5224 8205 12911 13392 13393 13397 13401 13402 13403 13404 13406 13407 13408 13411 13414 13416 13418 13428
+	}
+	manpower=3299000
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

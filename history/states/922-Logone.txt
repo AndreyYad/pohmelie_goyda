@@ -1,0 +1,27 @@
+state={
+	id=922
+	name="STATE_922"
+	provinces={
+		1993 13813 13817 
+	}
+	manpower=62319
+	state_category = rural
+	resources={
+		steel=4.000
+		aluminium=6.000
+		oil=11.000
+	}
+	history={
+		owner = KAM
+		add_core_of = KAM
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13813 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

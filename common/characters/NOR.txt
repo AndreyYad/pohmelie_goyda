@@ -1,0 +1,47 @@
+characters={
+	NOR_hagelin={
+		name=NOR_hagelin
+		portraits={
+			civilian={
+				large=GFX_portrait_hagelin
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={master_supply corruptioner}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	NOR_poulos={
+		name=NOR_poulos
+		portraits={
+			civilian={
+				large=GFX_portrait_kvisling
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={ narcis_fuhrer german_pressure}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	NOR_lie={
+		name=NOR_lie
+		portraits={
+			civilian={
+				large=GFX_portrait_li
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={ great_konung hard_policeman problem_alchogol}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+}

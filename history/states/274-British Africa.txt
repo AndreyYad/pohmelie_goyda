@@ -1,0 +1,59 @@
+state={
+	id=274
+	name="STATE_274"
+
+	history={
+		owner = BGC
+		add_core_of = BGC
+		victory_points = {
+			10862 5 
+		}
+		victory_points = {
+			13759 2 
+		}
+		victory_points = {
+			12742 1 
+		}
+		victory_points = {
+			13760 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 3
+			dockyard = 2
+			10862 = {
+				naval_base = 5
+				coastal_bunker = 3
+				bunker = 2
+			}
+			13759 = {
+				naval_base = 2
+			}
+			12742 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+			13760 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+
+	}
+
+	provinces={
+		10862 12742 13136 13759 13760 13761 13762 13763 13764 13765 13766 13767 13770 13771 13772 13776
+	}
+	manpower=2163600
+	resources={
+		rubber=6 # was: 4
+		aluminium=5 # was: 7
+		oil=8 # was: 7
+	}
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=1.0 
+}

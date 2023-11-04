@@ -1,0 +1,31 @@
+characters={
+	BEA_bering={
+		name=BEA_bering
+		portraits={
+			civilian={
+				large=GFX_portrait_bering
+			}
+		}
+		country_leader={
+			ideology=etatism_subtype
+			traits={shocked_violince}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	BEA_nerere={
+		name=BEA_nerere
+		portraits={
+			civilian={
+				large=GFX_portrait_nerere
+			}
+		}
+		country_leader={
+			ideology=socialism_udjama
+			traits={mvalimy}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+}

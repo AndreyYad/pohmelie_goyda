@@ -1,0 +1,25 @@
+state={
+	id=876
+	name="STATE_876"
+	provinces={
+		13465 13470 
+	}
+	manpower=52480
+	resources={
+		rubber=3 # was: 2
+	}
+	
+	state_category = rural
+
+	history=
+	{
+		owner = SUD
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SUD
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

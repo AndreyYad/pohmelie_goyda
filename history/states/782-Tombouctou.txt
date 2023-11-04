@@ -1,0 +1,28 @@
+
+state={
+	id=782
+	name="STATE_782" # Tombouctou
+	manpower = 89243
+	
+	state_category = rural
+
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			14542 2 
+		}
+
+	}
+
+	provinces={
+		1115 2044 10725 10788 14540 14541 14542 14543 14556 14557 14558 14559 14560 14561 14562 14563 14564 14565 14566
+	}
+
+	local_supplies=1.0 
+}

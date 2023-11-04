@@ -1,0 +1,26 @@
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		7912 8019 10734 13257 13275 13277 13278 13281 13282 13284 13287 13289 13291 13292 13293 13306 
+	}
+	manpower=2008902
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = ORO
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = { 
+			13284 1
+		}
+		add_core_of = ORO
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

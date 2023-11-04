@@ -1,0 +1,30 @@
+state={
+	id=1187
+	name="STATE_1187"
+	provinces={
+		5229 
+	}
+	manpower=172300
+	resources={
+		tungsten=3 # was: 2.000
+		steel=5 # was: 3.000
+	}
+	
+	state_category = rural
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = ARG
+		add_core_of = BOL
+		victory_points = {
+			5229 3 
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,31 @@
+state={
+	id=73
+	name="STATE_73"
+	manpower = 964300
+	
+	state_category = rural
+	
+	history={
+		victory_points = {
+			3548 1 
+		}
+		victory_points = {
+			15329 4 
+		}
+		owner = HUN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = HUN
+		add_core_of = UKR
+		add_core_of = SLO
+
+	}
+
+	provinces={
+		3548 6571 9563 11536 11691 15328 15329
+	}
+
+	local_supplies=7.0 
+}

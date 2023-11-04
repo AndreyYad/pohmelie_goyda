@@ -1,0 +1,41 @@
+capital = 764
+
+oob = "BNT_1952"
+set_research_slots = 2
+set_stability = 0.63
+set_war_support = 0.51
+set_convoys = 0
+
+set_technology = {
+}
+
+GER = {
+	set_autonomy = {
+		target = BNT
+		autonomy_state = autonomy_reichsland
+	}
+}
+
+set_popularities = {
+	ultranationalism = 70
+	occult_nazism = 17
+	etatism = 13
+}
+
+recruit_character = BNT_Neubacher
+recruit_character = BNT_Kumm
+recruit_character = BNT_Jank
+
+set_politics = {
+	ruling_party = ultranationalism
+}
+
+add_ideas = {
+  BNT_Oygen
+  BNT_samooborona
+  BNT_SS_mountaineers
+  BNT_iron_gates
+}
+
+
+

@@ -1,0 +1,36 @@
+capital = 962
+
+
+oob = "ANG_1952"
+set_naval_oob = "ANG_1952_Naval"
+set_research_slots = 2
+set_stability = 0.46
+set_war_support = 0.41
+set_convoys = 20
+
+GCA = {
+	set_autonomy = {
+		target = ANG
+		autonomy_state = autonomy_warlord_gca
+	}
+}
+
+set_popularities = {
+	ultranationalism = 100
+}
+
+set_politics = {
+	ruling_party = ultranationalism
+}
+
+
+recruit_character = ANG_ruberg
+
+
+add_ideas = {
+  ANG_compencation_ost_india
+  ANG_race_politic
+  ANG_flash_on_sell
+  ANG_blood_ecstaz_black_racism
+  ANG_intrige_bouler
+}

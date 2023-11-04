@@ -1,0 +1,25 @@
+state={
+	id=890
+	name="STATE_890"
+	provinces={
+		4961 7925 12796 12826 13545 13551 13554 13556 13559 13560 13561 
+	}
+	manpower=597328
+	state_category = town
+	
+	
+	history={
+		victory_points = {
+			7925 3
+		}
+		owner = SUD
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

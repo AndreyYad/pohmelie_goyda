@@ -1,0 +1,26 @@
+state={
+	id=985
+	name="STATE_985"
+	provinces={
+		2056 14441 14442 14443 14444 
+	}
+	manpower=250341
+	state_category = town
+	resources={
+		steel=2.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = NGR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = {
+			14444 1 
+		}
+	}
+	local_supplies=2.000
+}

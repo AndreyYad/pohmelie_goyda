@@ -1,0 +1,22 @@
+state={
+	id=1110
+	name="STATE_1110"
+	provinces={
+		11318 15187 
+	}
+	manpower=97320
+	state_category = town
+	
+	history={
+		add_core_of = GER
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			synthetic_refinery = 2
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=11.000
+}

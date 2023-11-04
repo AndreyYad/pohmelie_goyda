@@ -1,0 +1,30 @@
+state={
+	id=1111
+	name="STATE_1111"
+	provinces={
+		658 3660 3662 
+	}
+	manpower=83790
+	state_category = town
+	resources={
+		aluminium=7 # was: 5
+	}
+	
+	history={
+		add_core_of = ITA
+		owner = ITA
+		victory_points = {
+			658 2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			658 = {
+				bunker = 4
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+state={
+	id=1022
+	name="STATE_1022"
+	provinces={
+		1105 4992 9983 11957 12000 14692
+	}
+	manpower=42674
+	state_category = rural
+	resources={
+		oil=3.000
+	}
+	history={
+		owner = ITA
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			12000 = {
+				bunker = 1
+			}
+		}
+		victory_points = {
+			12000 2 
+		}
+	}
+	local_supplies=0.000
+}

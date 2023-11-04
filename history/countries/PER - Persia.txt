@@ -1,0 +1,40 @@
+capital = 49
+
+oob = "PER_1951"
+set_research_slots = 3
+set_stability = 0.49
+set_war_support = 0.64
+set_convoys = 10
+add_opinion_modifier = { target = PAL modifier = PER_ambitions }
+add_opinion_modifier = { target = SOV modifier = PER_ambitions }
+add_opinion_modifier = { target = AFG modifier = PER_ambitions }
+add_opinion_modifier = { target = PER modifier = PER_ambitions }
+
+set_technology = {
+}
+
+set_popularities = {
+	ultranationalism = 60
+	etatism = 25
+	autsoc = 13
+	occult_nazism = 2
+}
+
+recruit_character = PER_Kashani
+recruit_character = PER_Davud
+recruit_character = PER_Nurettin
+
+set_politics = {
+	ruling_party = ultranationalism
+}
+add_ideas = {
+  PER_withdraw_from_plato
+  PER_road_iran
+  PER_flame
+  PER_resistance
+  PER_militians
+  PER_anenerbe_ties
+}
+
+
+

@@ -1,0 +1,44 @@
+state={
+	id=1072
+	name="STATE_1072"
+	provinces={
+		4822 12547 12589 14968 14969 14970 14971 14974 14975 14977 14978 14979 14980 14981 12692 14976
+	}
+	manpower=2015300
+	state_category = metropolis
+	resources={
+	    steel=7 # was: 8
+		chromium=8 # was: 11
+	}
+	
+	history={
+		owner = SAF
+		buildings = {
+		    infrastructure = 3
+			industrial_complex = 3
+			nuclear_reactor = 1
+			fuel_silo = 1
+			arms_factory = 2
+			air_base = 5
+			dockyard = 2
+			12589 = {
+			naval_base = 9
+			coastal_bunker = 4
+			}
+			12547 = {
+			naval_base = 3
+			coastal_bunker = 1
+			}
+		}
+		add_core_of = SAF
+		victory_points = {
+			12589 30
+		}
+		victory_points = {
+			12547 7
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

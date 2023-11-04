@@ -1,0 +1,32 @@
+
+state={
+	id=778
+	name="STATE_778" # Upper Volta
+	manpower = 2986184
+	
+	state_category = rural
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = VOL
+		add_core_of = IVO
+		victory_points = {
+			10836 5
+		}
+		victory_points = {
+			14432 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
+	}
+
+	provinces={
+		10836 8071 14425 14426 14427 14428 14429 14430 14431 14432 14433
+	}
+
+	local_supplies=1.0 
+}

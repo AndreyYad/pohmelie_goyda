@@ -1,0 +1,29 @@
+state={
+	id=1119
+	name="STATE_1119"
+	provinces={
+		15200 15201 
+	}
+	manpower=9100
+	state_category = small_island
+	
+	history={
+		add_core_of = YUG
+		add_core_of = CRO
+		add_claim_by = ITA
+		owner = YUG
+		victory_points = {
+			15200 1
+		}
+		buildings = {
+			infrastructure = 2
+			15200 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+}

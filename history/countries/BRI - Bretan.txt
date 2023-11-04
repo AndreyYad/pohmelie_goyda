@@ -1,0 +1,35 @@
+capital = 14
+
+oob = "BRI_1952"
+set_naval_oob = "BRI_1952_Naval"
+set_research_slots = 2
+set_stability = 0.68
+set_war_support = 0.80
+set_convoys = 38
+
+GER = {
+	set_autonomy = {
+		target = BRI
+		autonomy_state = autonomy_reichsgrigurung
+	}
+}
+
+set_popularities = {
+	ultranationalism = 13
+	occult_nazism = 87
+}
+
+set_politics = {
+	ruling_party = occult_nazism
+}
+
+recruit_character = BRI_henaff
+
+
+add_ideas = {
+  BRI_atlant_base
+  BRI_divers_terror_center
+  BRI_pankelt_resistance
+  BRI_bezen_perro
+  BRI_keltnord_druidism
+}

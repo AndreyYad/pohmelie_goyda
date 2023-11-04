@@ -1,0 +1,94 @@
+characters = {
+	SLO_Franz_Karmasin = {
+		name = SLO_franz_karmasin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SLO/Karmasin.dds"
+			}
+			army = {
+				large = "gfx/leaders/SLO/Karmasin.dds"
+				small = "gfx/interface/advisors/SLO/SLO_Karmasin.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = occult_nazism_subtype
+			traits = { 
+				SLO_agrarian_manager
+				SLO_karpatian_fuhrer
+			}
+			desc = Franz_Karmasin_desc
+		}
+	}
+
+	SLO_Augustin_Malar = {
+		name = SLO_augustin_malar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SLO/Malar.dds"
+			}
+			army = {
+				large = "gfx/leaders/SLO/Malar.dds"
+				small = "gfx/interface/advisors/SLO/SLO_Malar.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = klerk_facism
+			traits = { 
+				SLO_clerk_order_heer
+				SLO_old_guard_general
+				SLO_partisan_hero
+			}
+			desc = Augustin_Malar_desc
+		}
+	}
+
+	SLO_Otomar_Kubala = {
+		name = SLO_otomar_kubala
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SLO/Kubala.dds"
+			}
+			army = {
+				large = "gfx/leaders/SLO/Kubala.dds"
+				small = "gfx/interface/advisors/SLO/SLO_Kubala.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_subtype
+			traits = { 
+				SLO_slovak_unity
+				SLO_radical_collaborator
+			}
+			desc = Otomar_Kubala_desc
+		}
+	}
+
+	SLO_Jan_Golian = {
+		name = SLO_jan_golian
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SLO/Golian.dds"
+			}
+			army = {
+				large = "gfx/leaders/SLO/Golian.dds"
+				small = "gfx/interface/advisors/SLO/SLO_Golian.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = liber_socalism
+			traits = { 
+				SLO_partisan_leader
+				SLO_active_diplomat
+			}
+			desc = Jan_Golian_desc
+		}
+	}
+}

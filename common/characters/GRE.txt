@@ -1,0 +1,66 @@
+characters={
+	GRE_Poulos={
+		name=GRE_Poulos
+		portraits={
+			civilian={
+				large=GFX_portrait_GRE_Poulos
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={tno_fan violent_killer}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GRE_Gotzamanis={
+		name=GRE_Gotzamanis
+		portraits={
+			civilian={
+				large=GFX_portrait_GRE_Gotzamanis
+			}
+		}
+		country_leader={
+			ideology=klerk_facism
+			traits={ lion_economy political_weakness }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	    country_leader={
+			ideology=parafascism
+			traits={ lion_economy political_weakness }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+    GRE_Zervas={
+		name=GRE_Zervas
+		portraits={
+			civilian={
+				large=GFX_portrait_GRE_Zervas
+			}
+		}
+		country_leader={
+			ideology=national_conservatism
+			traits={ republic_borets epirus_napoleon }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+   GRE_Velouchiotis={
+		name=GRE_Velouchiotis
+		portraits={
+			civilian={
+				large=GFX_portrait_GRE_Velouchiotis
+			}
+		}
+		country_leader={
+			ideology=autsoc_subtype
+			traits={ guerilla_genius red_tyrant }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

@@ -1,0 +1,41 @@
+state={
+	id=1189
+	name="STATE_1189"
+	provinces={
+		3484 9539 15333 15335 15337 
+	}
+	manpower=96400
+	resources={
+		tungsten=3 # was: 2.000
+	}
+	
+	state_category = rural
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+			air_base = 5
+			3484 = {
+				bunker = 3
+
+			}
+			15333 = {
+				bunker = 2
+
+			}
+			15337 = {
+				bunker = 2
+
+			}
+		}
+		add_core_of = GER
+		add_core_of = SLO
+		victory_points = {
+			15333 2
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+}

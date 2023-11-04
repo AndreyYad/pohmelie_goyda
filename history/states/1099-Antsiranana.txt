@@ -1,0 +1,27 @@
+state={
+	id=1099
+	name="STATE_1099"
+	provinces={
+		5222 
+	}
+	manpower=15900
+	state_category = town
+	
+	history={
+		add_core_of = MAD
+		owner = ENG
+		victory_points = {
+			5222 3
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			5222 = {
+				naval_base = 3
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

@@ -1,0 +1,140 @@
+ideas = {
+   country = {
+       SWE_our_blaga = {
+			picture = 
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly_factor = 0.005
+				social_democracy_drift = 0.5
+				drift_defence_factor = 0.5
+				research_speed_factor = 0.085
+				production_speed_buildings_factor = 0.185
+				monthly_population = 0.215
+				consumer_goods_factor = 0.2
+				social_democracy_acceptance = 75
+				production_factory_efficiency_gain_factor = 0.185
+			} 
+		}
+		
+		SWE_political_influence_intersea = {
+			picture = 
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conservatism_drift = 0.25
+				etatism_drift = 0.25
+				etatism_acceptance = 45
+				conservatism_acceptance = 45
+				license_purchase_cost = -0.25
+			} 
+			
+			targeted_modifier = {
+				tag = POL
+				trade_cost_for_target_factor = -0.25
+			}
+			
+			targeted_modifier = {
+				tag = FIN
+				trade_cost_for_target_factor = -0.25
+			}
+			
+			targeted_modifier = {
+				tag = GER
+				 defense_bonus_against = 0.05
+			}
+		}
+		
+		SWE_forced_cooperation_germany = {
+			picture = 
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				occult_nazism_acceptance = 20
+				war_support_factor = -0.075
+				surrender_limit = -0.05
+			} 
+			
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.15
+				extra_trade_to_target_factor = 0.2
+				trade_cost_for_target_factor = -0.35
+				cic_to_target_factor = 0.05
+			}
+		}
+		
+		SWE_last_light_democracy = {
+			picture = 
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.05
+				research_speed_factor = 0.1
+				monthly_population = 0.35
+				mobilization_speed = 0.35
+				production_speed_bunker_factor = 0.15
+				army_core_defence_factor = 0.185
+				lend_lease_tension = 0.5
+				guarantee_tension = 0.85
+				send_volunteers_tension = 0.75
+				opinion_gain_monthly_factor = 0.35
+			} 
+		}
+		
+		SWE_sweden_tiger = {
+			picture = 
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				crypto_strength = 10
+				enemy_operative_intel_extraction_rate = -0.35
+				army_intel_to_others = -35
+				civilian_intel_to_others = -35
+				navy_intel_to_others = -35
+				airforce_intel_to_others = -35
+			} 
+		}
+		
+		SWE_gustav_adolf = {
+			picture = 
+
+			allowed = {
+				original_tag = SWE
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				research_speed_factor = 0.05
+			} 
+		}
+	}
+}

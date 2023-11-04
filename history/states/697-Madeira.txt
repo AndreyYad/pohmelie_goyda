@@ -1,0 +1,32 @@
+state={
+	id=697
+	name="STATE_697"
+	manpower = 131600
+	
+	state_category = town
+
+	history={
+		owner = GCA
+		victory_points = {
+			3118 3
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			air_base = 5
+			radar_station = 5
+			anti_air_building = 1
+			3118 = {
+				naval_base = 6
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = GCA
+	}
+	
+	provinces={
+		3118 15461
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,31 @@
+state={
+	id=1070
+	name="STATE_1070"
+	provinces={
+		14838 14839 14840 14841 
+	}
+	manpower=51200
+	state_category = town
+	resources={
+		tungsten=10 # was: 11
+	}
+	
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			14841 = {
+			bunker = 1
+			}
+		}
+		add_core_of = NMB
+		victory_points = {
+			14841 2
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

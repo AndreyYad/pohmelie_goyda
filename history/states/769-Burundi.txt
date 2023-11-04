@@ -1,0 +1,32 @@
+state={
+	id=769
+	name="STATE_769" # Burundi
+	
+	state_category = city
+
+	history={
+		owner = LGE
+		add_core_of = LGE
+		add_core_of = BRD
+		victory_points = {
+			2220 3
+		}
+		victory_points = {
+			14277 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+	}
+
+	provinces={
+		2220 14277 14278
+	}
+	manpower=3145731
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

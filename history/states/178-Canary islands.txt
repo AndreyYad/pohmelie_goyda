@@ -1,0 +1,50 @@
+
+state={
+	id=178
+	name="STATE_178"
+	manpower = 361347
+	
+	state_category = city
+
+	history={
+		owner = GCA
+		victory_points = {
+			13071 10
+		}
+		victory_points = {
+			15465 3
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 3
+			industrial_complex = 1
+			arms_factory = 1
+			radar_station = 5
+			anti_air_building = 3
+			air_base = 8
+			13071 = {
+				naval_base = 8
+				coastal_bunker = 6
+			}
+			15465 = {
+				naval_base = 5
+				coastal_bunker = 3
+			}
+			15464 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+			15463 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = GCA
+	}
+
+	provinces={
+		13071 15462 15463 15464 15465
+	}
+
+	local_supplies=0.0 
+}

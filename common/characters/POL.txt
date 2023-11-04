@@ -1,0 +1,92 @@
+characters = {
+	POL_Stanislaw_Skwarcinski = {
+		name = POL_stanislaw_skwarcinski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/shkvarchinski.dds"
+			}
+			army = {
+				large = "gfx/leaders/POL/shkvarchinski.dds"
+				small = "gfx/interface/advisors/POL/POL_Skwarcinski.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_subtype
+			traits = { 
+				POL_higher_all
+				POL_catholic_knight
+				POL_uvazhaemiy_v_armii
+			}
+			desc = Stanislaw_Skwarcinski_desc
+		}
+	}
+
+	POL_Tomasz_Arciszewski = {
+		name = POL_tomasz_arciszewski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/artsishevskiy.dds"
+			}
+			army = {
+				large = "gfx/leaders/POL/artsishevskiy.dds"
+				small = "gfx/interface/advisors/POL/POL_Arciszewski.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = parafascism
+			traits = { 
+				POL_militant_rabochiy
+			}
+			desc = Tomasz_Arciszewski_desc
+		}
+	}
+
+	POL_Karol_Popiel = {
+		name = POL_karol_popiel
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/popel.dds"
+			}
+			army = {
+				large = "gfx/leaders/POL/popel.dds"
+				small = "gfx/interface/advisors/POL/POL_Popiel.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = national_syndicalism
+			traits = { 
+				POL_solidarist
+			}
+			desc = Karol_Popiel_desc
+		}
+	}
+
+	POL_August_Zaleski = {
+		name = POL_august_zaleski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/August_Zaleski.dds"
+			}
+			army = {
+				large = "gfx/leaders/POL/August_Zaleski.dds"
+				small = "gfx/interface/advisors/POL/POL_Zaleski.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { 
+				POL_merkantilist
+				POL_govoryashaya_golova
+			}
+			desc = August_Zaleski_desc
+		}
+	}
+}

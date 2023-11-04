@@ -1,0 +1,104 @@
+ideas = {
+   country = {
+       LAN_best_in_hell = {
+			picture =
+
+			allowed = {
+				original_tag = LAN
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				acclimatization_hot_climate_gain_factor = 0.2
+				army_speed_factor = 0.085
+				heat_attrition_factor = -0.2
+				org_loss_when_moving = -0.185
+				out_of_supply_factor = -0.115
+				extra_marine_supply_grace = 72
+				extra_paratrooper_supply_grace = 72
+				special_forces_cap = 0.25
+				weekly_manpower = 1000
+				air_cas_efficiency = 0.1
+				max_command_power = 45
+				equipment_capture_factor = 0.05
+			} 
+		}
+		
+		
+		 LAN_their_buisnes_death = {
+			picture =
+
+			allowed = {
+				original_tag = LAN
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.075
+				mobilization_speed = 0.25
+				local_resources_factor = 0.2
+				weekly_casualties_war_support = -0.002
+				compliance_growth = 0.035
+				industrial_factory_donations = 6
+				military_factory_donations = 7
+			} 
+		}
+		
+		 LAN_fireman_gering = {
+			picture =
+
+			allowed = {
+				original_tag = LAN
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				cic_to_overlord_factor = -0.1
+				mic_to_overlord_factor = -0.2
+				extra_trade_to_overlord_facto = -0.2
+				army_attack_speed_factor = 0.1
+				terrain_penalty_reduction = 0.05
+				army_defence_against_minor_factor = 0.2
+			} 
+		}
+		
+		 LAN_hunt_on_lumumbu = {
+			picture =
+
+			allowed = {
+				original_tag = LAN
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				resistance_damage_to_garrison = 0.25
+				resistance_target = 0.25
+				conscription_factor = -0.575
+				political_power_cost = 1
+				stability_weekly_factor = -0.0035
+				army_morale_factor = -0.12
+				occupied_operative_recruitment_chance = -0.2
+			} 
+		}
+		
+		 LAN_blood_greed = {
+			picture =
+
+			allowed = {
+				original_tag = LAN
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.2
+				opinion_gain_monthly_factor = -0.5
+				land_reinforce_rate = -0.18
+			} 
+		}
+	}
+}

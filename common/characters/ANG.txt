@@ -1,0 +1,16 @@
+characters={
+   ANG_ruberg={
+		name=ANG_ruberg
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ANG/ruberg_angola.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={steal_mockingbird}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

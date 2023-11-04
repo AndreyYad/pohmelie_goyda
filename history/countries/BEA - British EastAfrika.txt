@@ -1,0 +1,39 @@
+capital = 853
+
+oob = "BEA_1952"
+set_naval_oob = "BEA_1952_Naval"
+set_research_slots = 2
+set_stability = 0.54
+set_war_support = 0.37
+set_convoys = 20
+
+
+ENG = {
+	set_autonomy = {
+		target = BEA
+		autonomy_state = autonomy_dominion
+		freedom_level = 0.1
+	}
+}
+
+set_popularities = {
+	libsoc = 17
+	etatism = 83
+}
+
+set_politics = {
+	ruling_party = etatism
+}
+
+recruit_character = BEA_bering
+recruit_character = BEA_nerere
+
+
+add_ideas = {
+ BEA_supremacy_white
+ BEA_happy_valley
+ BEA_ethtic_traybalism
+ BEA_opala_kabaki
+ BEA_social_caller_tangaiki
+ BEA_army_land_freedom
+}

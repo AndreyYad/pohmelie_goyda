@@ -1,0 +1,48 @@
+characters={
+	ENG_wood={
+		name=ENG_wood
+		portraits={
+			civilian={
+				large=GFX_portrait_wood
+			}
+		}
+		country_leader={
+			ideology=etatism_subtype
+			traits={no_more_popular}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	ENG_butler={
+		name=ENG_butler
+		portraits={
+			civilian={
+				large=GFX_portrait_rab_butler
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={treauserer_suverena}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	ENG_mosley={
+		name=ENG_mosley
+		portraits={
+			civilian={
+				large=GFX_portrait_oswald_moseley
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={british_duchi}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+}

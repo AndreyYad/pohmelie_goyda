@@ -1,0 +1,77 @@
+ideas = {
+   country = {
+       SUD_prepare_sudan_independency = {
+			picture =
+
+			allowed = {
+				original_tag = SUD
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_industrial_complex_factor = 0.1
+				political_power_cost = 0.5
+				stability_weekly_factor = 0.002
+				autonomy_gain = 0.4
+				autonomy_gain_ll_to_subject_factor = -0.25
+			} 
+		}
+		
+		SUD_south_sudan_conflict = {
+			picture =
+
+			allowed = {
+				original_tag = SUD
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.115
+				conscription_factor = -0.15
+				political_power_factor = -0.2
+				autonomy_gain = -0.1
+				production_speed_infrastructure_factor = -0.1
+			} 
+		}
+		
+		
+		SUD_strength_defense_sudan = {
+			picture =
+
+			allowed = {
+				original_tag = SUD
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = ITA
+				defense_bonus_against = 0.05
+			}
+			
+			modifier = {
+				supply_node_range = 0.085
+				heat_attrition_factor = -0.15
+			} 
+		}
+		
+		SUD_political_pat = {
+			picture =
+
+			allowed = {
+				original_tag = SUD
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = -0.25
+				surrender_limit = -0.2
+				custom_modifier_tooltip = SUD_no_advisor
+			} 
+		}
+	}
+}

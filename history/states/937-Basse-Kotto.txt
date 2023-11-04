@@ -1,0 +1,25 @@
+state={
+	id=937
+	name="STATE_937"
+	provinces={
+		11108 13895 13899 13903 13910 13912 13919 
+	}
+	manpower=224679
+	state_category = rural
+	resources={
+		steel=5.000
+	}
+	history={
+		owner = UBG
+		add_core_of = UBG
+		add_core_of = CAR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			11108 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

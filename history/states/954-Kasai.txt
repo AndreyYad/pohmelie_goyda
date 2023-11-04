@@ -1,0 +1,30 @@
+state={
+	id=954
+	name="STATE_954"
+	provinces={
+		7716 14036 14037 14043 14044 14046 14050 14051 14053 14054 14066 14072 14075 14076 
+	}
+	manpower=1003500
+	resources={
+		chromium=8.000
+		}
+	state_category = city
+	history={
+		owner = LAN
+		add_core_of = LAN
+		add_core_of = COG
+		victory_points = {
+			14043 9
+		}
+		victory_points = {
+			14051 7
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+
+	}
+	local_supplies=1.000
+}

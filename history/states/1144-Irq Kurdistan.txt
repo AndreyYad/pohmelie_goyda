@@ -1,0 +1,32 @@
+state={
+	id=1144
+	name="STATE_1144"
+	provinces={
+		3916 5014 6826 10804 10811 15228 15230 
+	}
+	manpower=441488
+	state_category = town
+	resources={
+		oil=4 # was: 6
+	}
+	
+	history={
+		add_core_of = KUR
+		add_core_of = PAL
+		owner = KUR
+		victory_points = {
+			3916 3 
+		}
+		victory_points = {
+			6826 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

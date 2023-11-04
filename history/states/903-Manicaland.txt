@@ -1,0 +1,28 @@
+state={
+	id=903
+	name="STATE_903"
+	provinces={
+		7842 13665 13672 13679 13680 13687 
+	}
+	manpower=190250
+	resources={
+		steel=21 # was: 17
+	}
+	
+	state_category = rural
+	
+	
+	history={
+		victory_points = {
+			7842 1
+		}
+		owner = RHO
+		add_core_of = RHO
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

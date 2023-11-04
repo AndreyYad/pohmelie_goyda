@@ -1,0 +1,33 @@
+ideas = {
+
+	country = {
+    HDM_inertity = {
+			modifier = {
+			research_speed_factor = -0.15
+			political_power_gain = -0.15
+			surrender_limit = -0.1
+			mobilization_speed = -0.25
+			party_popularity_stability_factor = -0.1
+			drift_defence_factor = 0.1
+			autonomy_gain = -0.3
+			}
+		}
+    HDM_italian_so_called_defenders = {
+			modifier = {
+			war_suport_factor = 0.15
+			stability_weekly = 0.0037
+			fascism_drift = 0.004
+			conscription_factor = 0.17
+			production_speed_infrastructure_factor = 0.15
+			master_build_autonomy_factor = -0.18
+			}			
+		}
+   HDM_placedarm = {
+			modifier = {
+			supply_factor = 0.05
+			production_speed_air_base_factor = 0.15
+			production_speed_naval_base_factor = 0.2
+			repair_speed_factor	= 0.2
+            }	
+		}
+	}

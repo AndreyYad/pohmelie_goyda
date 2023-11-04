@@ -1,0 +1,126 @@
+ideas = {
+   country = {
+       ENG_empire_over_sun = {
+			picture = setting_sun
+
+			allowed = {
+				original_tag = ENG
+			}
+			removal_cost = -1
+			
+			modifier = {
+				subjects_autonomy_gain = 0.2
+				resistance_activity = 0.13
+				resistance_target = 0.06
+				war_support_factor = -0.05
+			} 	
+		}
+	
+	ENG_second_rule_galifacs = {
+			picture = downing_street
+
+			allowed = {
+				original_tag = ENG
+			}
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.07
+				drift_defence_factor = -0.1
+				war_support_factor = -0.15
+				production_speed_buildings_factor = -0.145
+				production_speed_industrial_complex_factor = -0.13
+			} 
+		}
+	
+	ENG_twice_king = {
+			picture = edward_mon
+
+			allowed = {
+				original_tag = ENG
+			}
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.03
+				drift_defence_factor = 0.05
+				stability_weekly_factor = -0.002
+			} 	
+		}
+		
+	ENG_fading_legacy = {
+			picture = lloyd
+
+			allowed = {
+				original_tag = ENG
+			}
+			removal_cost = -1
+			
+			modifier = {
+				monthly_popluation = 0.035
+				political_power_factor = 0.065
+				stability_factor = 0.05
+				war_support_factor = -0.17
+				political_power_cost = -0.02
+				trade_opinion_factor = 0.15
+				consumer_goods_factor = 0.04
+				production_factory_efficiency_gain_factor = 0.1
+				production_speed_buildings_factor = 0.05
+			} 	
+		}
+	ENG_treat_four_eyes = {
+			picture = treaty_of_4_eyes 
+
+			allowed = {
+				original_tag = ENG
+			}
+			removal_cost = -1
+			
+			modifier = {
+				civilian_factory_use = 2
+				root_out_resistance_effectiveness_factor = 0.12
+				propaganda_mission_factor = 0.105
+				control_trade_mission_factor = 0.105
+				encryption_factor = 0.1
+				decryption_factor = 0.1
+				army_intel_factor = 0.09
+				navy_intel_factor = 0.09
+				airforce_intel_factor = 0.09
+				operation_risk = -0.045
+				intel_network_gain_factor = 0.08
+				enemy_operative_capture_chance_factor = 0.08
+				modifier_army_sub_unit_militia_attack_factor = 0.03
+				modifier_army_sub_unit_militia_defence_factor = 0.03
+				agency_upgrade_time = -0.06
+			} 	
+		}
+	ENG_unloyal_mi5 = {
+			picture = mi5
+
+			allowed = {
+				original_tag = ENG
+			}
+			removal_cost = -1
+			
+			modifier = {
+				max_surrender_limit_offset = 0.03
+				operation_make_resistance_contacts_risk = 0.6
+				enemy_operative_capture_chance_factor = -0.1
+			} 	
+		}
+	ENG_active_underground = {
+			picture = resist
+
+			allowed = {
+				original_tag = ENG
+			}
+			removal_cost = -1
+			
+			modifier = {
+				resistance_activity = 0.9
+				political_power_gain = -0.06
+				stability_weekly_factor = -0.007
+			} 	
+		}
+	}
+}

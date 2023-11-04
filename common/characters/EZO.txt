@@ -1,0 +1,16 @@
+characters={
+   EZO_vegelt={
+		name=EZO_vegelt
+		portraits={
+			civilian = {
+				large = "gfx/leaders/EZO/vaygelt_ogove_kongo.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={ dark_cardinal_afrika}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

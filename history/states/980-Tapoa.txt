@@ -1,0 +1,23 @@
+state={
+	id=980
+	name="STATE_980"
+	provinces={
+		2001 14400 14401 14402 14403 14404 14405 14406 14407 14422 14423 14424
+	}
+	manpower=937430
+	state_category = rural
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = NGR
+		add_core_of = VOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14404 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

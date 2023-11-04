@@ -1,0 +1,38 @@
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 388000
+	
+	state_category = city
+	
+	history={
+		owner = ITA
+		victory_points = {
+			3943 5
+		}
+		victory_points = {
+			3924 3
+		}
+		buildings = {
+			infrastructure = 3 
+			industrial_complex = 2
+			air_base = 5
+			dockyard = 2
+			3943 = {
+				naval_base = 5
+			}
+			3924 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = ITA
+	} 
+	provinces={	
+		3943 15194 15195 15196 15197 3924
+	}
+
+	local_supplies=0.0 
+}

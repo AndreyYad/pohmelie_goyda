@@ -1,0 +1,17 @@
+characters={
+	BRI_henaff={
+		name=BRI_henaff
+		portraits={
+			civilian={
+				large=GFX_portrait_neven_khenaff
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={ expert_terrorist prophet_kelt_liberation}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+}

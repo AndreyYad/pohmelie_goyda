@@ -1,0 +1,25 @@
+state={
+	id=1017
+	name="STATE_1017"
+	provinces={
+		2049 4903 5035 8077 12842 14659 14660 14661 14662 14663 14664 14665 14666 
+	}
+	manpower=112309
+	state_category = pastoral
+	resources={
+		oil=7.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14661 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

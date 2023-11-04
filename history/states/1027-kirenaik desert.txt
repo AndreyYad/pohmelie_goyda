@@ -1,0 +1,18 @@
+state={
+	id=1027
+	name="STATE_1027"
+	provinces={
+		1057 10754 
+	}
+	manpower=9124
+	state_category = wasteland
+	impassable = yes
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	local_supplies=0.000
+}

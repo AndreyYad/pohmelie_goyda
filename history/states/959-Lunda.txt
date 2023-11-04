@@ -1,0 +1,27 @@
+state={
+	id=959
+	name="STATE_959"
+	provinces={
+		7548 12981 14193 14194 14195 14196 14197 14198 14199 14200 14201 14202 14203 14204 14205 14206 14207 
+	}
+	manpower=524100
+	state_category = rural
+
+	resources={
+		rubber=4 # was: 3
+	}
+
+	history={
+		owner = ANG
+		victory_points = {
+			14199 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = ANG
+	}
+	local_supplies=1.000
+}

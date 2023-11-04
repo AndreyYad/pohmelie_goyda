@@ -1,0 +1,23 @@
+state={
+	id=856
+	name="STATE_856"
+	provinces={
+		13399 
+	}
+	manpower=12340
+	
+	state_category = small_island
+	
+	history={
+		owner = BEA
+		buildings = {
+			infrastructure = 1
+			13399 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BEA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

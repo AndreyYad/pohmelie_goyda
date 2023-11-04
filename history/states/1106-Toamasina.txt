@@ -1,0 +1,38 @@
+state={
+	id=1106
+	name="STATE_1106"
+	provinces={
+		5128 15140 15141 15143 15144 15145 15146 15147 15148 15149 15150 15151 15152 15142
+	}
+	manpower=285400
+	state_category = town
+	
+	history={
+		add_core_of = MAD
+		owner = MAD
+		victory_points = {
+			15145 4
+		}
+		victory_points = {
+			5128 1
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			air_base = 1
+			15145 ={
+				naval_base = 2
+			}
+			5128 ={
+				naval_base = 2
+			}
+		}
+
+	}
+	resources={
+		rubber=10 # was: 4
+		steel=5 # was: 4
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

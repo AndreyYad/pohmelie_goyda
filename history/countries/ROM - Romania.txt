@@ -1,0 +1,38 @@
+capital = 43
+
+oob = "ROM_1952"
+set_research_slots = 2
+set_stability = 0.61
+set_war_support = 0.72
+set_convoys = 46
+air_experience = 30
+
+set_technology = {
+}
+
+set_popularities = {
+	ultranationalism = 82
+	occult_nazism = 7
+	fascism = 8
+	etatism = 3
+}
+
+recruit_character = ROM_antonescu
+recruit_character = ROM_mihay_i
+recruit_character = ROM_radu_mironovici
+
+set_politics = {
+	ruling_party = ultranationalism
+}
+
+add_ideas = {
+  ROM_colonising_transistria
+  ROM_europashield
+  ROM_legion_eho
+  ROM_oil_gang
+  ROM_balkano_latin
+  ROM_army_desorganised
+}
+
+
+

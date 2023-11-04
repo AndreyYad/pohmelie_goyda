@@ -1,0 +1,38 @@
+state={
+	id=1013
+	name="STATE_1013"
+	provinces={
+		3991 4116 4150 7008 7132 10045 11923 12018 13074 
+	}
+	manpower=3581300
+	state_category = city
+	resources={
+		steel=20.000
+		chromium=5.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+			7132 = {
+				naval_base = 7
+			}
+		}
+		victory_points = {
+			7132 10 
+		}
+		victory_points = {
+			4150 2 
+		}
+		victory_points = {
+			3991 3 
+		}
+	}
+	local_supplies=4.000
+}

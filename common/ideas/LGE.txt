@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		LGE_chest = {
+			picture = GFX
+			modifier = {
+			autsoc_acceptance = -80
+			left_nationalism_acceptance = -80
+			libsoc_acceptance = -80
+			compliance_growth = 0.065
+			root_out_resistance_effectiveness_factor = 0.2
+			weekly_manpower = 150
+			acclimatization_hot_climate_gain_factor = 0.15
+			special_forces_cap = 0.2
+			}
+		}
+		LGE_monarchies = {
+			picture = GFX
+			modifier = {
+			stability_weekly = -0.35
+			political_power_factor = -0.2
+			conscription_factor = -0.12
+			drift_defence_factor = -0.35
+			mobilization_speed = -0.5
+			}
+		}
+		LGE_hutu = {
+			picture = GFX
+			modifier = {
+			resistance_growth = 0.25
+			required_garrison_factor = 0.15
+			resistance_damage_to_garrison = 0.175
+			conscription_factor = -0.7
+			war_support_factor = -0.3
+			industry_free_repair_factor = -0.65
+			}
+		}
+		LGE_dominion = {
+			picture = GFX
+			modifier = {
+			
+			}
+			targeted_modifier = {
+				tag = GCA 
+				cic_to_target_factor = 0.25
+			}
+			targeted_modifier = {
+				tag = GCA 
+				mic_to_target_factor = 0.35
+			}
+			targeted_modifier = {
+				tag = GCA 
+				extra_trade_to_target_factor = 0.40
+			}
+		}

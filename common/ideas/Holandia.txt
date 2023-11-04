@@ -1,0 +1,167 @@
+ideas = {
+   country = {
+       HOL_holand_dumvirat = {
+			picture = duumvirate
+
+			allowed = {
+				original_tag = HOL
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = - 0.375
+				min_export = -0.75
+				stability_factor = 0.095
+				army_core_defence_factor = 0.085
+				intelligence_agency_defense = 1.0
+				enemy_operative_capture_chance_factor = 0.125
+				political_power_factor = 0.15
+				stability_weekly_factor = -0.002
+				surrender_limit = = 0.05
+				conscription_factor = 0.095
+				drift_defence_factor = 0.1
+				experience_gain_army_factor = 0.1
+				production_speed_buildings_factor = -0.125
+				required_garrison_factor = 0.15
+				resistance_target = -0.115
+				cic_to_overlord_factor = 0.05
+			} 
+		}
+		
+		HOL_saving_ditsland = {
+			picture = dietsland
+
+			allowed = {
+				original_tag = HOL
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.15
+				army_morale_factor = 0.055
+				training_time_factor = - 0.055
+				production_speed_arms_factory_factor = 0.1
+				acclimatization_hot_climate_gain_factor = -0.145
+				navy_max_range_factor = -0.175
+				army_core_attack_factor = 0.085
+				weekly_casualties_war_support = 0.0025
+				mic_to_overlord_factor = -0.105
+				ai_focus_aggressive_factor = 35
+				defensive_war_stability_factor = 0.115
+				initiative_factor = 0.065
+			} 
+		}
+		
+		HOL_strategic_base = {
+			picture = base_westaland
+
+			allowed = {
+				original_tag = HOL
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_against_major_factor = 0.1
+				production_speed_air_base_factor = 0.15
+				production_speed_rocket_site_factor = 0.15
+				production_speed_coastal_bunker_factor = 0.2
+				production_speed_anti_air_building_factor = 0.165
+				production_speed_radar_station_factor = 0.115
+				static_anti_air_hit_chance_factor = 0.165
+				invasion_preparation = -0.15
+				max_dig_in_factor = 0.065
+				air_intercept_efficiency = 0.05
+				air_home_defence_factor = 0.1
+			} 
+		}
+		
+		HOL_forced_labor = {
+			picture = printrud
+
+			allowed = {
+				original_tag = HOL
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.175
+				extra_trade_to_overlord_factor = 1
+				overlord_trade_cost_factor = -0.45
+				consumer_goods_factor = -0.075
+				production_speed_buildings_factor = 0.125
+				production_factory_efficiency_gain_factor = -0.15
+				industrial_capacity_factory = 0.175
+				conversion_cost_civ_to_mil_factor = 0.4
+				mic_to_overlord_factor = 0.15
+				mobilization_speed = 0.1
+				occult_nazism_drift = -0.1
+				required_garrison_factor = 0.075
+				resistance_target = 0.075
+				political_power_cost = 0.3
+				line_change_production_efficiency_factor = -0.2
+				war_support_factor = -0.175
+				local_resources_factor = 0.2
+			} 
+		}
+		
+		HOL_prepare_annexing = {
+			picture = dietsland_germany
+
+			allowed = {
+				original_tag = HOL
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.075
+				army_org_factor = 0.05
+				production_speed_infrastructure_factor = 0.15
+				political_power_cost = 0.3
+				research_sharing_per_country_bonus_factor = -0.25
+				overlord_trade_cost_factor = -0.15
+				autonomy_manpower_share = 0.12
+				required_garrison_factor = 0.05
+				consumer_goods_factor = 0.085
+				industrial_capacity_factory = -0.1
+				propaganda_mission_factor = 0.15
+				root_out_resistance_effectiveness_factor = 0.15
+			} 
+		}
+		
+		HOL_conscript_ss = {
+			picture = nabor_v_ss
+
+			allowed = {
+				original_tag = HOL
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				autonomy_manpower_share = 0.145
+				conscription_factor = 0.15
+				experience_loss_factor = -0.075
+				land_doctrine_cost_factor = -0.075
+				coordination_bonus = 0.075
+				training_time_factor = -0.075
+				breakthrough_factor = 0.045
+				acclimatization_hot_climate_gain_factor = 0.075
+				production_speed_buildings_factor = -0.1
+				special_forces_cap = 0.075
+				industrial_capacity_factory = -0.085
+				army_org_factor = -0.075
+				offensive_war_stability_factor = -0.1
+			} 
+			
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.075
+			}
+		}
+	}
+}

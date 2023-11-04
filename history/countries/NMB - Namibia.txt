@@ -1,0 +1,37 @@
+﻿capital = 541
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_convoys = 30
+set_research_slots = 2
+set_stability = 0.63
+set_war_support = 0.72
+
+add_ideas = {
+NMB_desert
+NMB_namibian_gold
+NMB_commandos
+NMB_german_rodezia
+}
+
+GCA = {
+	set_autonomy = {
+		target = NMB
+		autonomy_state = autonomy_warlord_gca
+	}
+}
+
+set_politics = {
+	ruling_party = etatism
+	elections_allowed = no
+}
+set_popularities = {
+	ultranationalism = 28
+	etatism = 72
+}
+recruit_character = NMB_leipzig
+recruit_character = NMB_schenk

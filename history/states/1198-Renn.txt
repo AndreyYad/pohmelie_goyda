@@ -1,0 +1,24 @@
+state={
+	id=1198
+	name="STATE_1198"
+	provinces={
+		527 9495 11508 15410 15411 
+	}
+	manpower=642600
+	state_category = large_town
+	history={
+		owner = BRI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = BRI
+		victory_points = {
+			9495 5
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

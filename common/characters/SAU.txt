@@ -1,0 +1,18 @@
+characters={
+    SAU_king_Faisal={
+		name=SAU_king_Faisal
+		portraits={
+			civilian={
+				large=GFX_portrait_SAU_king_Faisal
+			}
+		}
+		country_leader={
+			ideology=monarchy
+			traits={ experienced_diplomat }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

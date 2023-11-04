@@ -1,0 +1,35 @@
+capital = 541
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_convoys = 0
+set_research_slots = 2
+set_stability = 0.56
+set_war_support = 0.48
+
+add_ideas = {
+ KAT_confederation
+ KAT_nedra
+ KAT_commandos
+ KAT_missions
+}
+
+GCA = {
+	set_autonomy = {
+		target = KAT
+		autonomy_state = autonomy_warlord_gca
+	}
+}
+
+set_politics = {
+	ruling_party = etatism
+	elections_allowed = no
+}
+set_popularities = {
+	etatism = 100
+}
+recruit_character = KAT_hoar

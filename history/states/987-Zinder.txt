@@ -1,0 +1,27 @@
+state={
+	id=987
+	name="STATE_987"
+	provinces={
+		8028 10758 10805 14451 14452 14453 14454 14455 14456 14457 14458 14459 14460 14461 14462 14463 14464 
+	}
+	manpower=895900
+	state_category = town
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = NGR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
+		victory_points = {
+			14456 3 
+		}
+		victory_points = {
+			14453 2 
+		}
+	}
+	local_supplies=3.000
+}

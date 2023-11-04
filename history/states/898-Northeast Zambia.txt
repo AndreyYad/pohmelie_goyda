@@ -1,0 +1,27 @@
+state={
+	id=898
+	name="STATE_898"
+	provinces={
+		1846 10594 10930 13610 13624 13625 13631 13637 13638 13639 13640 13641 13644 13645 13646 13647 13649 13650 13651 13652 13653 
+	}
+	manpower=708539
+	resources={
+		chromium=7 # was: 3
+		tungsten=6 # was: 4
+	}
+	state_category = rural
+	
+	
+	history={
+	    victory_points = {
+			1846 1
+		}
+		owner = RHO
+		add_core_of = RHO
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

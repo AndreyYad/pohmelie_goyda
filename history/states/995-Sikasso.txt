@@ -1,0 +1,25 @@
+state={
+	id=995
+	name="STATE_995"
+	provinces={
+		4927 5045 14512 14513 14514 14515 14516 14517 14518 14519 
+	}
+	manpower=390298
+	resources={
+		aluminium=7.000
+		steel=3.000
+	}
+	state_category = pastoral
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14513 2 
+		}
+	}
+	local_supplies=0.000
+}

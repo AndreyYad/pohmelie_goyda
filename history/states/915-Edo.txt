@@ -1,0 +1,26 @@
+state={
+	id=915
+	name="STATE_915"
+	provinces={
+		4952 13702 13707 13713 
+	}
+	manpower=4326483
+	state_category = town
+	resources={
+		oil=7 # was: 8
+		rubber=5 # was: 4
+	}
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+		}
+		victory_points = {
+			13707 2 
+		}
+		add_core_of = NIG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

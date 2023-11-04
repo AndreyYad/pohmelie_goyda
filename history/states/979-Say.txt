@@ -1,0 +1,25 @@
+state={
+	id=979
+	name="STATE_979"
+	provinces={
+		12707 14398 14399 14409 
+	}
+	manpower=52100
+	state_category = rural
+	resources={
+		steel=4.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = NGR
+		add_core_of = VOL
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14398 1 
+		}
+	}
+	local_supplies=0.000
+}

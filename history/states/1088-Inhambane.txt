@@ -1,0 +1,29 @@
+state={
+	id=1088
+	name="STATE_1088"
+	provinces={
+		2193 5177 5212 15018 15019 15020 15021 15022 15023 15024 15025 15026 
+	}
+	manpower=131200
+	state_category = rural
+	resources={
+		rubber=4 # was: 2
+	}
+	
+	history=
+	{
+		owner = POL
+		buildings = {
+			infrastructure = 1
+			15025 ={
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			15025 1 
+		}
+		add_core_of = MZB
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

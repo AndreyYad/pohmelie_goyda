@@ -1,0 +1,22 @@
+state={
+	id=1154
+	name="STATE_1154"
+	provinces={
+		2005 4045 4410 5040 5096 7938 10332 
+	}
+	manpower=14568200
+	state_category = rural
+	history={
+		owner = AZH
+		victory_points = {
+			4045 7
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

@@ -1,0 +1,29 @@
+state={
+	id=1115
+	name="STATE_1115"
+	provinces={
+		6650 9627 
+	}
+	manpower=455375
+	state_category = large_town
+	
+	history={
+		add_claim_by = GER
+		add_claim_by = ITA
+		add_core_of = YUG
+		add_core_of = SLV
+		owner = YUG
+		victory_points = {
+			9627 3
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

@@ -1,0 +1,29 @@
+characters={
+	PIN_Nicolaos_Matussis={
+		name=PIN_Nicolaos
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_cummler
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			traits={centurion expropriator }
+			expire="1995.1.1.1"
+		}
+	}
+
+	PIN_Julius_the_first={
+		name=PIN_Julius
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_cummler
+			}
+		}
+		country_leader={
+			ideology=etatism_subtype
+			traits={aristorcracy khan oppositer_of_nazional-socialism }
+			expire="1995.1.1.1"
+		}
+	}
+}

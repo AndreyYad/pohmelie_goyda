@@ -1,0 +1,82 @@
+ideas = {
+   country = {
+       SAF_politic_aparteid = {
+			picture = 
+
+			allowed = {
+				original_tag = SAF
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.72
+				stability_factor = -0.12
+				consumer_goods_factor = -0.035
+				army_org_factor = 0.035
+			} 
+		}
+		
+		 SAF_flame_osverbrandvaga = {
+			picture = 
+
+			allowed = {
+				original_tag = SAF
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = 0.1
+			}
+			
+			modifier = {
+				surrender_limit = 0.085
+				training_time_factor = -0.05
+				army_org_factor = 0.05
+				ultranationalism_drift = 0.07
+				experience_loss_factor = -0.085
+				subversive_activites_upkeep = -0.05
+			} 
+		}
+		
+		SAF_geopolitic_isolation = {
+			picture = 
+
+			allowed = {
+				original_tag = SAF
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.085
+				trade_opinion_factor = -0.5
+				army_defence_against_major_factor = 0.1
+				improve_relations_maintain_cost_factor = -0.1
+			} 
+		}
+		
+		SAF_grumble_royal_oblivion = {
+			picture = 
+
+			allowed = {
+				original_tag = SAF
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = ENG
+				defense_bonus_against = -0.025
+			}
+			
+			modifier = {
+				conservatism_drift = 0.03
+				political_power_factor = -0.085
+				industrial_capacity_dockyard = -0.075
+			} 
+		}
+	}
+}

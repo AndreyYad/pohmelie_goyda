@@ -1,0 +1,30 @@
+capital = 295
+
+oob = "GCA_1952"
+set_naval_oob = "GCA_1952_Naval"
+set_research_slots = 3
+set_stability = 0.38
+set_war_support = 0.54
+set_convoys = 28
+
+
+
+set_popularities = {
+	etatism = 100
+}
+
+set_politics = {
+	ruling_party = etatism
+}
+
+
+recruit_character = GCA_gering
+
+
+add_ideas = {
+  GCA_internecine_rodeo
+  GCA_running_from_fatum
+  GCA_personal_benefetsion_fuhrer
+  GCA_shaft_rommel
+  GCA_riot_outwall
+}

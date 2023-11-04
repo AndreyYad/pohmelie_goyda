@@ -1,0 +1,30 @@
+
+state={
+	id=731
+	name="STATE_731"
+
+	history={
+		owner = YUG
+		victory_points = {
+			936 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = GRE
+		add_claim_by = YUG
+
+	}
+
+	provinces={
+		936 966 3526 3844 10163 9837
+	}
+	manpower=5655700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=4.0 
+}

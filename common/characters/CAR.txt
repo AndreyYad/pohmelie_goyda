@@ -1,0 +1,18 @@
+characters={
+    CAR_Bokassa={
+		name=CAR_Bokassa
+		portraits={
+			civilian = {
+				large = "gfx/leaders/CAR/bokassa.dds"
+			}
+		}
+		country_leader={
+			ideology=monarchy
+			traits={ black_napoleon sugar_pork_eater }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

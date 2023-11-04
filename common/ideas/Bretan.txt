@@ -1,0 +1,121 @@
+ideas = {
+   country = {
+       BRI_atlant_base = {
+			picture = atlanticheskie_bazy
+
+			allowed = {
+				original_tag = BRI
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				repair_speed_factor = 0.225
+				production_speed_dockyard_factor = 0.2
+				production_speed_naval_base_factor = 0.2
+				industrial_capacity_dockyard = 0.25
+				cic_to_overlord_factor = 0.15
+			} 
+		}
+		
+		BRI_divers_terror_center = {
+			picture = tsentr_anenerbe
+
+			allowed = {
+				original_tag = BRI
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				operative_slot = 3
+				subversive_activites_upkeep = -0.25
+				propaganda_mission_factor = 0.25
+				boost_resistance_factor = 0.25
+				operation_risk = 0.1
+				commando_trait_chance_factor = 0.35
+				min_export = -0.75
+				extra_marine_supply_grace = 24
+				extra_paratrooper_supply_grace = 24
+				special_forces_out_of_supply_factor = -0.125
+				trade_opinion_factor = -1
+			} 
+		}
+		
+		BRI_pankelt_resistance = {
+			picture = pankeltizm
+
+			allowed = {
+				original_tag = BRI
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = FRA
+				breakthrough_bonus_against = 0.15
+			}
+			
+			targeted_modifier = {
+				tag = ENG
+				breakthrough_bonus_against = 0.15
+			}
+			
+			modifier = {
+				stability_weekly_factor = 0.0035
+				war_support_factor = 0.15
+				forced_surrender_limit = 0.1
+				resistance_growth_on_our_occupied_states = 0.125
+			} 
+		}
+		
+		BRI_bezen_perro = {
+			picture = bezen_perro
+
+			allowed = {
+				original_tag = BRI
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_against_major_factor = 0.125
+				equipment_capture_factor = 0.1
+				special_forces_cap = 0.15
+				combat_width_factor = -0.2
+				army_core_attack_factor = 0.125
+				pocket_penalty = -0.15
+				mic_to_overlord_factor = 0.1
+				army_defence_factor = -0.215
+				recon_factor = 0.1
+				mines_planting_by_fleets_factor = 0.15
+				army_strength_factor = -0.115
+			}
+
+			equipment_bonus = {
+				transport_plane_equipment = {
+					air_range = 0.1
+				}
+			}
+		}
+		
+		BRI_keltnord_druidism = {
+			picture = keltnord_druidizm
+
+			allowed = {
+				original_tag = BRI
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.125
+				weekly_casualties_war_support = 0.005
+				breakthrough_factor = 0.075
+				army_morale_factor = 0.05
+				research_speed_factor = -0.1
+				terrain_penalty_reduction = 0.075
+			} 
+		}
+	}
+}

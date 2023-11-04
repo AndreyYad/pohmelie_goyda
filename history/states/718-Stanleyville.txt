@@ -1,0 +1,35 @@
+state={
+	id=718
+	name="STATE_718"
+	
+	state_category = city
+
+	resources={
+		rubber=12 # was: 11
+	}
+
+	history={
+		owner = BCA
+		add_core_of = BCA
+		victory_points = {
+			14138 9
+		}
+		victory_points = {
+			14105 2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = COG
+	}
+
+	provinces={
+		1950 7161 8048 10766 10858 12808 14081 14082 14093 14096 14105 14107 14109 14112 14120 14121 14127 14128 14129 14131 14132 14136 14137 14138 14141 14142 14146 12847 10951 
+	}
+	manpower=2366783
+
+	local_supplies=2.0 
+}

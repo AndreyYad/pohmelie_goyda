@@ -1,0 +1,24 @@
+state={
+	id=1166
+	name="STATE_1166"
+	provinces={
+		1353 4251 10134 10177 10467 12460 15250 15251 15252 
+	}
+	manpower=171148
+	state_category = town
+	history={
+		add_core_of = CAM
+		add_core_of = SIA
+		owner = SIA
+        victory_points = {
+			4251 5 
+		}
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			air_base = 2
+			}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=8.000
+}

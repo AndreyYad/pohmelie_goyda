@@ -1,0 +1,22 @@
+state={
+	id=1125
+	name="STATE_1125"
+	provinces={
+		103 3069 3097 6061 
+	}
+	manpower=7000
+	state_category = pastoral
+	
+	
+	history={
+		add_core_of = NOR
+		add_core_of = FIN
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

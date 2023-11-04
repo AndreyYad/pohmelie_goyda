@@ -1,0 +1,25 @@
+state={
+	id=942
+	name="STATE_942"
+	provinces={
+		13946 13947 13948 13949 13952 13953 13955 13956 13958 8207 
+	}
+	manpower=305720
+	state_category = rural
+	resources={
+		oil=12.000
+	}
+	history={
+		owner = EZO
+		add_core_of = EZO
+		add_core_of = GAB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13947 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

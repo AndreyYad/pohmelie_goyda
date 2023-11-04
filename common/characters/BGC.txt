@@ -1,0 +1,61 @@
+characters={
+	BGC_creasy={
+		name=BGC_creasy
+		portraits={
+			civilian={
+				large=GFX_portrait_creasy
+			}
+		}
+	    country_leader={
+			ideology=authoritarian_democracy
+			traits={ crazy_krizi }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	BGC_clarke={
+		name=BGC_clarke
+		portraits={
+			civilian={
+				large=GFX_portrait_clarke
+			}
+		}
+	    country_leader={
+			ideology=conservatism_subtype
+			traits={ soft_guvernor }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	BGC_busia={
+		name=BGC_busia
+		portraits={
+			civilian={
+				large=GFX_portrait_busia
+			}
+		}
+	    country_leader={
+			ideology=liberalism_subtype
+			traits={ legacy_atanti freetraider}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	BGC_nkrumah={
+		name=BGC_nkrumah
+		portraits={
+			civilian={
+				large=GFX_portrait_nkrumah
+			}
+		}
+	    country_leader={
+			ideology=afrosocialism
+			traits={ black_star_afrika }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

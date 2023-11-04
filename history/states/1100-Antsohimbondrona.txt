@@ -1,0 +1,32 @@
+state={
+	id=1100
+	name="STATE_1100"
+	provinces={
+		15161 15162 15163 15164 15165 15166 15167 15168 15169 15170 
+	}
+	manpower=118340
+	resources={
+		rubber=4 # was: 2
+		oil=4 # was: 1
+		chromium=2 # was: 1
+	}
+	
+	state_category = rural
+	
+	history={
+		add_core_of = MAD
+		owner = MAD
+		victory_points = {
+			15162 1
+		}
+		buildings = {
+			infrastructure = 1
+			15162 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

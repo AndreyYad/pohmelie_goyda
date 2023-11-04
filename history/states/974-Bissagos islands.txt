@@ -1,0 +1,33 @@
+state={
+	id=974
+	name="STATE_974"
+	provinces={
+		14358 14359 14360 14361 14362 
+	}
+	manpower=9100
+	state_category = pastoral
+	resources={
+		oil=1.000
+	}
+	history={
+		owner = FRA
+		add_core_of = GNB
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			14359 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+			14358 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			14359 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

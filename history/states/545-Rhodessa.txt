@@ -1,0 +1,33 @@
+state={
+	id=545
+	
+	state_category = town
+	
+	name="STATE_545"
+
+	history={
+		owner = RHO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 1
+		}
+		victory_points = {
+			10929 7 
+		}
+		add_core_of = RHO
+	}
+
+	provinces={
+		2216 10929 13678 13681 13683 13685 13688 13690 13691 13692 13693 13694 13695 13696 13697 13698
+	}
+	manpower=871336
+	resources={
+		steel=11 # was: 7
+		chromium=39 # was: 42
+	}
+	buildings_max_level_factor=7.000
+
+	local_supplies=3.0 
+}

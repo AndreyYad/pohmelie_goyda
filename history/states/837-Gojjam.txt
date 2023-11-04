@@ -1,0 +1,30 @@
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		4954 13236 13237 13238 13241 13243 13246 13248 13249 
+	}
+	manpower=403120
+	resources={
+		steel=2 # was: 2
+	}
+	
+	state_category = town
+	
+	history=
+	{
+		owner = FAL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = { 
+			13243 1
+		}
+		add_core_of = FAL
+	}
+	buildings_max_level_factor=2.000
+	local_supplies=0.000
+}

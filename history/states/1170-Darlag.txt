@@ -1,0 +1,21 @@
+state={
+	id=1170
+	name="STATE_1170"
+	provinces={
+		1882 10817 15263 15264 
+	}
+	manpower=215400
+	state_category = pastoral
+	history={
+		add_core_of = XSM
+		owner = XSM
+        victory_points = {
+			10817 1 
+		}
+		buildings = {
+			infrastructure = 1
+			}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

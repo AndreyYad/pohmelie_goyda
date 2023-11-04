@@ -1,0 +1,51 @@
+capital = 459
+
+oob = "FFR_1952"
+set_naval_oob = "FFR_1952_Naval"
+set_research_slots = 3
+set_stability = 0.42
+set_war_support = 0.37
+set_convoys = 37
+
+
+
+set_popularities = {
+	liberalism = 17
+	conservatism = 18
+	etatism = 27
+	left_nationalism = 20
+	fascism = 18
+}
+
+set_politics = {
+	ruling_party = etatism
+}
+
+give_guarantee = MOR
+diplomatic_relation = {
+    country = MOR
+    relation = non_aggression_pact
+    active = yes
+}
+MOR = {
+	diplomatic_relation = {
+		country = FFR
+		relation = military_access
+		active = yes
+	}
+}
+
+
+recruit_character = FFR_bukar
+recruit_character = FFR_dea
+recruit_character = FFR_vynkyr
+recruit_character = FFR_pujad
+recruit_character = FFR_lavals
+
+add_ideas = {
+  FFR_unrest_fourts_coast
+  FFR_hopes_humiliated_exiles
+  FFR_uvertur_afrikan_sand
+  FFR_parad_parlament
+  FFR_sworn_truce
+}

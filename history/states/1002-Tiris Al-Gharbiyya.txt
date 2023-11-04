@@ -1,0 +1,26 @@
+state={
+	id=1002
+	name="STATE_1002"
+	provinces={
+		14610 14611 14612 14613 14614 14615 14616 14617 
+	}
+	manpower=19374
+	state_category = pastoral
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = MRT
+		add_core_of = WES
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 1
+			14617 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			14617 1 
+		}
+	}
+	local_supplies=0.000
+}

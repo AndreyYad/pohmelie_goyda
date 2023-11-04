@@ -1,0 +1,46 @@
+characters={
+	BNT_Neubacher={
+		name=BNT_Neubacher
+		portraits={
+			civilian={
+				large=GFX_portrait_BNT_Neubacher
+			}
+		}
+	    country_leader={
+			ideology=parafascism
+			traits={ danube_industry_fater conserva_govorun}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BNT_Kumm={
+		name=BNT_Kumm
+		portraits={
+			civilian={
+				large=GFX_portrait_BNT_Kumm
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={ ss_sturmtruppen_organizer }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+    BNT_Jank={
+		name=BNT_Jank
+		portraits={
+			civilian={
+				large=GFX_portrait_BNT_Jank
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={ danube_folksgrupper }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

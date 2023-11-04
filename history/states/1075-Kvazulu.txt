@@ -1,0 +1,35 @@
+state={
+	id=1075
+	name="STATE_1075"
+	provinces={
+		1468 1494 8178 14960 14961 14962 14963 14964 14965 14966 14967 
+	}
+	manpower=200520
+	state_category = city
+	resources={
+		chromium=13 # was: 12
+	}
+	
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			arms_factory = 1
+			industrial_complex = 1
+			14961 = {
+			naval_base = 3
+			}
+		}
+		add_core_of = SAF
+		victory_points = {
+			14961 5
+		}
+		victory_points = {
+			14967 7
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

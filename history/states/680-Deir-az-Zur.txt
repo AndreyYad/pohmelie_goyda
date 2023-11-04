@@ -1,0 +1,27 @@
+state={
+	id=680
+	name="STATE_680"
+	manpower = 124110
+	
+	state_category = wasteland
+
+	history={
+		owner = PAL
+		victory_points = {
+			3942 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SYR
+		add_core_of = KUR
+		add_core_of = PAL
+	}
+
+
+	provinces={
+		901 2013 3942 7513 10383 12316 12442 15227
+	}
+
+	local_supplies=4.0 
+}

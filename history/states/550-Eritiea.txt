@@ -1,0 +1,31 @@
+state=
+{
+	id=550
+	name="STATE_550"
+	manpower = 6100600
+	
+	state_category = city
+	
+	history=
+	{
+		owner = ERI
+		add_core_of = ERI
+		victory_points = {
+			12766 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 4
+			12766 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		5017 5047 5091 12723 12766 13268 13270 13271
+	}
+
+	local_supplies=0.0 
+}

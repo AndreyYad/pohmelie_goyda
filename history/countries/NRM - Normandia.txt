@@ -1,0 +1,38 @@
+capital = 1195
+
+oob = "NRM_1952"
+set_naval_oob = "NRM_1952_Naval"
+set_research_slots = 3
+set_stability = 0.68
+set_war_support = 0.71
+set_convoys = 80
+
+GER = {
+	set_autonomy = {
+		target = NRM
+		autonomy_state = autonomy_fuhrstenstat
+	}
+}
+
+set_popularities = {
+	fascism = 20
+	etatism = 20
+	left_nationalism = 17
+	occult_nazism = 43
+}
+
+set_politics = {
+	ruling_party = occult_nazism
+}
+
+recruit_character = NRM_ley
+recruit_character = NRM_wallop
+
+
+add_ideas = {
+ NRM_normand_secret
+ NRM_worker_front
+ NRM_heart_atlant_val
+ NRM_diplomatic_laz
+ NRM_island_duoruler
+}

@@ -1,0 +1,31 @@
+state={
+	id=1131
+	name="STATE_1131"
+	provinces={
+		9534 11506 11518 
+	}
+	manpower=435200
+	state_category = metropolis
+	
+	history={
+		add_core_of = BUR
+		owner = BUR
+		victory_points = {
+			11506 50 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 5
+			air_base = 10
+			radar_station = 4
+			anti_air_building = 4
+			11506 = {
+			bunker = 5
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

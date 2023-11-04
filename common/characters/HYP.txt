@@ -1,0 +1,30 @@
+characters={
+	HYP_wirth={
+		name=HYP_wirth
+		portraits={
+			civilian={
+				large=GFX_portrait_german_virt
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={founder_annanerbe fanatic_searcher_motherland}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	HYP_schiling={
+		name=HYP_schiling
+		portraits={
+			civilian={
+				large=GFX_portrait_kurt_shiling
+			}
+		}
+		country_leader={
+			ideology=atlanto_nordism
+			traits={democratic_fuhrer}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+}

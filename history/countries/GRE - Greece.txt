@@ -1,0 +1,44 @@
+capital = 47
+
+oob = "GRE_1952"
+set_research_slots = 1
+set_stability = 0.3
+set_war_support = 0.3
+set_convoys = 15
+
+set_technology = {
+}
+ITA = {
+	set_autonomy = {
+		target = GRE
+		autonomy_state = autonomy_protektorat
+	}
+}
+set_popularities = {
+	ultranationalism = 10
+	conservatism = 30
+	autsoc = 40
+	fascism = 7
+	etatism = 13
+}
+
+recruit_character = GRE_Poulos
+recruit_character = GRE_Gotzamanis
+recruit_character = GRE_Zervas
+recruit_character = GRE_Velouchiotis
+
+set_politics = {
+	ruling_party = etatism
+}
+
+add_ideas = {
+  GRE_no_roads
+  GRE_guerillas
+  GRE_confiscation
+  GRE_national_union
+  GRE_italian_weakness
+  GRE_famine
+}
+
+
+

@@ -1,0 +1,30 @@
+state={
+	id=551
+	name="STATE_551"
+	manpower = 893507
+	
+	state_category = town
+	history = {
+		owner = SUD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
+		victory_points = {
+			12806 5
+		}
+		victory_points = {
+			13538 2
+		}
+
+
+		add_core_of = SUD
+	}
+	provinces={
+		1914 10795 12806 13537 13538 13544
+	}
+
+	local_supplies=0.0 
+}

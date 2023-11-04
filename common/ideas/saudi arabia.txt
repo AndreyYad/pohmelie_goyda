@@ -1,0 +1,68 @@
+ideas = {
+
+	country = {
+	SAU_Holy_cities = {
+				modifier = {
+			    drift_defence_factor = 0.175	
+				political_power_factor = 0.125
+				political_power_gain = 0.095
+                industrial_factory_donations = 2
+            }
+		}
+    SAU_feudalism = {
+			modifier = {
+			    research_speed_factor = -0.25
+				production_speed_buildings = -0.25
+				local_resources_factor = -0.25
+				production_factory_max_efficiency_factor = -0.275
+			}
+
+		}
+    SAU_ITA_influence = {
+			modifier = {
+	        production_speed_fuel_silo_factor = 0.15
+	        production_speed_infrastructure_factor = 0.1
+			fascism_acceptance = 50
+			}			
+		    targeted_modifier = {
+            tag = ITA
+            extra_trade_to_target_factor = 0.2
+			trade_cost_for_target_factor = -0.25
+			cic_to_target_factor = 0.05
+            }
+		}
+   SAU_integration = {
+			modifier = {
+			political_power_cost = 0.05
+			stability_factor = -0.065
+			war_support_factor = 0.185
+			army_core_defence_factor = 0.085
+			stability_weekly = 0.002
+			}
+		}
+   SAU_oil_profit = {
+   			modifier = {
+            consumer_goods_factor = -0.065
+			trade_opinion_factor = 0.25
+			production_speed_industrial_complex_factor = 0.15
+			trade_laws_cost_factor -0.2
+            }
+		}
+   SAU_sunni_shia_ibadi_tension = {
+			modifier = {
+			stability_factor = -0.1
+			drift_defence_factor = -0.1
+			surrender_limit = -0.075
+			non_core_manpower = -0.12	
+            conscription_factor = -0.095			
+            }
+		    targeted_modifier = {
+            tag = PAL
+            attack_bonus_against = -0.075
+            }		
+		    targeted_modifier = {
+            tag = PER
+            defense_bonus_against = -0.075
+            }
+		}
+	}

@@ -1,0 +1,83 @@
+ideas = {
+	country = {
+		KAM_wings = {
+			picture = GFX
+			modifier = {
+			air_close_air_support_agility_factor = 0.2
+			air_close_air_support_defence_factor = 0.2
+			improve_relations_maintain_cost_factor = 0.2
+			army_org_regain = 0.08
+			send_volunteers_tension = 0.5
+			extra_paratrooper_supply_grace = 24
+			air_superiority_bonus_in_combat = 0.115
+			ground_attack_factor = 0.115
+			
+			}
+			equipment_bonus = {
+					transport_plane_equipment = {
+						air_range = 0.9   
+					
+					}
+				}
+		}
+		KAM_peacemakers	= {
+			picture = GFX
+			modifier = {
+			resistance_target = -0.075
+			conscription_factor = 0.11
+			local_non_core_manpower = 0.085
+			drift_defence_factor = 0.2
+			stability_factor = 0.145
+			political_power_gain = 0.25
+			local_supplies = 0.05
+			}
+		}
+		KAM_djihad = {
+			picture = GFX
+			modifier = {
+			fascism_drift = 0.03
+			subversive_activites_upkeep = 0.2
+			surrender_limit = -0.17
+			war_support_factor = 0.185
+			conscription_factor = -0.007
+			stability_weekly_factor = -0.3
+			resistance_damage_to_garrison = 0.075
+			}
+			targeted_modifier = {
+				tag = ITA
+				defence = -0.15
+			}
+		
+		}
+		KAM_antirome = {
+			picture = GFX
+			modifier = {
+			boost_resistance_mission_factor = 0.185
+			monthly_population = 0.07
+			production_speed_bunker_factor = 0.115
+			operative_slot = 1
+			social_democracy_acceptance = 35
+			liberalism_acceptance = 35
+			conservatism_acceptance = 35
+			}	
+			targeted_modifier = {
+				tag = ITA
+				attack = 0.15
+			}
+		}
+		KAM_virtouz	= {
+			picture = GFX
+			modifier = {
+			air_wing_xp_loss_when_killed_factor = 0.275
+			air_bombing_targetting = 0.085
+			strategic_bomb_visibility = -0.085
+			air_untrained_pilots_penalty_factor = 0.215
+			air_strategic_bomber_agility_factor = 0.1
+			}
+			equipment_bonus = {
+					large_plane_airframe = {
+						air_range = 0.3
+					
+					}
+				}
+		}

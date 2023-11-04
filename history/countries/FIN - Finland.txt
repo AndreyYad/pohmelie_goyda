@@ -1,0 +1,35 @@
+capital = 111
+
+oob = "FIN_1952"
+set_naval_oob = "FIN_1952_Naval"
+set_research_slots = 2
+set_stability = 0.82
+set_war_support = 0.87
+set_convoys = 25
+
+
+
+set_popularities = {
+	conservatism = 13
+	etatism = 77
+	ultranationalism = 5
+	occult_nazism = 5
+}
+
+set_politics = {
+	ruling_party = etatism
+}
+
+recruit_character = FIN_ryti
+recruit_character = FIN_hedman
+
+
+add_ideas = {
+  FIN_stella_polaris
+  FIN_triumph_great_finland
+  FIN_sisu
+  FIN_altai_connection
+  ENG_treat_four_eyes
+  FIN_baltic_asthma
+  FIN_evgen_tendetion
+}

@@ -1,0 +1,26 @@
+state={
+	id=916
+	name="STATE_916"
+	provinces={
+		12785 13773 13777 13783 13785 13789 13792 13793 13795 13797 
+	}
+	manpower=702358
+	state_category = rural
+	resources={
+		rubber=4 # was: 2
+		steel=5 # was: 3
+	}
+	history={
+		owner = BGC
+		add_core_of = BGC
+		
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13777 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,46 @@
+characters={
+	IRE_valera={
+		name=IRE_valera
+		portraits={
+			civilian={
+				large=GFX_portrait_valera
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			traits={ always_tish }
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	IRE_costello={
+		name=IRE_costello
+		portraits={
+			civilian={
+				large=GFX_portrait_costello
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={ ire_democrat }
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	IRE_macbraid={
+		name=IRE_macbraid
+		portraits={
+			civilian={
+				large=GFX_portrait_macbraid
+			}
+		}
+		country_leader={
+			ideology=irland_republicanism
+			traits={ ire_respublicanist }
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+}

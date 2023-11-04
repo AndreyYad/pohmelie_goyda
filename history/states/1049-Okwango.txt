@@ -1,0 +1,27 @@
+state={
+	id=1049
+	name="STATE_1049"
+	provinces={
+		1580 14746 14747 14748 14749 14750 14751 14752 14753 14754 14755 14756 14757 14758 14759 14760 14761 14762 14763
+	}
+	manpower=22755
+	state_category = rural
+	resources={
+		chromium=12.000
+	}
+	
+	history = {
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			14759 1
+		}
+
+		add_core_of = BOT
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

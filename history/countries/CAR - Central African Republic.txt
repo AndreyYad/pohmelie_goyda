@@ -1,0 +1,36 @@
+capital = 1 #ПОСТАВЬТЕ НУЖНОЕ
+oob = "CAR_1951"
+set_research_slots = 2
+set_stability = 0.32
+set_war_support = 0.56
+set_convoys = 0
+
+set_technology = {
+}
+
+GCA = {
+	set_autonomy = {
+		target = CAR
+		autonomy_state = autonomy_warlord_gca
+	}
+}
+
+set_popularities = {
+	etatism = 100
+}
+
+recruit_character = CAR_Bokassa
+
+set_politics = {
+	ruling_party = etatism
+}
+
+add_ideas = {
+  CAR_imperial_land
+  CAR_kannibals_fight
+  CAR_black_napoleon_idea
+  CAR_latinoafrica_ambition
+}
+
+
+

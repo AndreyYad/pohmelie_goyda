@@ -1,0 +1,28 @@
+state={
+	id=1033
+	name="STATE_1033"
+	provinces={
+		1127 1198 4057 
+	}
+	manpower=198200
+	state_category = town
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+			1127 = {
+				naval_base = 3
+				coastal_bunker = 2
+				bunker = 2
+			}
+		}
+		victory_points = {
+			1127 4 
+		}
+	}
+	local_supplies=1.000
+}

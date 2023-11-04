@@ -1,0 +1,29 @@
+state={
+	id=1018
+	name="STATE_1018"
+	provinces={
+		1958 8088 10731 14667 14668 14669 14670 14671 14672 14673 14674 14675 14676 14677 
+	}
+	manpower=89754
+	state_category = rural
+	resources={
+		steel=18.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			rocketsites = 1
+		}
+		victory_points = {
+			14667 2 
+		}
+		victory_points = {
+			14677 1 
+		}
+	}
+	local_supplies=2.000
+}

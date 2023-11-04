@@ -1,0 +1,27 @@
+state={
+	id=918
+	name="STATE_918"
+	provinces={
+		13768 13769 13774 13775 13778 13779 13780 13781 13782 13784 13786 13787 
+	}
+	manpower=1328420
+	state_category = town
+	resources={
+		rubber=4 # was: 2
+		aluminium=16 # was: 17
+	}
+	history={
+		owner = BGC
+		add_core_of = BGC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			13775 3 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

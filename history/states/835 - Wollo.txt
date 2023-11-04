@@ -1,0 +1,32 @@
+state=
+{
+	id=835
+	name="STATE_835"
+	manpower = 325170
+	resources={
+		rubber=1 # was: 1
+	}
+	
+	state_category = rural
+
+	history=
+	{
+		owner = FAL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		victory_points = { 
+			13245 1 
+		}
+		add_core_of = FAL
+	}
+
+	provinces=
+	{
+13251 13252 13247 13245 13242 13240 13244 13239 	}
+
+	local_supplies=0.0 
+}

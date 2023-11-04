@@ -1,0 +1,29 @@
+state={
+	id=1011
+	name="STATE_1011"
+	provinces={
+		4199 7215 10113 12087 12100 
+	}
+	manpower=1128390
+	state_category = town
+	resources={
+		steel=24.000
+	}
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+			12100 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			12100 2 
+		}
+	}
+	local_supplies=0.000
+}

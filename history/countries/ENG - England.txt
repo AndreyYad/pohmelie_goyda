@@ -1,0 +1,39 @@
+capital = 126
+
+oob = "ENG_1952"
+set_naval_oob = "ENG_1952_Naval"
+set_research_slots = 3
+set_stability = 0.77
+set_war_support = 0.69
+set_convoys = 220
+
+set_technology = {
+	
+}
+
+set_popularities = {
+	etatism = 33
+	conservatism = 31
+	fascism = 27
+	social_democracy = 9
+}
+
+
+recruit_character = ENG_wood
+recruit_character = ENG_butler
+recruit_character = ENG_mosley
+recruit_character = ENG_attlee
+
+set_politics = {
+	ruling_party = etatism
+}
+
+add_ideas = {
+	 ENG_empire_over_sun
+	 ENG_second_rule_galifacs
+	 ENG_twice_king
+	 ENG_fading_legacy
+	 ENG_treat_four_eyes
+	 ENG_unloyal_mi5
+	 ENG_active_underground
+}

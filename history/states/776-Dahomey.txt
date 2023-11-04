@@ -1,0 +1,34 @@
+
+state={
+	id=776
+	name="STATE_776" # Benin/Dahomey
+	manpower = 1551563
+	
+	state_category = town
+	resources={
+		oil=2.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = DAH
+		victory_points = {
+			10919 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			10919 = {
+				naval_base = 5
+				coastal_bunker = 2
+			}
+		}
+	}
+
+	provinces={
+		10919 14279 14280 14281 14282 14283
+	}
+
+	local_supplies=1.0 
+}

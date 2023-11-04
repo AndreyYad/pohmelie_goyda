@@ -1,0 +1,30 @@
+state={
+	id=1054
+	name="STATE_1054"
+	provinces={
+		10978 12921 14888 14889 
+	}
+	manpower=34200
+	state_category = wasteland
+	resources={
+		tungsten=9 # was: 11
+	}
+	
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 1
+			10978 = {
+			    naval_base = 2
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = NMB
+		victory_points = {
+			10978 2
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

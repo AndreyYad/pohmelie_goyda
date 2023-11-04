@@ -1,0 +1,42 @@
+characters = {
+	SOM_ruggero_santini = {
+		name = SOM_ruggero_santini
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOM/SOM_ruggero_santini.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire="3333.1.1.1"
+			id=-1
+			desc = ERI_Luigi_Frusci_desc
+			traits = { 
+				SOM_soldier
+			}
+		}
+	}
+
+	SOM_alfredo_serranti = {
+		name = SOM_alfredo_serranti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOM/SOM_alfredo_serranti.dds"
+			}
+			army = {
+				large = "gfx/leaders/SOM/SOM_alfredo_serranti.dds"
+			}
+		}
+			corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			traits = {
+				trait_reckless
+			}
+			legacy_id=1
+		}
+	}
+}

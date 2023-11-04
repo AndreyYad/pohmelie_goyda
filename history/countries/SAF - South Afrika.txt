@@ -1,0 +1,33 @@
+capital = 1072
+
+oob = "SAF_1952"
+set_naval_oob = "SAF_1952_Naval"
+set_research_slots = 2
+set_stability = 0.71
+set_war_support = 0.8
+set_convoys = 20
+
+
+
+set_popularities = {
+	ultranationalism = 32
+	conservatism = 8
+	etatism = 60
+}
+
+set_politics = {
+	ruling_party = etatism
+}
+
+recruit_character = SAF_svart
+recruit_character = SAF_ferwurd
+recruit_character = SAF_graaf
+
+
+
+add_ideas = {
+  SAF_politic_aparteid
+  SAF_flame_osverbrandvaga
+  SAF_geopolitic_isolation
+  SAF_grumble_royal_oblivion
+}

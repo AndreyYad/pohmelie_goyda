@@ -1,0 +1,30 @@
+state={
+	id=1196
+	name="STATE_1196"
+	provinces={
+		15402 
+	}
+	manpower=53200
+	state_category = town
+	history={
+		owner = NRM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 2
+			air_base = 5
+			radar_station = 5
+			15402 = {
+				naval_base = 7
+				coastal_bunker = 7
+			}
+		}
+		add_core_of = NRM
+		victory_points = {
+			15402 5
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

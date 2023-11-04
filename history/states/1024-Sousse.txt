@@ -1,0 +1,31 @@
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		1037 4061 4129 7077 7162 
+	}
+	manpower=11245005
+	state_category = town
+	resources={
+		steel=6.000
+	}
+	history={
+		owner = ITA
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 3
+	        industrial_complex = 1
+			arms_factory = 1
+			7162 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			7162 5 
+		}
+		victory_points = {
+			4129 3 
+		}
+	}
+	local_supplies=0.000
+}

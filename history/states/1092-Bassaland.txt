@@ -1,0 +1,33 @@
+state={
+	id=1092
+	name="STATE_1092"
+	provinces={
+		15073 15074 15075 
+	}
+	manpower=49300
+	state_category = town
+	resources={
+		rubber=8 # was: 2
+		oil=2 # was: 2
+		steel=3 # was: 2
+	}
+	
+	history=
+	{
+		owner = POL
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			15074 ={
+				naval_base = 2
+				coastal_bunker = 2
+			}
+		}
+		victory_points = {
+			15074 1 
+		}
+		add_core_of = LIB
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+}

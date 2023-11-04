@@ -1,0 +1,17 @@
+state={
+	id=1034
+	name="STATE_1034"
+	provinces={
+		7136 7194 13073 14707 
+	}
+	manpower=198200
+	state_category = rural
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	local_supplies=1.000
+}

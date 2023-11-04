@@ -1,0 +1,23 @@
+state={
+	id=1060
+	name="STATE_1060"
+	provinces={
+		14864 14865 14866 
+	}
+	manpower=9048
+	state_category = wasteland
+	
+	history={
+		owner =NMB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NMB
+		victory_points = {
+			14865 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

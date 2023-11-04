@@ -1,0 +1,46 @@
+
+state={
+	id=460
+	name="STATE_460" # Constantine
+	manpower = 2743837
+	
+	state_category = city
+	resources={
+		steel=19.000
+		chromium=4.000
+	}
+
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = ALG
+		victory_points = {
+			7081 4 
+		}
+		victory_points = {
+			12051 8 
+		}
+		victory_points = {
+			9976 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			7081 = {
+				naval_base = 6
+			}
+			12051 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		12051 1058 1141 1160 7065 7081 9943 9976 11953 12034 14656
+	}
+
+	local_supplies=0.0 
+}

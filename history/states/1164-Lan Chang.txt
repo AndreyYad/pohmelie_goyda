@@ -1,0 +1,22 @@
+state={
+	id=1164
+	name="STATE_1164"
+	provinces={
+		10330 10356 10456 
+	}
+	manpower=24100
+	state_category = pastoral
+	history={
+		add_core_of = LAO
+		add_core_of = SIA
+		owner = SIA
+        victory_points = {
+			10330 1 
+		}
+		buildings = {
+			infrastructure = 1
+			}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

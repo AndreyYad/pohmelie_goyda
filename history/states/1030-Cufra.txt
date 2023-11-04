@@ -1,0 +1,23 @@
+state={
+	id=1030
+	name="STATE_1030"
+	provinces={
+		4191 14715 14716 14717 14718 14719 14720 14721 14722 14723 
+	}
+	manpower=38200
+	state_category = rural
+	resources={
+		oil=7.000
+	}
+	history={
+		owner = ITA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14718 3 
+		}
+	}
+	local_supplies=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=1020
+	name="STATE_1020"
+	provinces={
+		14678 14679 
+	}
+	manpower=9037
+	state_category = wasteland
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	local_supplies=0.000
+}

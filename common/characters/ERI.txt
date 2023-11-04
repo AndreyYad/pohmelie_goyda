@@ -1,0 +1,35 @@
+characters={
+	ERI_Luigi_Frusci = {
+		name = ERI_Luigi_Frusci
+		portraits = {
+			civilian={
+				large = GFX_portrait_ERI_Luigi_Frusci
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire="3333.1.1.1"
+			traits = {soyuznik_narodov}
+			id=-1
+			desc = ERI_Luigi_Frusci_desc
+		}	
+	}
+	ERI_Hamid_Idris ={
+		name = ERI_Hamid_Idris 
+		portraits = {
+			army={
+				large = GFX_portrait_ERI_Hamid_Idris 
+			}
+		}
+		corps_commander={
+			traits = {guerilla_fighter	}
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=1
+		}
+		
+	}
+}

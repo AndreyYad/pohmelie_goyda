@@ -1,0 +1,33 @@
+state={
+	id=907
+	name="STATE_907"
+	provinces={
+		8034 10831 13700 13701 13703 13704 13705 13708 13709 13711 
+	}
+	manpower=9721830
+	state_category = town
+	resources={
+		oil=29 # was: 21
+		rubber=10 # was: 8
+	}
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			8034 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			13711 3 
+		}
+		victory_points = {
+			8034 3 
+		}
+		add_core_of = NIG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

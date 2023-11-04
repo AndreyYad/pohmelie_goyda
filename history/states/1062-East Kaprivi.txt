@@ -1,0 +1,23 @@
+state={
+	id=1062
+	name="STATE_1062"
+	provinces={
+		14891 14892 
+	}
+	manpower=21400
+	state_category = rural
+	
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NMB
+		victory_points = {
+			14892 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

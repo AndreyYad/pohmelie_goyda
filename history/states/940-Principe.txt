@@ -1,0 +1,30 @@
+state={
+	id=940
+	name="STATE_940"
+	provinces={
+		13943 
+	}
+	manpower=7844
+	state_category = small_island
+	resources={
+		oil=3.000
+	
+	}
+	history={
+		owner = GER
+		add_core_of = EQG
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			13943 = {
+				naval_base = 4
+				coastal_bunker = 5
+			}
+		}
+		victory_points = {
+			13943 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

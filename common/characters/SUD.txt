@@ -1,0 +1,30 @@
+characters={
+	SUD_mahdi={
+		name=SUD_mahdi
+		portraits={
+			civilian={
+				large=GFX_portrait_mahdi
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={legacy_mahdi rich_sudanian}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	SUD_azhari={
+		name=SUD_azhari
+		portraits={
+			civilian={
+				large=GFX_portrait_azhari
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy
+			traits={supporter_unity_nil}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+}

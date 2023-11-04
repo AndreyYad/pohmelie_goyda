@@ -1,0 +1,46 @@
+characters={
+	 LEB_Pierre_Gemayel={
+		name=LEB_Pierre_Gemayel
+		portraits={
+			civilian={
+				large=GFX_portrait_LEB_Pierre_Gemayel
+			}
+		}
+		country_leader={
+			ideology=national_syndicalism
+			traits={Political_maneuvers}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LEB_Saadeh={
+		name=LEB_Saadeh
+		portraits={
+			civilian={
+				large=GFX_portrait_LEB_Saadeh
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			traits={ Literator Great_syrian_fanatic }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+    LEB_Marof_Saad={
+		name=LEB_Marof_Saad
+		portraits={
+			civilian={
+				large=GFX_portrait_LEB_Marof_Saad
+			}
+		}
+		country_leader={
+			ideology=panarabism
+			traits={ Arab_rebel_veteran }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

@@ -1,0 +1,51 @@
+characters={
+	SWE_erlander={
+		name=SWE_erlander
+		portraits={
+			civilian={
+				large=GFX_portrait_erlander
+			}
+		}
+		country_leader={
+			ideology=social_democracy_subtype
+			traits={father_swed_socialism diplomatic_neutrality}
+			expire="1995.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			traits={father_swed_socialism diplomatic_neutrality}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	SWE_hjalmarson={
+		name=SWE_hjalmarson
+		portraits={
+			civilian={
+				large=GFX_portrait_hjalmarson
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={intersting_nuclear defencer_owner enemy_neutrlaity}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	SWE_dahlerus={
+		name=SWE_dahlerus
+		portraits={
+			civilian={
+				large=GFX_portrait_dahlerus
+			}
+		}
+		country_leader={
+			ideology=etatism_subtype
+			traits={friend_gering peacekeeper}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+}

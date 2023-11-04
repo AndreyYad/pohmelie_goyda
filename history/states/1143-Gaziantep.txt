@@ -1,0 +1,26 @@
+state={
+	id=1143
+	name="STATE_1143"
+	provinces={
+		9893 9912 15223 
+	}
+	manpower=705327
+	state_category = large_town
+	
+	history={
+		add_core_of = TUR
+		add_core_of = KUR
+		owner = KUR
+		victory_points = {
+			9893 15
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=11.000
+}

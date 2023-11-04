@@ -1,0 +1,29 @@
+state={
+	id=1105
+	name="STATE_1105"
+	provinces={
+		5185 8188 15121 15122 15123 15124 15125 15126 15127 15128 15129 15130 15131 15132 15133 15134 15135 15136 15137 15138 15139 
+	}
+	manpower=174648
+	state_category = rural
+	
+	history={
+		add_core_of = MAD
+		owner = MAD
+		victory_points = {
+			15129 4
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 4
+			15129 ={
+				naval_base = 5
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

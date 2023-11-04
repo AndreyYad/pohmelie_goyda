@@ -1,0 +1,21 @@
+state={
+	id=967
+	name="STATE_967"
+	provinces={
+		5013 8122 14327 14328 14329 14330 14331 14332 
+	}
+	manpower=204526
+	state_category = rural
+	resources={
+		aluminium=4.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IVO
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,36 @@
+state=
+{
+	id=164
+	name="STATE_164"
+	manpower = 130000
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = ITA
+		victory_points = {
+			10007 2
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			10007 = {
+				naval_base = 5
+			}
+			7003 = {
+				naval_base = 2
+			}
+			15321 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GRE
+		add_core_of = TUR
+	}
+	provinces=
+	{
+7003 10007 15320 15321 	}
+
+	local_supplies=4.0 
+}

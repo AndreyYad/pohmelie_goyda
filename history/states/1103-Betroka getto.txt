@@ -1,0 +1,30 @@
+state={
+	id=1103
+	name="STATE_1103"
+	provinces={
+		15172 15173 15174 15175 
+	}
+	manpower=78431
+	resources={
+		chromium=3 # was: 2
+		steel=9 # was: 3
+	}
+	
+	state_category = pastoral
+	
+	history={
+		add_core_of = MAD
+		add_core_of = ISR
+		owner = MAD
+		victory_points = {
+			15175 2
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

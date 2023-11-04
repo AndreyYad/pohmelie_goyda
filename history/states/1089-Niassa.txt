@@ -1,0 +1,23 @@
+state={
+	id=1089
+	name="STATE_1089"
+	provinces={
+		10972 15064 15065 15066 
+	}
+	manpower=103729
+	state_category = rural
+	resources={
+		steel=8 # was: 4
+	}
+	
+	history=
+	{
+		owner = BEA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BEA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

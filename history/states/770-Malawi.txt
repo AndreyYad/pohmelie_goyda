@@ -1,0 +1,26 @@
+state={
+	id=770
+	name="STATE_770"
+
+	history={
+		owner = RHO
+		add_core_of = RHO
+		victory_points = {
+			12986 3 
+		}
+		buildings = {
+			infrastructure = 2
+            industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		12986 13612 13619 13626 13629 13634 2255
+	}
+	manpower=1203975
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

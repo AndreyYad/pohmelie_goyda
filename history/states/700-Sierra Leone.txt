@@ -1,0 +1,35 @@
+state={
+	id=700
+	name="STATE_700"
+	manpower = 1068500
+	
+	state_category = town
+	resources={
+		aluminium=7 # was: 8
+		steel=3 # was: 2
+	}
+	
+	history=
+	{
+		owner = ENG
+		add_core_of = SIE
+		victory_points = {
+			2038 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+			2038 = {
+				naval_base = 5
+			}
+		}
+
+	}
+	
+	provinces={
+		2038 13804 13805 13806 13807  
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+state={
+	id=1067
+	name="STATE_1067"
+	provinces={
+		14833 14834 14835 14836 14837 
+	}
+	manpower=34218
+	state_category = pastoral
+	resources={
+		tungsten=5 # was: 7
+		chromium=5 # was: 4
+	}
+	
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NMB
+		victory_points = {
+			14835 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

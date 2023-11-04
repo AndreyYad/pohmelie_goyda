@@ -1,0 +1,33 @@
+
+state={
+	id=197
+	name="STATE_197"
+	manpower = 896311
+	
+	state_category = town
+	history={
+		victory_points = {
+			11683 5
+		}
+		victory_points = {
+			15331 3
+		}
+		owner = POL
+		buildings = {
+			infrastructure = 3 #was: 5
+			dockyard = 3
+			11683 = {
+			naval_base = 4
+			coastal_bunker = 2
+			}
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	provinces={
+		409 574 3403 3755 6597 9573 11546 11683 15330 15331
+	}
+
+	local_supplies=5.0 
+}

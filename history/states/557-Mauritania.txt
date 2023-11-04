@@ -1,0 +1,33 @@
+
+state={
+	id=557
+	name="STATE_557" # Mauritania
+	manpower = 11730
+	
+	state_category = town
+
+	history={
+		owner = GER
+		add_core_of = MRT
+		victory_points = {
+			5034 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 4
+			5034 = {
+				naval_base = 5
+				coastal_bunker = 3
+			}
+		}
+
+	}
+
+	provinces={
+		5034
+	}
+
+	local_supplies=1.0 
+}

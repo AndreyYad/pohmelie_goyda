@@ -1,0 +1,41 @@
+capital = 274
+
+oob = "BGC_1952"
+set_naval_oob = "BGC_1952_Naval"
+set_research_slots = 2
+set_stability = 0.47
+set_war_support = 0.35
+set_convoys = 15
+
+
+ENG = {
+	set_autonomy = {
+		target = BGC
+		autonomy_state = autonomy_selfrule_colony
+		freedom_level = 0.2
+	}
+}
+
+set_popularities = {
+	autsoc = 43
+	conservatism = 37
+	liberalism = 15
+	etatism = 5
+}
+
+set_politics = {
+	ruling_party = conservatism
+}
+
+recruit_character = BGC_busia
+recruit_character = BGC_nkrumah
+recruit_character = BGC_creasy
+recruit_character = BGC_clarke
+
+
+add_ideas = {
+ BGC_afrikan_nationalism
+ BGC_age_progress
+ BGC_strategic_ardena
+ BGC_administration_architicture
+}

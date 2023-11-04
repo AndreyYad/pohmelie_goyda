@@ -1,0 +1,104 @@
+ideas = {
+   country = {
+       FFR_unrest_fourts_coast = {
+			picture = 
+
+			allowed = {
+				original_tag = FFR
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly_factor = -0.005
+				required_garrison_factor = 0.165
+				industrial_capacity_dockyard = -0.2
+				resistance_damage_to_garrison = 0.13
+				resistance_growth_on_our_occupied_states = 0.175
+				local_resources_factor = -0.2
+				local_factory_sabotage = 0.2
+				custom_modifier_tooltip = FFR_algeria_rebelion_tt
+			} 
+		}
+		
+		FFR_hopes_humiliated_exiles = {
+			picture = 
+
+			allowed = {
+				original_tag = FFR
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = 0.1
+			}
+			
+			modifier = {
+				war_support_factor = -0.185
+				conscription_factor = 0.11
+				army_org_factor = -0.08
+				production_speed_arms_factory_factor = 0.05
+				invasion_preparation = -0.1
+				naval_invasion_capacity = 10
+			} 
+		}
+		
+		FFR_uvertur_afrikan_sand = {
+			picture = 
+
+			allowed = {
+				original_tag = FFR
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				operative_slot = 1
+				acclimatization_hot_climate_gain_factor = 0.115
+				boost_ideology_mission_factor = 0.1
+				root_out_resistance_effectiveness_factor = 0.15
+				commando_trait_chance_factor = 0.25
+				special_forces_cap = 0.5
+				resistance_growth = 0.05
+				occupied_operative_recruitment_chance = 0.25
+			} 
+		}
+		
+		FFR_parad_parlament = {
+			picture = 
+
+			allowed = {
+				original_tag = FFR
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.2
+				drift_defence_factor = -0.2
+				max_command_power = 10
+				political_advisor_cost_factor = -0.25
+				army_leader_cost_factor = -0.2
+			} 
+		}
+		
+		FFR_sworn_truce = {
+			picture = 
+
+			allowed = {
+				original_tag = FFR
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.075
+				war_support_factor = 0.075
+				political_power_cost = 0.3
+				military_factory_donations = 2
+			} 
+		}
+	}
+}

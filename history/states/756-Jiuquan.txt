@@ -1,0 +1,20 @@
+state={
+	id=756
+	name="STATE_756"
+	provinces={
+		1778 2028 5076 7971 12596 12820 15261
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	history={
+		owner = XSM
+		add_core_of = XSM
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+
+	local_supplies=0.0 
+}

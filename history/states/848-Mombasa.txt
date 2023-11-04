@@ -1,0 +1,29 @@
+state={
+	id=848
+	name="STATE_848"
+	provinces={
+		5210 10976 13346 13348 
+	}
+	manpower=863129
+	state_category = town
+
+	history=
+	{
+		owner = BEA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			5210 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 
+			5210 3 
+		}
+		add_core_of = BEA
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

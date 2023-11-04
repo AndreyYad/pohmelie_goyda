@@ -1,0 +1,33 @@
+state={
+	id=935
+	name="STATE_935"
+	provinces={
+		11012 13892 13893 13900 13902 13908 13914 
+	}
+	manpower=300430
+	state_category = rural
+	resources={
+		steel=9.000
+		rubber=8.000
+	}
+	history={
+		owner = EZO
+		add_core_of = EZO
+		add_core_of = CMR
+		add_core_of = CAR
+		buildings = {
+			infrastructure = 2
+			11012 = {
+				bunker = 3
+		    }
+		}
+		victory_points = {
+			11012 2 
+		}
+		victory_points = {
+			13914 1 
+		}
+	} 	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

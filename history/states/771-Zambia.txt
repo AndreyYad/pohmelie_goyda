@@ -1,0 +1,39 @@
+state={
+	id=771
+	name="STATE_771" # Zambia
+	
+	state_category = town
+
+	resources={
+		chromium=25 # was: 26.000
+		tungsten=6 # was: 11.000
+	}
+
+	history={
+		owner = RHO
+		add_core_of = RHO
+		victory_points = {
+			5199 5
+		}
+		victory_points = {
+			13627 3
+		}
+		victory_points = {
+			13603 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+		}
+	}
+
+	provinces={
+		5199 12504 13588 13594 13598 13603 13608 13615 13616 13627
+	}
+	manpower=1280089
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

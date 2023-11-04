@@ -1,0 +1,51 @@
+state={
+	id=1207
+	name="STATE_1207"
+	provinces={
+		15466 15467 15468 15469 15470 15471 
+	}
+	manpower=112488
+	state_category = town
+
+	history={
+		owner = GCA
+		victory_points = {
+			15467 7
+		}
+		victory_points = {
+			15468 5
+		}
+		victory_points = {
+			15469 3
+		}
+		victory_points = {
+			15470 2
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			radar_station = 3
+			anti_air_building = 1
+			air_base = 5
+			15467 = {
+				naval_base = 7
+				coastal_bunker = 6
+			}
+			15468 = {
+				naval_base = 5
+				coastal_bunker = 4
+			}
+			15469 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+			15470 = {
+				naval_base = 4
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = GCA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=11.000
+}

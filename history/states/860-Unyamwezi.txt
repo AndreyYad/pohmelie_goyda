@@ -1,0 +1,26 @@
+state={
+	id=860
+	name="STATE_860"
+	provinces={
+		5180 10932 11017 13410 13415 13417 13421 13422 13424 13425 13427 13429 13430 
+	}
+	manpower=1067420
+	state_category = town
+	
+	history={
+		owner = BEA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			13425 1
+		}
+		victory_points = {
+			13410 2
+		}
+		add_core_of = BEA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

@@ -1,0 +1,30 @@
+state=
+{
+	id=269
+	name="STATE_269"
+	manpower = 394700
+	
+	state_category = rural
+	
+	history= {
+		victory_points = { 
+			10833 1
+		}
+		victory_points = { 
+			5068 2
+		}
+		owner = SOM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 2
+			10833 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13337 13341 5068 8094 10777 10833 12759
+	}
+
+	local_supplies=0.0 
+}

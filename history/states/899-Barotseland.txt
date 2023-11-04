@@ -1,0 +1,32 @@
+state={
+	id=899
+	name="STATE_899"
+	provinces={
+		697 7872 10538 12677 13581 13582 13583 13584 13585 13586 13587 13589 13590 13591 13595 13596 13597 13599 13600 13601 13602 13606 13607 13609 13613 13614 13617 13620 13622 13623 13628 13632 13633 13636 
+	}
+	manpower=1306243
+	resources={
+		chromium=37 # was: 42
+		tungsten=11 # was: 19
+	}
+	state_category = town
+	
+	
+	history={
+	    victory_points = {
+			7872 2
+		}
+	    victory_points = {
+			13599 2
+		}
+		owner = RHO
+		add_core_of = RHO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

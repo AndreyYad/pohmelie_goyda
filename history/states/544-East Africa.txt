@@ -1,0 +1,30 @@
+
+state={
+	id=544
+	name="STATE_544" #Mozambique
+	manpower = 412500
+	
+	state_category = city
+	
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8245 = {
+				naval_base = 6
+			}
+		}
+		victory_points = {
+			8245 7 
+		}
+		add_core_of = MZB
+		add_core_of = SAF
+	}
+
+	provinces={
+		8245 15014 15015 15016 15017
+	}
+
+	local_supplies=0.0 
+}

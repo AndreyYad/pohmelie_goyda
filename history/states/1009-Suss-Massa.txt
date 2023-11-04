@@ -1,0 +1,27 @@
+state={
+	id=1009
+	name="STATE_1009"
+	provinces={
+		14635 14639 14640 14641 14642 
+	}
+	manpower=892359
+		state_category = rural
+	resources={
+		steel=4.000
+		chromium=3.000
+	}
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 2
+			14635 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			14635 4 
+		}
+	}
+	local_supplies=0.000
+}

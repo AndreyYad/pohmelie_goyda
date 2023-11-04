@@ -1,0 +1,25 @@
+state={
+	id=926
+	name="STATE_926"
+	provinces={
+		5054 13852 13855 13859 13863 13866 13869 
+	}
+	manpower=542410
+	state_category = rural
+	history={
+		owner = EZO
+		add_core_of = EZO
+		add_core_of = CMR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13866 2 
+		}
+		victory_points = {
+			5054 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

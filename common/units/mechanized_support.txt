@@ -1,0 +1,426 @@
+sub_units = {
+	mechanized_flamethrower_support = {
+		abbreviation = "MFLM"
+		sprite = mechanized
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1.5
+		max_organisation = 20
+		default_morale = 0.25
+		manpower = 250
+		breakthrough = -0.45
+		hard_attack = -0.6
+		soft_attack = 0.6
+		defense = -0.45
+		armor_value = -0.6
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+
+		essential = {
+			armored_personnel_carrier_chassis
+		}
+		
+		need = {
+			armored_personnel_carrier_chassis = 24
+		}
+		forest = {
+		    attack = 0.2
+		}
+		mountain = 	{
+			attack = 0.5
+		}
+		jungle = {
+		    attack = 0.25
+		}
+		marsh = {
+		    attack = 0.05
+		}
+		urban = {
+			attack = 0.25
+		}
+		river = { 
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.3
+		}
+		amphibious = { 
+			attack = 0.05
+		}
+		same_support_type = flame
+	}
+	mechanized_engineering_support = {
+		abbreviation = "MENG"
+		sprite = mechanized
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2.3
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		breakthrough = 0.6
+		hard_attack = 0.3
+		soft_attack = -0.3
+		defense = 0.12
+		armor_value = 0.3
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		entrenchment = 7
+		supply_consumption = 0.025
+		can_be_parachuted = yes
+
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+
+		essential = {
+			armored_personnel_carrier_chassis
+		}
+		
+		need = {
+			armored_personnel_carrier_chassis = 30
+		}
+		forest = {
+			movement = 0.25
+		    defence = 0.1
+		}
+		mountain = 	{
+			movement = 0.05
+		}
+		jungle = {
+			movement = 0.1
+			defence = 0.1
+		}
+		marsh = {
+		    defence = 0.05
+		}
+		urban = {
+			movement = 0.2
+			defence = 0.2
+		}
+		river = { 
+			attack = 0.05
+		}
+		hills = {
+			movement = 0.1
+			defence = 0.1
+		}
+		fort = {
+			attack = 0.05
+			defence = 0.3
+		}
+		amphibious = { 
+			attack = 0.2
+		}
+		plains = {
+			defence = 0.05
+		}
+		
+		same_support_type = engineer
+	}
+	mechanized_bridge_support = {
+		abbreviation = "MBRI"
+		sprite = mechanized
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1.2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 200
+		breakthrough = 0.2
+		hard_attack = -0.15
+		soft_attack = -0.1
+		defense = 0.2
+		armor_value = -0.1
+		training_time = 110
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+
+		essential = {
+			armored_personnel_carrier_chassis
+		}
+		
+		need = {
+			armored_personnel_carrier_chassis = 24
+		}
+		jungle = {
+			movement = 0.05
+			attack = 0.05
+			defence = 0.05
+		}
+		marsh = {
+			movement = 0.25
+			attack = 0.25
+		    defence = 0.25
+		}
+		river = { 
+			movement = 0.4
+			attack = 0.275
+			defence = 0.3
+		}
+		amphibious = { 
+			attack = 0.1
+		}
+	}
+	mechanized_maintenance_support = {
+		abbreviation = "MMAIN"
+		sprite = mechanized
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1.7
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 560
+		soft_attack = 0.18
+		armor_value = 0.1
+		training_time = 130
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = yes
+		
+		#Important Abilities
+		equipment_capture_factor = 0.075
+
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+
+		essential = {
+			armored_personnel_carrier_chassis
+		}
+		
+		need = {
+			armored_personnel_carrier_chassis = 24
+		}
+		forest = {
+			movement = 0.05
+		}
+		urban = {
+			movement = 0.05
+		}
+		
+		same_support_type = maintenance
+	}
+	mechanized_logistics_support = {
+		abbreviation = "MLOGI"
+		sprite = mechanized
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1.2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 560
+		armor_value = 0.1
+		training_time = 115
+
+		#Misc Abilities
+		weight = 0.1
+		can_be_parachuted = yes
+		
+		#Important Abilities
+		supply_consumption_factor = -0.1
+		fuel_consumption_factor = -0.05
+		fuel_capacity = 250
+
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+
+		essential = {
+			armored_personnel_carrier_chassis
+		}
+		
+		need = {
+			armored_personnel_carrier_chassis = 24
+		}
+		
+		same_support_type = logistics
+	}
+	mechanized_recon_support = {
+		abbreviation = "MREC"
+		sprite = mechanized
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		hard_attack = -0.5
+		soft_attack = -0.4
+		breakthrough = -0.3
+		defense = -0.1
+		armor_value = 0.1
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		recon = 2
+
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+
+		essential = {
+			armored_personnel_carrier_chassis
+		}
+		
+		need = {
+			armored_personnel_carrier_chassis = 24
+		}
+		
+		forest = {
+			movement = 0.05
+		}
+		mountain = {
+			movement = 0.1
+		}
+		hills = {
+			movement = 0.1
+		}
+		urban = {
+			movement = 0.15
+		}
+		jungle = {
+			movement = 0.05
+		}
+		marsh = {
+			movement = 0.05
+		}
+		river = {
+			movement = 0.05
+		}
+		plains = {
+			movement = 0.2
+		}
+		
+		same_support_type = recon
+	}
+}
+
+

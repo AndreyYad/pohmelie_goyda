@@ -1,0 +1,32 @@
+capital = 292
+oob = "SAU_1951"
+set_research_slots = 2
+set_stability = 0.78
+set_war_support = 0.62
+set_convoys = 15
+
+set_technology = {
+}
+
+set_popularities = {
+	ultranationalism = 5
+	etatism = 95
+}
+
+recruit_character = SAU_king_Faisal
+
+set_politics = {
+	ruling_party = etatism
+}
+
+add_ideas = {
+  SAU_Holy_cities
+  SAU_feudalism
+  SAU_ITA_influence
+  SAU_integration
+  SAU_oil_profit
+  SAU_sunni_shia_ibadi_tension
+}
+
+
+

@@ -1,0 +1,27 @@
+state={
+	id=1118
+	name="STATE_1118"
+	provinces={
+		3612 9587 15188 
+	}
+	manpower=178420
+	state_category = rural
+	resources={
+		aluminium=6 # was: 5
+	}
+	
+	history={
+		add_core_of = ITA
+		owner = ITA
+		victory_points = {
+			3612 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

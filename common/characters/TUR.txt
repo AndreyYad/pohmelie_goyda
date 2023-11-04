@@ -1,0 +1,46 @@
+characters={
+	 TUR_cemal_madanoglu={
+		name=TUR_cemal_madanoglu
+		portraits={
+			civilian={
+				large=GFX_portrait_TUR_cemal_madanoglu
+			}
+		}
+		country_leader={
+			ideology=autsoc_subtype
+			traits={political_exit milli_shef}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TUR_Necip_Fazil={
+		name=TUR_Necip_Fazil
+		portraits={
+			civilian={
+				large=GFX_portrait_TUR_Necip_Fazil
+			}
+		}
+		country_leader={
+			ideology=islamic_fundamentalism
+			traits={ writer_famous panislamic_thought }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+    TUR_Alparslan_Turkes={
+		name=TUR_Alparslan_Turkes
+		portraits={
+			civilian={
+				large=GFX_portrait_TUR_Alparslan_Turkes
+			}
+		}
+		country_leader={
+			ideology=turanism
+			traits={ bashbug wolf_bearkiller }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

@@ -1,0 +1,32 @@
+characters={
+	HUN_bash={
+		name=HUN_bash
+		portraits={
+			civilian={
+				large=GFX_portrait_HUN_bash
+			}
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={recruitment_master }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HUN_salashi={
+		name=HUN_salashi
+		portraits={
+			civilian={
+				large=GFX_portrait_HUN_salashi
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={ magyar_chief turanist_fanatic }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

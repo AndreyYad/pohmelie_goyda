@@ -1,0 +1,37 @@
+characters={
+	 KUR_Mustafa_Barzani={
+		name=KUR_Mustafa_Barzani
+		portraits={
+			civilian={
+				large=GFX_portrait_KUR_Mustafa_Barzani
+			}
+		}
+		country_leader={
+			ideology=autsoc_subtype
+			traits={ tribe_guerilla_leader humanity }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	    country_leader={
+			ideology=left_nationalism_subtype
+			traits={ tribe_guerilla_leader humanity }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KUR_Said_Nursi={
+		name=KUR_Said_Nursi
+		portraits={
+			civilian={
+				large=GFX_portrait_KUR_Said_Nursi
+			}
+		}
+		country_leader={
+			ideology=islamic_fundamentalism
+			traits={ Badiuzaman staunch_Abrahamist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

@@ -1,0 +1,32 @@
+state={
+	id=1155
+	name="STATE_1155"
+	provinces={
+		3456 7049 10108 10735 
+	}
+	manpower=1435200
+	state_category = city
+	history={
+		add_core_of = TUR
+		add_core_of = ARM
+		owner = ENG
+        victory_points = {
+			3456 10 
+		}
+		buildings = {
+			dockyard = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 7
+			radar_station = 5
+			anti_air_building = 1
+			3456 = {
+			naval_base = 7
+			coastal_bunker = 2
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=6.000
+}

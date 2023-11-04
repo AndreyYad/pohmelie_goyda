@@ -1,0 +1,40 @@
+capital = 553
+
+oob = "LEB_1951"
+set_research_slots = 2
+set_stability = 0.57
+set_war_support = 0.52
+set_convoys = 20
+
+set_technology = {
+}
+ITA = {
+	set_autonomy = {
+		target = LEB
+		autonomy_state = autonomy_protektorat
+	}
+}
+set_popularities = {
+	ultranationalism = 30
+	left_nationalism = 8
+	fascism = 62
+}
+
+recruit_character = LEB_Pierre_Gemayel
+recruit_character = LEB_Saadeh
+recruit_character = LEB_Marof_Saad
+
+set_politics = {
+	ruling_party = fascism
+}
+
+add_ideas = {
+  LEB_phoenician_heritage
+  LEB_bastion
+  LEB_social_progress
+  LEB_falangist_militia
+  LEB_resistance_islamic
+}
+
+
+

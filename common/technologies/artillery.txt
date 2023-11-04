@@ -1,0 +1,2005 @@
+technologies = {
+
+	ww2_artillery = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		path = {
+			leads_to_tech = artillery_1
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			ship_anti_air_1
+			tank_small_cannon
+			secondary_turret_small_cannon
+			mechanized_small_cannon_1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1944
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	artillery_1 = {
+
+		enable_equipments = {
+			artillery_equipment_2
+		}
+
+		path = {
+			leads_to_tech = artillery_grouping
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = artillery_accuracy
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			mechanized_small_cannon_2
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	artillery_grouping = {
+
+		artillery = {
+			soft_attack = 0.15
+		}
+		artillery_brigade = {
+			soft_attack = 0.15
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		armored_car_artillery = {
+			soft_attack = 0.15
+		}
+		armored_personnel_carrier_artillery = {
+			soft_attack = 0.15
+		}
+		airborne_car_artillery = {
+			soft_attack = 0.15
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		
+		XOR = {
+			artillery_accuracy
+		}
+
+		path = {
+			leads_to_tech = artillery_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1954
+
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 4 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	artillery_accuracy = {
+
+		artillery = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		artillery_brigade = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		mot_artillery_brigade = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		armored_car_artillery = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		armored_personnel_carrier_artillery = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		airborne_car_artillery = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		light_sp_artillery_brigade = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		medium_sp_artillery_brigade = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		heavy_sp_artillery_brigade = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		super_heavy_sp_artillery_brigade = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		modern_sp_artillery_brigade = {
+			breakthrough = 0.1
+			recon = 0.2
+		}
+		
+		XOR = {
+			artillery_grouping
+		}
+
+		path = {
+			leads_to_tech = artillery_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1954
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = 4 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	artillery_2 = {
+
+		enable_equipments = {
+			artillery_equipment_3
+		}
+
+		path = {
+			leads_to_tech = artillery_range
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			mechanized_small_cannon_3
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1956
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	artillery_range = {
+
+		artillery = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		armored_car_artillery = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		armored_personnel_carrier_artillery = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		airborne_car_artillery = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = artillery_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1958
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	artillery_3 = {
+
+		enable_equipments = {
+			artillery_equipment_4
+		}
+
+		path = {
+			leads_to_tech = heavy_artillery
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = mass_artillery
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = high_precision_ammo
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	heavy_artillery = {
+
+		artillery = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		artillery_brigade = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		mot_artillery_brigade = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		armored_car_artillery = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		armored_personnel_carrier_artillery = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		airborne_car_artillery = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		light_sp_artillery_brigade = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		medium_sp_artillery_brigade = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		heavy_sp_artillery_brigade = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		super_heavy_sp_artillery_brigade = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		modern_sp_artillery_brigade = {
+			fort = {
+				attack = 0.35
+			}
+			urban = {
+				attack = 0.25
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		railway_gun_bombardment_factor = 0.15
+
+		XOR = {
+			mass_artillery
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1962
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 12 }	
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	mass_artillery = {
+
+		artillery = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		armored_car_artillery = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		armored_personnel_carrier_artillery = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		airborne_car_artillery = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+		modern_sp_artillery_brigade = {
+			soft_attack = 0.07
+			army_morale_factor = 0.1
+		}
+
+		XOR = {
+			heavy_artillery
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1962
+
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 12 }	
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	high_precision_ammo = {
+
+		artillery = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		artillery_brigade = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		armored_car_artillery = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		armored_personnel_carrier_artillery = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		airborne_car_artillery = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		light_sp_artillery_brigade = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		medium_sp_artillery_brigade = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		heavy_sp_artillery_brigade = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		super_heavy_sp_artillery_brigade = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		modern_sp_artillery_brigade = {
+			breakthrough = 0.15
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1964
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 14 }	
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	ww2_anti_air = {
+
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+
+		path = {
+			leads_to_tech = anti_air_1
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			mechanized_autocannon_1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1944
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+
+	anti_air_1 = {
+
+		enable_equipments = {
+			anti_air_equipment_2
+		}
+
+		path = {
+			leads_to_tech = anti_air_max_height
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = sam_1
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			mechanized_autocannon_2
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+
+	anti_air_max_height = {
+	
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		static_anti_air_hit_chance_factor = 0.15
+		industry_air_damage_factor = -0.01
+
+		path = {
+			leads_to_tech = anti_air_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1954
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+
+	anti_air_2 = {
+
+		enable_equipments = {
+			anti_air_equipment_3
+		}
+
+		path = {
+			leads_to_tech = small_anti_air
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = anti_air_lines
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			mechanized_autocannon_3
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1956
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+
+	anti_air_lines = {
+
+		production_speed_anti_air_building_factor = 0.1
+		static_anti_air_hit_chance_factor = 0.15
+
+		XOR = {
+			small_anti_air
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1958
+
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 8 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+
+	small_anti_air = {
+
+		anti_air = {
+			air_attack = 0.15
+		}
+		anti_air_brigade = {
+			air_attack = 0.15
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.15
+		}
+		light_sp_anti_air_brigade = {
+			air_attack = 0.15
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.15
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.15
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.15
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.15
+		}
+
+		XOR = {
+			anti_air_lines
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1958
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = 8 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+
+	sam_prototype = {
+
+		enable_equipments = {
+			sam_equipment_1
+		}
+
+		path = {
+			leads_to_tech = sam_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	sam_1 = {
+
+		enable_equipments = {
+			sam_equipment_2
+		}
+
+		path = {
+			leads_to_tech = sam_remote
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1956
+
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 4 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	sam_remote = {
+	
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		light_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		medium_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		super_heavy_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		modern_sp_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		static_anti_air_damage_factor = 0.1
+		coordination_bonus = 0.01
+
+		path = {
+			leads_to_tech = sam_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1958
+
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 6 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	sam_2 = {
+
+		enable_equipments = {
+			sam_equipment_3
+		}
+
+		path = {
+			leads_to_tech = ercs
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = sam_motorization
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 8 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+
+	ercs = {
+
+		industry_air_damage_factor = -0.01
+		static_anti_air_hit_chance_factor = 0.2
+		
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 10 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	sam_motorization = {
+
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = 10 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	ww2_anti_tank = {
+
+		enable_equipments = {
+			anti_tank_equipment_1
+		}
+
+		path = {
+			leads_to_tech = anti_tank_cumulative_effect
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			mechanized_anti_tank_cannon_1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1944
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	anti_tank_cumulative_effect = {
+	
+		anti_tank = {
+			ap_attack = 0.15
+		}
+		anti_tank_brigade = {
+			ap_attack = 0.15
+		}
+		mot_anti_tank_brigade = {
+			ap_attack = 0.15
+		}
+		light_tank_destroyer_brigade = {
+			ap_attack = 0.15
+		}
+		medium_tank_destroyer_brigade = {
+			ap_attack = 0.15
+		}
+		heavy_tank_destroyer_brigade = {
+			ap_attack = 0.15
+		}
+		super_heavy_tank_destroyer_brigade = {
+			ap_attack = 0.15
+		}
+		modern_tank_destroyer_brigade = {
+			ap_attack = 0.15
+		}
+		armored_car_destroyer = {
+			ap_attack = 0.15
+		}
+		armored_personnel_carrier_destroyer = {
+			ap_attack = 0.15
+		}
+		airborne_car_destroyer = {
+			ap_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = anti_tank_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	anti_tank_1 = {
+
+		enable_equipments = {
+			anti_tank_equipment_2
+		}
+
+		path = {
+			leads_to_tech = anti_tank_2
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			mechanized_anti_tank_cannon_2
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1954
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	anti_tank_2 = {
+
+		enable_equipments = {
+			anti_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = extreme_ap
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = anti_tank_support	
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1956
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	extreme_ap = {
+	
+		anti_tank = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		anti_tank_brigade = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		mot_anti_tank_brigade = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		light_tank_destroyer_brigade = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		medium_tank_destroyer_brigade = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		heavy_tank_destroyer_brigade = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		super_heavy_tank_destroyer_brigade = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		modern_tank_destroyer_brigade = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		armored_car_destroyer = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		armored_personnel_carrier_destroyer = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+		airborne_car_destroyer = {
+			ap_attack = 0.1
+			hard_attack = 0.1
+		}
+
+		XOR = {
+			anti_tank_support
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1958
+
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 8 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	anti_tank_support = {
+
+		anti_tank = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		anti_tank_brigade = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		mot_anti_tank_brigade = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		light_tank_destroyer_brigade = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		medium_tank_destroyer_brigade = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		heavy_tank_destroyer_brigade = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		super_heavy_tank_destroyer_brigade = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		modern_tank_destroyer_brigade = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		armored_car_destroyer = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		armored_personnel_carrier_destroyer = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+		airborne_car_destroyer = {
+			soft_attack = 0.2
+			breakthrough = 0.05
+		}
+
+		XOR = {
+			extreme_ap
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1958
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = 8 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+
+	ww2_mlrs = {
+
+		enable_subunits = {
+			rocket_artillery
+			rocket_artillery_brigade
+		}
+		
+		enable_equipments = {
+			rocket_artillery_equipment_1
+		}
+
+		path = {
+			leads_to_tech = mlrs_reloading_speed
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			mechanized_light_mrls_1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1944
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	mlrs_reloading_speed = {
+	
+		rocket_artillery = {
+			soft_attack = 0.1
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.1
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		armored_car_artillery = {
+			soft_attack = 0.1
+		}
+		armored_personnel_carrier_artillery = {
+			soft_attack = 0.1
+		}
+		airborne_car_artillery = {
+			soft_attack = 0.1
+		}
+
+		path = {
+			leads_to_tech = mlrs_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	mlrs_1 = {
+	
+		enable_equipments = {
+			rocket_artillery_equipment_2
+		}
+
+		path = {
+			leads_to_tech = mlrs_phosphorus_munitions
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			mechanized_light_mrls_2
+			mechanized_heavy_mrls_1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1954
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	mlrs_phosphorus_munitions = {
+
+		rocket_artillery = {
+			soft_attack = 0.1
+			jungle = {
+				attack = 0.15
+			}
+			forest = {
+				attack = 0.15
+			}
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.1
+			jungle = {
+				attack = 0.15
+			}
+			forest = {
+				attack = 0.15
+			}
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.1
+			jungle = {
+				attack = 0.15
+			}
+			forest = {
+				attack = 0.15
+			}
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.1
+			jungle = {
+				attack = 0.15
+			}
+			forest = {
+				attack = 0.15
+			}
+		}
+		armored_car_artillery = {
+			soft_attack = 0.1
+			jungle = {
+				attack = 0.15
+			}
+			forest = {
+				attack = 0.15
+			}
+		}
+		armored_personnel_carrier_artillery = {
+			soft_attack = 0.1
+			jungle = {
+				attack = 0.15
+			}
+			forest = {
+				attack = 0.15
+			}
+		}
+		airborne_car_artillery = {
+			soft_attack = 0.1
+			jungle = {
+				attack = 0.15
+			}
+			forest = {
+				attack = 0.15
+			}
+		}
+		
+		path = {
+			leads_to_tech = mlrs_thermobaric_weapons
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1956
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	mlrs_thermobaric_munitions = {
+
+		rocket_artillery = {
+			soft_attack = 0.1
+			ap_attack = 0.15
+			breakthrough = 0.1
+			urban = {
+				attack = 0.2
+			}
+			fort = {
+				attack = 0.2
+			}
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.1
+			urban = {
+				attack = 0.2
+			}
+			fort = {
+				attack = 0.2
+			}
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.1
+			urban = {
+				attack = 0.2
+			}
+			fort = {
+				attack = 0.2
+			}
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.1
+			urban = {
+				attack = 0.2
+			}
+			fort = {
+				attack = 0.2
+			}
+		}
+		armored_car_artillery = {
+			soft_attack = 0.1
+			urban = {
+				attack = 0.2
+			}
+			fort = {
+				attack = 0.2
+			}
+		}
+		armored_personnel_carrier_artillery = {
+			soft_attack = 0.1
+			urban = {
+				attack = 0.2
+			}
+			fort = {
+				attack = 0.2
+			}
+		}
+		airborne_car_artillery = {
+			soft_attack = 0.1
+			urban = {
+				attack = 0.2
+			}
+			fort = {
+				attack = 0.2
+			}
+		}
+		
+		path = {
+			leads_to_tech = mlrs_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1958
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	mlrs_2 = {
+
+		enable_equipments = {
+			rocket_artillery_equipment_3
+		}
+
+		path = {
+			leads_to_tech = mlrs_storming
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = mlrs_paralizing_strikes
+			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			mechanized_light_mrls_3
+			mechanized_heavy_mrls_2
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	mlrs_storming = {
+	
+		rocket_artillery = {
+			soft_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		armored_car_artillery = {
+			soft_attack = 0.15
+		}
+		armored_personnel_carrier_artillery = {
+			soft_attack = 0.15
+		}
+		airborne_car_artillery = {
+			soft_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = mlrs_2
+			research_cost_coeff = 1
+		}
+		
+		XOR = {
+			mlrs_paralizing_strikes
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1962
+
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 12 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	mlrs_paralizing_strikes = {
+
+		rocket_artillery = {
+			breakthrough = 0.225
+		}
+		rocket_artillery_brigade = {
+			breakthrough = 0.225
+		}
+		motorized_rocket_brigade = {
+			breakthrough = 0.225
+		}
+		rocket_artillery_brigade = {
+			breakthrough = 0.225
+		}
+		armored_car_artillery = {
+			breakthrough = 0.225
+		}
+		armored_personnel_carrier_artillery = {
+			breakthrough = 0.225
+		}
+		airborne_car_artillery = {
+			breakthrough = 0.225
+		}
+
+		path = {
+			leads_to_tech = mlrs_2
+			research_cost_coeff = 1
+		}
+		
+		XOR = {
+			mlrs_storming
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1962
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = 12 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	tbm_1 = {
+
+		enable_subunits = {
+			tbm_brigade
+		}
+		
+		enable_equipments = {
+			tbm_equipment_1
+		}
+
+		path = {
+			leads_to_tech = tbm_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = msam_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	msam_1 = {
+
+		enable_subunits = {
+			msam_brigade
+		}
+		
+		enable_equipments = {
+			msam_equipment_1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1954
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	tbm_2 = {
+		
+		enable_equipments = {
+			tbm_equipment_2
+		}
+
+		path = {
+			leads_to_tech = tbm_3
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = msam_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1956
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	msam_2 = {
+	
+		enable_subunits = {
+			msam_brigade
+		}
+		
+		enable_equipments = {
+			msam_equipment_2
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1956
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 6 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	tbm_3 = {
+		
+		enable_equipments = {
+			tbm_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = msam_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+	
+	msam_3 = {
+	
+		enable_subunits = {
+			msam_brigade
+		}
+		
+		enable_equipments = {
+			msam_equipment_3
+		}
+
+		research_cost = 1.5
+		
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 10 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+		}
+		
+	}
+
+}

@@ -1,0 +1,114 @@
+ideas = {
+   country = {
+       ANG_compencation_ost_india = {
+			picture =
+
+			allowed = {
+				original_tag = ANG
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = -0.25
+				acclimatization_hot_climate_gain_factor = 0.1
+				special_forces_cap = 0.1
+			} 
+			
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.075
+			}
+			
+			targeted_modifier = {
+				tag = SUR
+				cic_to_target_factor = 0.095
+				extra_trade_to_target_factor = 0.125
+			}
+		}
+		
+		ANG_race_politic = {
+			picture =
+
+			allowed = {
+				original_tag = ANG
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.72
+				stability_factor = -0.15
+				army_org_factor = 0.095
+				consumer_goods_factor = -0.075
+				party_popularity_stability_factor = -0.32
+				improve_relations_maintain_cost_factor = 0.25
+				resistance_growth = 0.1
+				
+			} 
+			
+			targeted_modifier = {
+				tag = EZO
+				mic_to_target_factor = 0.095
+			}
+		}
+		
+		ANG_flash_on_sell = {
+			picture =
+
+			allowed = {
+				original_tag = ANG
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.5
+				production_speed_buildings_factor = 0.1
+				war_support_factor = -0.25
+				monthly_population = -0.3
+				min_export = 0.15
+				production_lack_of_resource_penalty_factor = -0.25
+				opinion_gain_monthly_factor = -0.5
+				industrial_factory_donations = 3
+			} 
+		}
+		
+		ANG_blood_ecstaz_black_racism = {
+			picture =
+
+			allowed = {
+				original_tag = ANG
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				surrender_limit = -0.17
+				attrition_factor = 0.18
+				resistance_damage_to_garrison = 0.2
+				resistance_target = 0.15
+			} 
+		}
+		
+		ANG_intrige_bouler = {
+			picture =
+
+			allowed = {
+				original_tag = ANG
+			}
+			
+			targeted_modifier = {
+				tag = GER
+				defense_bonus_against = -0.125
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				occult_nazism_acceptance = 25
+				foreign_subversive_activities = 0.2
+			} 
+		}
+	}
+}

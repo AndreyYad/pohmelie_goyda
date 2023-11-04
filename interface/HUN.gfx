@@ -1,0 +1,36 @@
+spriteTypes = {	
+	### ПОРТРЕТЫ
+
+	spriteType = {
+		name = "GFX_portrait_HUN_bash"
+		texturefile = "gfx/leaders/HUN/portrait_HUN_bash.dds"		
+	}
+	spriteType = {
+		name = "GFX_portrait_HUN_salashi"
+		texturefile = "gfx/leaders/HUN/portrait_HUN_salashi.dds"		
+	}
+	
+	### НАЦДУХИ
+	
+	spriteType = {
+		name = "GFX_idea_HUN_turan_ambition"
+		texturefile = "gfx/interface/ideas/HUN_turan_ambition.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_copro_order"
+		texturefile = "gfx/interface/ideas/HUN_copro_order.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_militarisation"
+		texturefile = "gfx/interface/ideas/HUN_militarisation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_ger_integration_program"
+		texturefile = "gfx/interface/ideas/HUN_ger_integration_program.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_ideology_tension"
+		texturefile = "gfx/interface/ideas/HUN_ideology_tension.dds"
+	}
+	
+}

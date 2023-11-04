@@ -1,0 +1,24 @@
+state={
+	id=934
+	name="STATE_934"
+	provinces={
+		1974 5084 13928 13932 13935 13936 13937 13938 13939 
+	}
+	manpower=69420
+	state_category = rural
+	resources={
+		oil=4.000
+	}
+	history={
+		owner = CAR
+		add_core_of = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13928 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

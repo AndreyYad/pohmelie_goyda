@@ -1,0 +1,25 @@
+state={
+	id=1004
+	name="STATE_1004"
+	provinces={
+		14632 14633 14634 
+	}
+	manpower=9287
+	state_category = pastoral
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = WES
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 1
+			14632 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			14632 1 
+		}
+	}
+	local_supplies=0.000
+}

@@ -1,0 +1,99 @@
+ideas = {
+
+	country = {
+    ALB_ITA_colonizing = {
+			modifier = {
+			    political_power_cost = 0.04
+                extra_trade_to_overlord_factor = 0.75
+				production_speed_infrastructure_factor = 0.1
+				monthly_population = 0.2
+				production_speed_industrial_complex_factor = 0.125
+				production_speed_dockyard_factor = 0.125
+				required_garrison_factor = 0.085
+				consumer_goods_factor = 0.05
+                autonomy_gain = -1	
+				cic_to_overlord_factor = 0.15
+			}
+
+		}
+    ALB_rome_heritage = {
+			modifier = {
+				fascism_drift = 0.05
+				experience_gain_navy_factor = 0.15
+				industrial_capacity_dockyard = 0.1
+				training_time_factor = -0.08
+				resistance_growth_on_our_occupied_states = -0.215
+				weekly_casualties_war_support = -0.0025
+				agency_upgrade_time = 0.35
+				commando_trait_chance_factor = -0.25
+				research_speed_factor =  0.075
+			}			
+		}
+   ALB_red_and_black_i_dress_eagle_on_my_chest_it_is_good_to_be_an_albanian = {
+			modifier = {
+			drift_defence_factor = 0.25
+			mic_to_overlord_factor = -0.1	
+			conscription_factor = 0.17
+			surrender_limit = 0.05
+			breakthrough_factor = 0.05
+			}
+			targeted_modifier = {
+            tag = YUG
+            attack_bonus_against = 0.075
+            }		
+			targeted_modifier = {
+            tag = GRE
+            attack_bonus_against = 0.075
+            }	
+		}
+   ALB_fascist_militia = {
+   			modifier = {
+             required_garrison_factor = -0.1
+	         modifier_army_sub_unit_militia_attack_factor = 0.075
+			 modifier_army_sub_unit_militia_defence_factor = 0.075
+             root_out_resistance_effectiveness_factor = -0.05
+             army_org_Factor = -0.15
+			 experience_loss_factor = 0.1
+             land_doctrine_cost_factor = 0.25
+			 naval_doctrine_cost_factor = 0.25
+			 air_doctrine_cost_factor = 0.25
+			 breakthrough_factor = -0.1
+	         army_armor_attack_factor = -0.35
+			 army_armor_defence_factor = -0.35
+             experience_gain_air = -0.75			 
+            }
+		}
+   ALB_vultenari = {
+			modifier = {
+	        resistance_damage_to_garrison = 0.11
+		    resistance_growth = -0.175
+			resistance_target = -0.11
+			stability_factor = -0.145
+			drift_defence_factor = -0.1
+			out_of_supply_factor = -0.15
+			non_core_manpower = 0.12			
+            }
+		    targeted_modifier = {
+            tag = YUG
+            attack_bonus_against = 0.1
+            }		
+		}
+   ALB_national_front = {
+			modifier = {
+			authoritarian_socialism_drift = 0.25
+			ultranationalism_drift = 0.25
+			required_garrison_factor = 0.05
+			stability_weekly = -0.0015
+			surrender_limit = -0.095
+			foreign_subversive_activites = 0.125
+			}
+	        targeted_modifier = {
+            tag = SOV
+            attack_bonus_against = -0.1
+            }		
+            targeted_modifier = {
+            tag = GER
+            attack_bonus_against = -0.1
+            }			
+		}
+	}

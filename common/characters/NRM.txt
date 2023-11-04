@@ -1,0 +1,51 @@
+characters={
+	NRM_ley={
+		name=NRM_ley
+		portraits={
+			civilian={
+				large=GFX_portrait_ley
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			traits={alco_ghost_gebbels organizator_german_work}
+			expire="1995.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=national_syndicalism
+			traits={alco_ghost_gebbels organizator_german_work}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	NRM_wallop={
+		name=NRM_wallop
+		portraits={
+			civilian={
+				large=GFX_portrait_wallop
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={esotoric_mythic aristorcracy_reactioner supporter_race_supreority}
+			expire="1995.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=occult_nazism_subtype
+			traits={esotoric_mythic aristorcracy_reactioner supporter_race_supreority}
+			expire="1995.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=monarchy  
+			traits={esotoric_mythic aristorcracy_reactioner supporter_race_supreority}
+			expire="1995.1.1.1"
+			id=-1
+		}
+	}
+	
+}

@@ -1,0 +1,28 @@
+state={
+	id=846
+	name="STATE_846"
+	provinces={
+		8000 13343 13344 
+	}
+	manpower=14527
+	
+	state_category = small_island
+	
+	history=
+	{
+		owner = ITA
+		add_core_of = YEM
+		victory_points = {
+			8000 1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			8000 = {
+				naval_base = 2
+			}
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

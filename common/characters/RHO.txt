@@ -1,0 +1,69 @@
+characters = {
+	RHO_Roi_Velensky = {
+		name = RHO_roi_velensky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHO/Velensky.dds"
+			}
+			army = {
+				large = "gfx/leaders/RHO/Velensky.dds"
+				small = "gfx/interface/advisors/RHO/RHO_Velensky.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			traits = { 
+				RHO_british_supremacy
+				RHO_against_decolonisation
+			}
+			desc = Roi_Velensky_desc
+		}
+	}
+
+	RHO_Godfri_Haggins = {
+		name = RHO_godfri_haggins
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHO/Haggins.dds"
+			}
+			army = {
+				large = "gfx/leaders/RHO/Haggins.dds"
+				small = "gfx/interface/advisors/RHO/RHO_Haggins.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { 
+				RHO_compr_federalist
+			}
+			desc = Godfri_Haggins_desc
+		}
+	}
+
+	RHO_Garfield_Todd = {
+		name = RHO_garfield_todd
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHO/Todd.dds"
+			}
+			army = {
+				large = "gfx/leaders/RHO/Todd.dds"
+				small = "gfx/interface/advisors/RHO/RHO_Todd.png"
+			}
+			navy = {
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_subtype
+			traits = { 
+				RHO_friend_of_nigggers
+				RHO_enemy_of_naturals
+			}
+			desc = Garfield_Todd_desc
+		}
+	}
+}

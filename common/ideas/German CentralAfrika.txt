@@ -1,0 +1,108 @@
+ideas = {
+   country = {
+       GCA_internecine_rodeo = {
+			picture =
+
+			allowed = {
+				original_tag = GCA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				subjects_autonomy_gain = -0.1
+				coordination_bonus = -0.025
+				political_power_factor = -0.35
+				max_command_power_mult = -0.35
+				send_volunteer_factor = 0.1
+				special_forces_cap = 0.1
+			} 
+		}
+		
+		GCA_running_from_fatum = {
+			picture =
+
+			allowed = {
+				original_tag = GCA
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = GER
+				defense_bonus_against = 0.05
+			}
+			
+			modifier = {
+				surrender_limit = -0.075
+				occult_nazism_acceptance = -100
+				war_support_factor = -0.375
+				air_range_factor = 0.075
+				navy_max_range_factor = 0.075
+				army_org_factor = -0.125
+				nuclear_production_factor = 0.1
+				experience_loss_factor = 0.05
+			} 
+		}
+		
+		GCA_personal_benefetsion_fuhrer = {
+			picture =
+
+			allowed = {
+				original_tag = GCA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = 0.25
+				production_speed_buildings_factor = -0.25
+				industrial_factory_donations = 2
+				military_factory_donations = 2
+				political_advisor_cost_factor = -0.5
+				local_resources_factor = -0.075
+				production_factory_max_efficiency_factor = -0.35
+			} 
+		}
+		
+		GCA_shaft_rommel = {
+			picture =
+
+			allowed = {
+				original_tag = GCA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_coastal_bunker_factor = 0.15
+				max_dig_in_factor = 0.075
+				dig_in_speed_factor = 0.1
+				planning_speed = -0.25
+				air_strategic_bomber_bombing_factor = 0.05
+				naval_strike_attack_factor = 0.1
+				
+			} 
+		}
+		
+		GCA_riot_outwall = {
+			picture =
+
+			allowed = {
+				original_tag = GCA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.82
+				required_garrison_factor = 0.15
+				resistance_damage_to_garrison = 0.15
+				drift_defence_factor = -0.5
+				pocket_penalty = 0.25
+				local_factory_sabotage = 0.35
+			} 
+		}
+	}
+}

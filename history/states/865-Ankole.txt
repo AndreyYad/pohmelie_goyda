@@ -1,0 +1,30 @@
+state={
+	id=865
+	name="STATE_865"
+	provinces={
+		3854 13440 
+	}
+	manpower=205678
+	resources={
+		tungsten=4 # was: 3
+		steel=4 # was: 2
+		chromium=2 # was: 1
+	}
+	
+	state_category = rural
+
+	history=
+	{
+		owner = BEA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 
+			13440 1 
+		}
+		add_core_of = BEA
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=982
+	name="STATE_982"
+	provinces={
+		14410 14411 14412 14413 14414 
+	}
+	manpower=385193
+	state_category = rural
+	resources={
+		oil=4.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = MLI
+		add_core_of = VOL
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14412 2 
+		}
+	}
+	local_supplies=0.000
+}

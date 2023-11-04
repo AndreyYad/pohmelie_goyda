@@ -1,0 +1,33 @@
+state={
+	id=1086
+	name="STATE_1086"
+	provinces={
+		2202 15057 15058 15059 15060 15061 15062 15063 
+	}
+	manpower = 163230
+	
+	state_category = rural
+	resources={
+		rubber=4 # was: 2
+	}
+	
+	history=
+	{
+		owner = BEA
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			air_base = 1
+			15063 ={
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			15063 3 
+		}
+		add_core_of = BEA
+	
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

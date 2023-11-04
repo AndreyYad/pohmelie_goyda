@@ -1,0 +1,25 @@
+state={
+	id=958
+	name="STATE_958"
+	provinces={
+		14049 14057 14065 14074 14079 14080 
+	}
+	manpower=290250
+	state_category = rural
+	resources={
+		chromium=4.000
+		}
+	history={
+		owner = LAN
+		add_core_of = LAN
+		add_core_of = COG
+		victory_points = {
+			14049 2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	local_supplies=0.000
+}

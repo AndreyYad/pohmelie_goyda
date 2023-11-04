@@ -1,0 +1,21 @@
+state={
+	id=911
+	name="STATE_911"
+	provinces={
+		13715 13716 13719 13723 
+	}
+	manpower=973900
+	state_category = rural
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13719 1 
+		}
+		add_core_of = NIG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

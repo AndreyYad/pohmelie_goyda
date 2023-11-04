@@ -1,0 +1,29 @@
+state={
+	id=1090
+	name="STATE_1090"
+	provinces={
+		12950 15040 15041 15042 15043 15044 15045 15046 
+	}
+	manpower=180499
+	state_category = rural
+	resources={
+		aluminium=18 # was: 19
+		steel=14 # was: 12
+	}
+	
+	history=
+	{
+		owner = RHO
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		victory_points = {
+			15045 3 
+		}
+		add_core_of = RHO
+		
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

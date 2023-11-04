@@ -1,0 +1,16 @@
+characters={
+	BCA_jean_schramme={
+		name=BCA_jean_schramme
+		portraits={
+			civilian={
+				large = "gfx/leaders/BCA/shramm.dds"
+			}
+		}
+		country_leader={
+			ideology=militocracy
+			traits={white_father black_jack}
+			expire="1988.12.14.1"
+			id=-1
+		}
+	}
+}

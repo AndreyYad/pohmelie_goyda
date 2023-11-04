@@ -1,0 +1,32 @@
+
+state={
+	id=541
+	name="STATE_541"
+	manpower = 122000
+	
+	state_category = city
+
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 3
+			nuclear_reactor = 1
+			air_base = 4
+			industrial_complex = 1
+			arms_factory = 1
+			4879 = {
+			   bunker = 4
+			}
+		}
+		victory_points = {
+			4879 4
+		}
+		add_core_of = NMB
+	}
+
+	provinces={
+		4879 14818 14819 14820 14821
+	}
+
+	local_supplies=6.0 
+}

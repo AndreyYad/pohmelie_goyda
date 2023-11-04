@@ -1,0 +1,93 @@
+ideas = {
+
+	country = {
+    GRE_no_roads = {
+			modifier = {
+			    production_speed_buildings_factor = -0.275
+				production_speed_infrastructure_factor = -0.35
+				production_speed_rail_way_factor= -0.35
+				production_speed_supply_node_factor= -0.5
+				supply_factor = -0.35
+				local_resources_factor = -0.45
+				attrition = 0.25
+				army_speed_factor = -0.45
+			}
+
+		}
+		
+    GRE_guerillas = {
+			modifier = {
+			required_garrison_factor = 0.25
+			foreign_subversive_activites = 0.25
+			conscription_factor = -0.5
+			resistance_damage_to_garrison = 0.2
+		    non_core_manpower = -0.25
+			resistance_growth = 0.15
+			resistance_garrison_penetration_chance = 0.15
+			autsoc_drift = 0.35		
+			conservatism_drift = 0.35	
+			liberalism_drift = 0.35	
+			industry_repair_factor = -0.35
+			stability_weekly = -0.005
+            }
+		}
+		
+   GRE_confiscation = {
+			modifier = {
+			extra_trade_to_overlord_factor = 0.75
+			overlord_trade_cost_factor = -0.25
+			cic_to_overlord_factor = 0.1
+			mic_to_overlord_factor = 0.1
+			war_support_factor = -0.25
+            }		
+		}
+		
+   GRE_national_union = {
+   			modifier = {
+			compliance_growth = 0.05
+			required_garrison_factor = -0.05
+			fascism_drift = 0.2				
+			ultranationalism_drift = 0.2	
+			training_time_army_factor = -0.05
+			conscription = 0.0025
+			war_support_weekly = 0.0012
+			stability_factor = -0.075
+			consumer_goods_factor = -0.015	
+			}
+			targeted_modifier = {
+            tag = SOV
+            attack_bonus_against = 0.05
+            }
+		    targeted_modifier = {
+            tag = TUR
+            attack_bonus_against = 0.05
+            }
+		    targeted_modifier = {
+            tag = YUG
+            attack_bonus_against = 0.05
+            }
+		}
+		
+   GRE_italian_weakness = {
+			modifier = {
+		    political_power_gain = -0.35
+			army_org_Factor = -0.15
+			planning_speed = -0.25
+            autonomy_gain = 0.1
+            compliance_growth_on_our_occupied_states = 0.15
+		    drift_defence_factor = -0.4
+			surrender_limit = -0.2
+            }
+		}
+ GRE_famine = {
+			modifier = {
+	        stability_factor = -0.2
+			war_support_weekly = -0.005
+			consumer_goods_factor = 0.25
+			production_factory_start_efficiency_factor = -0.35	
+			production_speed_industrial_complex_factor = -0.45
+			monthly_population = -0.7
+			winter_attrition_factor = 0.75	
+			}
+		}
+	}

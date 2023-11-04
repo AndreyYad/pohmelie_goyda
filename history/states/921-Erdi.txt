@@ -1,0 +1,25 @@
+state={
+	id=921
+	name="STATE_921"
+	provinces={
+		13841 13843 13844 13845 13847 13850 
+	}
+	manpower=10538
+	state_category = pastoral
+	resources={
+		steel=7.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13843 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

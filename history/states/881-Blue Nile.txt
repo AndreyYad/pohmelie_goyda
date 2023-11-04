@@ -1,0 +1,28 @@
+state={
+	id=881
+	name="STATE_881"
+	provinces={
+		12887 13514 13517 
+	}
+	manpower=103528
+	resources={
+		chromium=7 # was: 2
+	}
+	
+	state_category = rural
+
+	history=
+	{
+		owner = SUD
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13517 1
+		}
+		add_core_of = SUD
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

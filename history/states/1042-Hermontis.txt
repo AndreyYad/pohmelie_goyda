@@ -1,0 +1,24 @@
+state={
+	id=1042
+	name="STATE_1042"
+	provinces={
+		1028 1206 7073 10097 12771 14730 14731 
+	}
+	manpower=185670
+	state_category = town
+	
+	history = {
+		victory_points = {
+			7073 3
+		}
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = EGY
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

@@ -1,0 +1,35 @@
+﻿capital = 559
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+SOM_porta_benadira
+SOM_nationalism
+SOM_zaptie
+}
+
+set_convoys = 19
+set_research_slots = 2
+set_stability = 0.58
+set_war_support = 0.56
+
+recruit_character = SOM_ruggero_santini
+recruit_character = SOM_alfredo_serranti
+ITA = {
+	set_autonomy = {
+		target = SOM
+		autonomy_state = autonomy_accor_state
+	}
+}
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 90
+	etatism = 4
+	conservatism = 6
+}

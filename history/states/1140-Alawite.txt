@@ -1,0 +1,33 @@
+state={
+	id=1140
+	name="STATE_1140"
+	provinces={
+		1088 10087 
+	}
+	manpower=371200
+	state_category = city
+	
+	history={
+		add_core_of = ALW
+		owner = ALW
+		victory_points = {
+			1088 5
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 5
+			radar_station = 3
+			anti_air_building = 1
+			1088 = {
+			naval_base = 4
+			coastal_bunker = 1
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

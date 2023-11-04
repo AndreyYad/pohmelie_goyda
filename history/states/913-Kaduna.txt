@@ -1,0 +1,28 @@
+state={
+	id=913
+	name="STATE_913"
+	provinces={
+		2025 8021 10820 13730 13735 13738 
+	}
+	manpower=575290
+	state_category = town
+	resources={
+		rubber=17 # was: 18
+		steel=8 # was: 6
+	}
+	history={
+		owner = NIG
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = {
+			13738 5 
+		}	
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

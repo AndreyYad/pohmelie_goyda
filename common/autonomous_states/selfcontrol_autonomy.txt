@@ -1,0 +1,52 @@
+autonomy_state = {
+	id = autonomy_selfcontrol_autonomy
+	
+	min_freedom_level = 0.6
+	
+	manpower_influence = 0.6
+	
+	rule = {
+		desc = "RULE_DESC_IS_A_SUBJECT"
+		
+		can_not_declare_war = yes
+		can_decline_call_to_war = no
+		contributes_operatives = yes
+		can_create_collaboration_government = no
+	}
+	
+	modifier = {
+		autonomy_manpower_share = 0.6
+		cic_to_overlord_factor = 0.2
+		mic_to_overlord_factor = 0.4
+		extra_trade_to_overlord_factor = 0.8
+		overlord_trade_cost_factor = -0.8
+		can_master_build_for_us = 1
+		research_sharing_per_country_bonus_factor = -0.25
+	}
+	
+	ai_subject_wants_higher = {
+		factor = 0
+	}
+	
+	ai_overlord_wants_lower = {
+		factor = 0
+	}
+
+	ai_overlord_wants_garrison = {
+		always = no
+	}
+
+	allowed = {
+		if = {
+			OVERLORD = {OR = {has_government = liberalism has_government = conservatism has_government = social_democracy }}
+		}
+	}
+	
+	can_take_level = {
+		
+	}
+
+	can_lose_level = {
+		
+	}
+}

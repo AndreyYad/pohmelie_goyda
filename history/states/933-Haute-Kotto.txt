@@ -1,0 +1,25 @@
+state={
+	id=933
+	name="STATE_933"
+	provinces={
+		3165 13913 13920 13921 13925 13926 13929 13933 13934 
+	}
+	manpower=59100
+	state_category = rural
+	resources={
+		oil=2.000
+	}
+	history={
+		owner = CAR
+		add_core_of = CAR
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			13913 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

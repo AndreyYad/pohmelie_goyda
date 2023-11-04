@@ -1,0 +1,42 @@
+
+state={
+	id=187
+	name="STATE_187"
+	manpower = 92600
+	
+	state_category = small_island
+	
+	resources={
+		chromium=4 # was: 4
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			3401 1
+		}
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			3401 = {
+				naval_base = 3
+			}
+			15322 = {
+				naval_base = 1
+			}
+			15323 = {
+				naval_base = 1
+			}
+			15324 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GRE
+	}
+
+	provinces={
+		3401 15322 15323 15324
+	}
+
+	local_supplies=9.0 
+}

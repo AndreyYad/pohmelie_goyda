@@ -1,0 +1,89 @@
+capital = 64
+
+oob = "GER_1952"
+set_naval_oob = "GER_1952_Naval"
+set_research_slots = 5
+set_stability = 0.81
+set_war_support = 0.94
+set_convoys = 237
+air_experience = 30
+
+set_technology = {
+	fly_wing_tech = 1
+	railway_rocket_complex = 1
+}
+
+set_popularities = {
+	left_nationalism = 5
+	etatism = 2
+	occult_nazism = 93
+}
+
+recruit_character = GER_cummler
+recruit_character = GER_albert_speer
+recruit_character = GER_berner_brown
+recruit_character = GER_werner_heisenberg
+recruit_character = GER_kurt_agricola
+recruit_character = GER_theodor_eicke
+recruit_character = GER_oswald_pohl
+recruit_character = GER_josef_dietrich
+recruit_character = GER_paul_hausser
+recruit_character = GER_felix_stainer
+recruit_character = GER_gottlob_berger
+recruit_character = GER_karl_wolff
+recruit_character = GER_ernst_kaltenbrunner
+recruit_character = GER_gustav_kappler
+recruit_character = GER_odilo_globotschnig
+recruit_character = GER_alexander_andrae
+recruit_character = GER_philip_bouler
+recruit_character = GER_walter_kruger
+recruit_character = GER_ulrich_greifelt
+recruit_character = GER_gregor_ebner
+recruit_character = GER_august_frank
+recruit_character = GER_erwin_rosener
+recruit_character = GER_wilhelm_keppler
+recruit_character = GER_Walter_Model
+recruit_character = GER_Alfred_Rosenberg
+recruit_character = GER_Hellmuth_Becker
+recruit_character = GER_Franz_Bohme
+recruit_character = GER_Oskar_Dirlewanger
+recruit_character = GER_Heinrich_Gross
+recruit_character = GER_Curt_von_Gottberg
+recruit_character = GER_artur_axmann
+recruit_character = GER_Bruno_Brauer
+recruit_character = GER_Herbert_Bottcher
+recruit_character = GER_Josef_Mengele
+recruit_character = GER_August_Hirt
+recruit_character = GER_Sigmund_Rascher
+recruit_character = GER_Kurt_Pletner
+recruit_character = GER_Karl_Gebhardt 
+recruit_character = GER_Wilhelm_Beigelbock
+recruit_character = GER_Walther_Wust
+recruit_character = GER_Jakob_Hauer
+recruit_character = GER_Otto_Remer
+recruit_character = GER_Hanna_Reitsch
+recruit_character = GER_Werner_Baumbach
+recruit_character = GER_Horten_Brothers
+recruit_character = GER_Otto_Skorzeny
+recruit_character = GER_Edgar_Petersen
+recruit_character = GER_Walther_Wewer
+recruit_character = GER_Erich_Hartmann
+recruit_character = GER_Fritz_Frauenheym
+
+set_politics = {
+	ruling_party = occult_nazism
+}
+
+add_ideas = {
+  GER_occult_reich
+  GER_dechristination_germany
+  GER_triumph_wunderwaffe
+  GER_confrontation_af_suborbital
+  GER_biological_experiment
+  GER_search_legacy
+  GER_european_confederation
+  GER_verband
+}
+
+
+

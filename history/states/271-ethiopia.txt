@@ -1,0 +1,34 @@
+state=
+{
+	id=271
+	name="STATE_271"
+	manpower = 2152080
+	resources={
+		rubber=4 # was: 4
+	}
+	
+	state_category = city
+
+	history=
+	{
+		owner = ORO
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = { 
+			5010 10 
+		}
+		add_core_of = ORO
+
+	}
+
+	provinces=
+	{
+2009 5010 12856 13294 13296 13297 13298 13300 13302 13303 13304 13305
+	}
+
+	local_supplies=0.0 
+}

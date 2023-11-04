@@ -1,0 +1,27 @@
+state={
+	id=1023
+	name="STATE_1023"
+	provinces={
+		3987 10082 11935 13145 13179 
+	}
+	manpower=106032
+	state_category = rural
+	resources={
+		steel=3.000
+	}
+	history={
+		owner = ITA
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 2
+			11935 = {
+				bunker = 1
+			}
+		}
+		victory_points = {
+			11935 2 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=981
+	name="STATE_981"
+	provinces={
+		7950 14408 
+	}
+	manpower=37430
+	state_category = pastoral
+	resources={
+		oil=3.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = NGR
+		add_core_of = MLI
+		add_core_of = VOL
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14408 1 
+		}
+	}
+	local_supplies=0.000
+}

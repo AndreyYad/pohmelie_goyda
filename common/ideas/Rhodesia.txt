@@ -1,0 +1,60 @@
+ideas = {
+	country = {
+		RHO_south_prevalent = {
+			removal_cost = -1
+			allowed = { }
+			picture = ""
+			modifier = {
+				stability_factor = -0.115
+				production_speed_buildings_factor = 0.15
+				political_power_gain = 0.1
+				research_sharing_per_country_bonus_factor = 0.35
+				conscription_factor = -0.28
+				offensive_war_stability_factor = -0.15
+			}
+		}
+
+		RHO_racial_partnership = {
+			removal_cost = -1
+			allowed = { }
+			picture = ""
+			modifier = {
+				party_popularity_stability_factor = 0.15
+				stability_weekly = 0.001
+				political_power_cost = 0.25
+				consumer_goods_factor = 0.075
+				production_factory_efficiency_gain_factor = -0.085
+			}
+		}
+
+		RHO_strange_gov = {
+			removal_cost = -1
+			allowed = { }
+			picture = ""
+			modifier = {
+				planning_speed = -0.2			
+				drift_defence_factor = -0.2
+				political_power_gain = -0.3
+				war_support_weekly = -0.0035
+				mobilization_speed = -0.35
+			}
+		}
+
+		RHO_economic_caboom = {
+			removal_cost = -1
+			allowed = { }
+			picture = ""
+			modifier = {
+				production_factory_max_efficiency_factor = 0.12
+				production_speed_infrastructure_factor = 0.15
+				production_speed_industrial_complex_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.185
+				consumer_goods_factor = -0.025
+				local_resources_factor = 0.275				
+			}
+			research_bonus = {
+				industry = 0.18
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+state={
+	id=1050
+	name="STATE_1050"
+	provinces={
+		12963 14764 14765 14766 14767 14768 14769 14770 
+	}
+	manpower=10200
+	state_category = wasteland
+	resources={
+		chromium=7.000
+	}
+	
+	history = {
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+		}
+
+		add_core_of = BOT
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

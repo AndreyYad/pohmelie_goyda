@@ -1,0 +1,33 @@
+state={
+	id=705
+	name="STATE_705"
+	manpower=18725	
+	state_category = town
+	resources={
+		oil=5.000
+	
+	}
+
+	history={
+		owner = GER
+		add_core_of = EQG
+		victory_points = {
+			13015 2 
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			air_base = 8
+			13015 ={
+				naval_base = 7
+				coastal_bunker = 6
+			}
+		}
+	}
+
+	provinces={
+		13015 
+	}
+
+	local_supplies=1.0 
+}

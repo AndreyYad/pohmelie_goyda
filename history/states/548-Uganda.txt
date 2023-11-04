@@ -1,0 +1,30 @@
+state={
+	id=548
+	name="STATE_548"
+
+	state_category = town
+	resources={
+		rubber=3 # was: 4
+	}
+	history={
+		owner = BEA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+            air_base = 1
+		}
+		add_core_of = BEA
+		victory_points = {
+			12989 3
+		}
+	}
+
+	provinces={
+		12989 13439 13441 13444 13446 13449
+	}
+	manpower=2115625
+	buildings_max_level_factor=1.000
+
+	local_supplies=1.0 
+}

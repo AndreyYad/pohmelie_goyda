@@ -1,0 +1,233 @@
+bookmarks = {
+	bookmark = {
+		name = "FUHRERS_HANGOVER_GERMANY_NAME"
+		desc = "FUHRERS_HANGOVER_GERMANY_DESC"
+		date = 1952.1.1.12
+		picture = "GFX_black_sun"
+		default_country = "GER"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_FUHRERS_HANGOVER_DESC"
+			ideology = ultranationalism
+			available = { }
+			ideas = {
+				FRA_new_mission_france
+				FRA_criminal_state
+				FRA_galli
+			}
+			focuses = {
+				
+			}
+		}
+		"NOR"={
+			history = "NOR_FUHRERS_HANGOVER_DESC"
+			ideology = ultranationalism
+			ideas = {
+				NOR_festung
+				NOR_great_accosiation
+				NOR_untrust_kwiling
+			}
+			focuses = {
+				
+			}
+		}
+		"BUR"={
+			history = "BUR_FUHRERS_HANGOVER_DESC"
+			ideology = occult_nazism
+			available = {  }
+			ideas = {
+				BUR_spartan_gigens
+				BUR_deurbanisation
+				BUR_friend_germany
+			}
+			focuses = {
+				
+			}
+		}
+		"HUN"={
+			history = "HUN_FUHRERS_HANGOVER_DESC"
+			ideology = ultranationalism
+			available = { }
+			ideas = {
+				HUN_turan_ambition
+				HUN_ger_integration_program
+				HUN_ideology_tension
+			}
+			focuses = {
+				
+			}
+		}
+		"GER"={
+			history = "GER_FUHRERS_HANGOVER_DESC"
+			ideology = occult_nazism
+			available = {  }
+			ideas = {
+				GER_occult_reich
+				GER_triumph_wunderwaffe
+				GER_search_legacy
+			}
+			focuses = {
+				
+			}
+		}
+		"HYP"={
+			history = "HYP_FUHRERS_HANGOVER_DESC"
+			ideology = occult_nazism
+			available = {  }
+			ideas = {
+				HYP_lost_in_ice
+				HYP_search_mythic_motherland
+				HYP_arctic_sun
+			}	
+			focuses = {
+				
+			}		
+		}
+		"HUN"={
+			history = "ITA_FUHRERS_HANGOVER_DESC"
+			ideology = fascism
+			available = { NOT = { has_dlc = "By Blood Alone" } }
+			ideas = {
+				vittorio_emanuele
+				ITA_iri_fake_ns
+				ITA_re_fake_ns
+			}	
+			focuses = {
+				ITA_comandante_diavolo
+				ITA_to_live_as_a_lion
+				ITA_a_colonial_empire
+			}		
+		}
+		"DEN"={
+			history = "DEN_FUHRERS_HANGOVER_DESC"
+			ideology = left_nationalism
+			ideas = {
+				DEN_arya_nordmark
+				DEN_revolution_anarcho_nature
+				DEN_rase_religion_odenism
+			}	
+			focuses = {
+				
+			}			
+		}
+		"HOL"={
+			history = "HOL_FUHRERS_HANGOVER_DESC"
+			ideology = occult_nazism
+			available = {  }
+			ideas = {
+				HOL_holand_dumvirat
+				HOL_conscript_ss
+				HOL_prepare_annexing
+			}
+			focuses = {
+				
+			}	
+		}
+		
+
+		
+
+
+		# minors ####
+		"BRI"={
+			minor = yes
+			history = "BRI_FUHRERS_HANGOVER_DESC"
+			ideology = occult_nazism
+			ideas = {
+				BRI_divers_terror_center
+				BRI_bezen_perro
+				BRI_keltnord_druidism
+			}
+			focuses = {
+				
+			}
+		}
+		"BNT"={
+			minor = yes
+			history = "BNT_FUHRERS_HANGOVER_DESC"
+			ideology = ultranationalism
+			ideas = {
+				BNT_Oygen
+				BNT_SS_mountaineers
+				BNT_iron_gates
+			}
+			focuses = {
+				
+			}
+		}
+		"SLO"={
+			minor = yes
+			history = "SLO_FUHRERS_HANGOVER_DESC"
+			ideology = occult_nazism
+			ideas = {
+				SLO_slaves_resistance
+				SLO_karpatia_germaniz
+				SLO_bases_of_SS
+			}
+			focuses = {
+				
+			}
+		}
+		"SAF"={
+			minor = yes
+			history = "SAF_FUHRERS_HANGOVER_DESC"
+			ideology = etatism
+			ideas = {
+				SAF_politic_aparteid
+				SAF_flame_osverbrandvaga
+				SAF_grumble_royal_oblivion
+			}
+			focuses = {
+				
+			}
+		}
+		"NRM"={
+			minor = yes
+			history = "NRM_FUHRERS_HANGOVER_DESC"
+			ideology = occult_nazism
+			ideas = {
+				NRM_normand_secret
+				NRM_worker_front
+				NRM_heart_atlant_val
+			}
+			focuses = {
+				
+			}
+		}
+		"PER"={
+			minor = yes
+			history = "PER_FUHRERS_HANGOVER_DESC"
+			ideology = ultranationalism
+			ideas = {
+				PER_flame
+				PER_resistance
+				PER_militians
+			}
+			focuses = {
+				
+			}
+		}
+
+		"PAL"={
+			minor = yes
+			history = "PAL_FUHRERS_HANGOVER_DESC"
+			ideology = ultranationalism
+			ideas = {
+				PAL_black_hole
+				PAL_hizb_ut_tahrir
+				PAL_Jihad
+			}
+			focuses = {
+				
+			}
+		}
+
+		
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

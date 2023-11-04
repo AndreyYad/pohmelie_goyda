@@ -1,0 +1,31 @@
+
+state={
+	id=353
+	name="STATE_353"
+
+	history={
+		owner = KUR
+		add_core_of = TUR
+		add_core_of = KUR
+		victory_points = {
+			9860 1
+		}
+		victory_points = {
+			876 1
+		}
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+
+	provinces={
+		876 9860 11797 15220 
+	}
+	manpower=223537
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=9.0 
+}

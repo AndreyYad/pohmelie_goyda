@@ -1,0 +1,34 @@
+
+state={
+	id=542
+	name="STATE_542"
+	manpower = 109000
+	
+	state_category = town
+	
+	resources={
+		chromium=18 # was: 16
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8214 = {
+			        bunker = 3
+			}
+		}
+		add_core_of = BOT
+		victory_points = {
+			8214 2
+		}
+
+	}
+
+	provinces={
+		8214 14782 14783 14784 14785 14786 14787 14788 14791
+	}
+
+	local_supplies=2.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=895
+	name="STATE_895"
+	provinces={
+		13209 13642 13643 13648 13654
+	}
+	manpower=323160
+	resources={
+		aluminium=1 # was: 1
+	}
+	state_category = rural
+	
+	
+	history={
+		owner = RHO
+		add_core_of = RHO
+		buildings = {
+			infrastructure = 1
+		}
+    }
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

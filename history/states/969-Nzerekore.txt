@@ -1,0 +1,30 @@
+state={
+	id=969
+	name="STATE_969"
+	provinces={
+		5039 8008 14333 14334 14335 14336 14337 14338 
+	}
+	manpower=550284
+	state_category = town
+	resources={
+		aluminium=6.000
+		steel=14.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = GNA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = {
+			14333 2 
+		}
+		victory_points = {
+			14338 1 
+		}
+	}
+	local_supplies=2.000
+}

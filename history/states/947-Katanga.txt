@@ -1,0 +1,33 @@
+state={
+	id=947
+	name="STATE_947"
+	provinces={
+		191 1516 1817 1929 1968 4515 9986 12795 12907 14008 14009 14010 14011 14012 14013 14014 14015 14016 14017 14018 14019 14020 14021 14022 14023 14024 14025 14026 14027 14028 14029 14030 14031 14032 14033 14034 14035 14038 14039 14040 14041 14045 14047 14052 14055 14058 14060 14070 
+	}
+	manpower=1703140
+	resources={
+		steel=11.000
+		}
+	state_category = city
+	history={
+		owner = KAT
+		add_core_of = KAT
+		victory_points = {
+			191 10
+		}
+		victory_points = {
+			14010 6
+		}
+		victory_points = {
+			14045 4
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 3
+		}
+
+	}
+	local_supplies=3.000
+}

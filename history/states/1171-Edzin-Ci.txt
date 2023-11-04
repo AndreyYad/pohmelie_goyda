@@ -1,0 +1,23 @@
+state={
+	id=1171
+	name="STATE_1171"
+	provinces={
+		4783 7727 7803 8102 10770 10899 
+	}
+	manpower=4216700
+	state_category = pastoral
+	history={
+		add_core_of = XSM
+		add_core_of = MEN
+		owner = MEN
+        victory_points = {
+			4783 3
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+			}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

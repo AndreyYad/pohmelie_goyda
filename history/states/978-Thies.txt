@@ -1,0 +1,35 @@
+state={
+	id=978
+	name="STATE_978"
+	provinces={
+		7972 12710 14379 14380 14381 14382 14383 14384 14385 14386 14387 14388 14389 14390 14391 14392 14393 14394 14395 14396 14397 
+	}
+	manpower=134720
+	state_category = town
+	resources={
+		aluminium=5.000
+		steel=4.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = SEN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+			14379 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			14379 2 
+		}
+		victory_points = {
+			14388 3 
+		}
+	}
+	local_supplies=1.000
+}

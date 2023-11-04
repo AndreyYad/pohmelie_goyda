@@ -1,0 +1,28 @@
+state={
+	id=1145
+	name="STATE_1145"
+	provinces={
+		960 975 3965 11894 
+	}
+	manpower=21488
+	state_category = rural
+	history={
+		add_core_of = TUR
+		add_core_of = ARM
+		owner = SOV
+		victory_points = {
+			975 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			975 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

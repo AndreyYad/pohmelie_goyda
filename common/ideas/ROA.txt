@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		ROA_ROA = {
+			picture = GFX
+			modifier = {
+			weekly_manpower = 100
+			monthly_population = 0.2
+			surrender_limit = -0.25
+			war_support_factor = -0.2
+			operative_slot = 1
+			}
+			targeted_modifier = {
+			tag = SOV
+			offence = 0.05
+			}
+		}
+		ROA_sotrudnichestvo_with_ENG = {
+			picture = GFX
+			modifier = {
+			production_speed_air_base_factor = 0.1
+			production_speed_rail_way_factor = 0.1
+			industrial_factory_donations = 2
+			military_factory_donations
+			cic_to_overlord_factor = -0.3
+			}
+			targeted_modifier = {
+				tag = ENG
+				cic_to_target_factor = 0.25
+				extra_trade_to_target_factor = 0.3
+			}
+		}
+		ROA_karateli = {
+			picture = GFX
+			modifier = {
+			occult_nazism_acceptance = -90
+			ultranationalism_acceptance = -60
+			resistance_damage_to_garrison = -0.085
+			local_non_core_manpower = 0.075
+			supply_consumption_factor = -0.08
+			root_out_resistance_effectiveness_factor = 0.05
+			}
+		}
+		ROA_aristocratic = {
+			picture = GFX
+			modifier = {
+			max_command_power = 10
+			army_leader_start_level = 1 
+			political_power_gain = 0.25
+			air_range_factor = 0.075
+			air_manpower_requirement_factor = -0.1
+			}
+		}
+	}
+}

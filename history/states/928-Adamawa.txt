@@ -1,0 +1,26 @@
+state={
+	id=928
+	name="STATE_928"
+	provinces={
+		11194 13879 13880 13881 13882 13883 13884 13885 13886 13887 
+	}
+	manpower=1263700
+	state_category = rural
+	resources={
+		aluminium=34.000
+	}
+	history={
+		owner = KAM
+		add_core_of = KAM
+		add_core_of = CMR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13885 2 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

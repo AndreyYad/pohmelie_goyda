@@ -1,0 +1,33 @@
+state={
+	id=1038
+	name="STATE_1038"
+	provinces={
+		1112 10099 12073 14726 
+	}
+	manpower=22100
+	state_category = wasteland
+	resources={
+		oil=4.000
+	}
+	
+	
+	history = {
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+			14726 = {
+			    naval_base = 1
+			}
+		}
+
+		victory_points = {
+			14726 2
+		}
+
+		add_core_of = EGY
+		add_core_of = ISR
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

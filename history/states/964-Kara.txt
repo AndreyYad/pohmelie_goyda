@@ -1,0 +1,26 @@
+state={
+	id=964
+	name="STATE_964"
+	provinces={
+		12843 13212 14294 14296 14297 
+	}
+	manpower=342100
+	state_category = rural
+	resources={
+		steel=2.000
+		chromium=2.000
+		aluminium=4.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = TOG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12843 1 
+		}
+	}
+	local_supplies=1.000
+}

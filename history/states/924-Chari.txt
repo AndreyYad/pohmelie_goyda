@@ -1,0 +1,25 @@
+state={
+	id=924
+	name="STATE_924"
+	provinces={
+		1883 3181 7919 13815 13816 13820 13821 13823 13824 13827 13828 13829 
+	}
+	manpower=782410
+	state_category = rural
+	resources={
+		oil=12.000
+	}
+	history={
+		owner = FFR
+		add_core_of = FFR
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13821 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

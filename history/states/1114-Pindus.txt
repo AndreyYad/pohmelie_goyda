@@ -1,0 +1,28 @@
+state={
+	id=1114
+	name="STATE_1114"
+	provinces={
+		841 3914 3980 15206 15207 
+	}
+	manpower=73500
+	state_category = town
+	
+	history={
+		add_core_of = PIN
+		owner = PIN
+		victory_points = {
+			841 1
+		}
+		victory_points = {
+			3914 3
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=7.000
+}

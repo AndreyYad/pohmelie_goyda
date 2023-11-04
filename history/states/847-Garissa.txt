@@ -1,0 +1,26 @@
+state={
+	id=847
+	name="STATE_847"
+	provinces={
+		8133 10761 12927 13355 13356 13361 13367 13368 13373 13375 13378 
+	}
+	manpower=469430
+	
+	state_category = pastoral
+
+	history=
+	{
+		owner = BEA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 
+			10761 1 
+		}
+		add_core_of = BEA
+		add_core_of = SOM
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

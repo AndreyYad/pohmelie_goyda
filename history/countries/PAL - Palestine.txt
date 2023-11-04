@@ -1,0 +1,36 @@
+capital = 454
+
+oob = "PAL_1951"
+set_research_slots = 2
+set_stability = 0.52
+set_war_support = 0.9
+set_convoys = 24
+
+set_technology = {
+}
+
+set_popularities = {
+	ultranationalism = 60
+	etatism = 22
+	fascism = 18
+}
+
+recruit_character = PAL_Amin_al_Husaini
+recruit_character = PAL_Fawsi_al_Kawukji
+recruit_character = PAL_Taqi_al_Din
+
+set_politics = {
+	ruling_party = ultranationalism
+}
+
+add_ideas = {
+  PAL_black_hole
+  PAL_low_loyality_army
+  PAL_Jihad 
+  PAL_oil_iraqi
+  PAL_von_leers_mission
+  PAL_hizb_ut_tahrir 
+}
+
+
+

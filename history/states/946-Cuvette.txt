@@ -1,0 +1,29 @@
+state={
+	id=946
+	name="STATE_946"
+	provinces={
+		3109 13986 13990 13991 13992 13993 13995 13997 13999 14000 
+	}
+	manpower=120410
+	state_category = rural
+	resources={
+		rubber=4.000
+	}
+	history={
+		owner = EZO
+		add_core_of = EZO
+		add_core_of = RCG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13997 1 
+		}
+		victory_points = {
+			13986 1 
+		}
+	}
+	local_supplies=0.000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

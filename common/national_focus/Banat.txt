@@ -1,0 +1,11 @@
+focus_tree = {
+	id = Banat
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BNT
+		}
+	}
+	
+}

@@ -1,0 +1,125 @@
+ideas = {
+   country = {
+       EZO_black_heart_black_continent = {
+			picture =
+
+			allowed = {
+				original_tag = EZO
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				min_export = -0.85
+				trade_opinion_factor = -0.85
+				army_core_defence_factor = -0.35
+				required_garrison_factor = 0.185
+				production_factory_max_efficiency_factor = 0.25
+				global_building_slots = 2 
+				opinion_gain_monthly_factor = -0.5
+				improve_relations_maintain_cost_factor = 0.85
+			} 
+		}
+		
+		EZO_slave_work = {
+			picture =
+
+			allowed = {
+				original_tag = EZO
+			}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				industry = -0.18
+			}
+			
+			modifier = {
+				line_change_production_efficiency_factor = 0.2
+				stability_factor = -0.425
+				monthly_population = -0.65
+				industry_repair_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.15
+			} 
+		}
+		
+		EZO_race_definition = {
+			picture =
+
+			allowed = {
+				original_tag = EZO
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.91
+				war_support_factor = -0.425
+				army_org_factor = 0.15
+				consumer_goods_factor = -0.085
+				party_popularity_stability_factor = -0.32
+			} 
+		}
+		
+		EZO_plunder_tropic = {
+			picture =
+
+			allowed = {
+				original_tag = EZO
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = 0.475
+				supply_factor = -0.085
+				production_speed_infrastructure_factor = -0.125
+			} 
+			
+			targeted_modifier = {
+				tag = GCA
+				extra_trade_to_target_factor = 0.385
+			}		
+		}
+		
+		EZO_wings_for_pig = {
+			picture =
+
+			allowed = {
+				original_tag = EZO
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_air_base_factor = 0.2
+				production_speed_arms_factory_factor = 0.1
+				industry_air_damage_factor = 0.15
+				static_anti_air_hit_chance_factor = 0.15
+				ground_attack_factor = 0.1
+			} 
+		}
+		
+		EZO_service_bold = {
+			picture =
+
+			allowed = {
+				original_tag = EZO
+			}
+			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = BHA
+				mic_to_target_factor = 0.18
+				extra_trade_to_target_factor = 0.24
+			}
+			
+			modifier = {
+				root_out_resistance_effectiveness_factor = 0.085
+				resistance_target = -0.1
+			} 
+		}
+	}
+}

@@ -1,0 +1,40 @@
+capital = 7
+
+oob = "HOL_1952"
+set_naval_oob = "HOL_1952_Naval"
+set_research_slots = 3
+set_stability = 0.62
+set_war_support = 0.69
+set_convoys = 46
+
+GER = {
+	set_autonomy = {
+		target = HOL
+		autonomy_state = autonomy_ordenstaat
+	}
+}
+
+set_popularities = {
+	fascism = 17
+	ultranationalism = 10
+	occult_nazism = 73
+}
+
+set_politics = {
+	ruling_party = occult_nazism
+}
+
+recruit_character = HOL_feldmejer
+recruit_character = HOL_rappard
+recruit_character = HOL_kettman
+
+
+
+add_ideas = {
+  HOL_holand_dumvirat
+  HOL_saving_ditsland
+  HOL_strategic_base
+  HOL_forced_labor
+  HOL_prepare_annexing
+  HOL_conscript_ss
+}

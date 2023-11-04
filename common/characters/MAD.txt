@@ -1,0 +1,62 @@
+characters={
+	MAD_lepetski = {
+		name = MAD_lepetski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAD/MAD_lepetski.dds"
+			}
+		}
+		country_leader = {
+			ideology = militocracy
+			expire="3333.1.1.1"
+			id=-1
+			desc = MAD_lepetski_desc
+			traits = { 
+				MAD_warlord
+			}
+		}
+	}
+	MAD_raseta = {
+		name = MAD_raseta
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAD/MAD_raseta.dds"
+			}
+		}
+		country_leader = {
+			ideology = autsoc_subtype
+			expire="3333.1.1.1"
+			id=-1
+			desc = MAD_raseta_desc
+			traits = { 
+				MAD_imerina
+			}
+		}
+		country_leader = {
+			ideology = left_nationalism_subtype
+			expire="3333.1.1.1"
+			id=-1
+			desc = MAD_raseta_desc
+			traits = { 
+				MAD_imerina
+			}
+		}
+	}
+	MAD_tsianana = {
+		name = MAD_tsianana
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAD/MAD_tsianana.dds"
+			}
+		}
+		country_leader = {
+			ideology = libsoc_subtype
+			expire="3333.1.1.1"
+			id=-1
+			desc = MAD_tsianana_desc
+			traits = { 
+				MAD_democratic_fucking_slave
+			}
+		}
+	}
+}

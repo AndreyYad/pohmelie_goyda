@@ -1,0 +1,116 @@
+ideas = {
+   country = {
+       BEA_supremacy_white = {
+			picture =
+
+			allowed = {
+				original_tag = BEA
+			}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				industry = 0.175
+			}
+			
+			modifier = {
+				autonomy_gain = -0.5
+				cic_to_overlord_factor = 0.25
+				mic_to_overlord_factor = 0.25
+				production_speed_buildings_factor = 0.185
+				political_power_factor = 0.1
+				stability_weekly_factor = 0.005
+				conscription_factor = -0.37
+			} 
+		}
+		
+		BEA_happy_valley = {
+			picture =
+
+			allowed = {
+				original_tag = BEA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.17
+				production_speed_infrastructure_factor = 0.15
+				autonomy_gain_ll_to_subject_factor = -0.185
+				stability_factor = -0.1
+				global_building_slots = 1
+			} 
+		}
+		
+		BEA_ethtic_traybalism = {
+			picture =
+
+			allowed = {
+				original_tag = BEA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.35
+				coordination_bonus = -0.1
+				war_support_factor = -0.15
+				drift_defence_factor = -0.385
+				army_org_factor = -0.15
+				mobilization_speed = -0.5
+			} 
+		}
+		
+		BEA_opala_kabaki = {
+			picture =
+
+			allowed = {
+				original_tag = BEA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.35
+				war_support_weekly_factor = -0.0035
+				surrender_limit_factor = -0.1
+				local_resources_factor = -0.185
+			} 
+		}
+		
+		BEA_social_caller_tangaiki = {
+			picture =
+
+			allowed = {
+				original_tag = BEA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				libsoc_drift = 0.35
+				autonomy_gain = 0.2
+				industrial_capacity_factory = -0.1
+			} 
+		}
+		
+		BEA_army_land_freedom = {
+			picture =
+
+			allowed = {
+				original_tag = BEA
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				conscription_factor = -0.2
+				attrition = 0.15
+				required_garrison_factor = 0.15
+				resistance_damage_to_garrison = 0.15
+				army_defence_factor = -0.115
+			} 
+		}
+	}
+}

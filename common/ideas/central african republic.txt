@@ -1,0 +1,61 @@
+ideas = {
+
+	country = {
+    CAR_imperial_land = {
+			modifier = {
+				global_building_slots_factor = -0.15
+				supply_consumption_factor = 0.35
+				production_speed_supply_node_factor = -0.75
+				production_speed_infrastructure_factor = -0.5
+				industry_air_damage_factor = -0.25
+				party_popularity_stability_factor = -0.335
+				army_org_regain = -0.1
+			    refit_speed = -0.05
+            }	
+		}
+    CAR_kannibals_fight = {
+			modifier = {
+		    resistance_growth_on_our_occupied_states = 0.175
+			}	
+            targeted_modifier = {
+            tag = UBG
+            attack_bonus_against = 0.15
+            }	
+	        targeted_modifier = {
+            tag = UBG
+            defense_bonus_against = 0.1
+            }			
+		}
+   CAR_black_napoleon_idea = {
+			modifier = {
+            war_support_factor = 0.25
+			political_power_gain = 0.35
+			foreign_subversive_activities = -0.375
+			offensive_war_stability_factor = 0.2
+			max_command_power = 45
+			army_attack_against_major_factor = 0.15
+            }	
+		}
+   CAR_latinoafrica_ambition = {
+   			modifier = {
+		    heat_attrition_factor = -0.4
+            attrition = -0.25
+			conscription_factor = 0.47
+			breakthrough_factor = 0.125
+			non_core_manpower = 0.1
+            }
+		    equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.25 reliability = -0.3
+			}
+		    }
+            targeted_modifier = {
+            tag = GCA 
+            attack_bonus_against = 0.25
+            }	
+            targeted_modifier = {
+            tag = FFR
+            attack_bonus_against = 0.25
+            }	
+		}
+	}

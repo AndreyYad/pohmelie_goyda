@@ -1,0 +1,26 @@
+state={
+	id=850
+	name="STATE_850"
+	provinces={
+		5160 10860 13362 13365 13369 
+	}
+	manpower=1000450
+	resources={
+		aluminium=4 # was: 5 
+	}
+	state_category = town
+	
+	history={
+		owner = BEA
+		add_core_of = BEA
+		victory_points = {
+			5160 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+}

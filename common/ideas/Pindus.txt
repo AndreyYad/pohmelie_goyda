@@ -1,0 +1,85 @@
+ideas = {
+   country = {
+       PIN_Romanian_legion = {
+			allowed = {
+				original_tag = PIN
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				subjects_autonomy_gain = -0.15
+				modifier_army_sub_unit_militia_defence_factor = 0.1
+				terrain_penalty_reduction = 0.05
+				fascism_drift = 0.04
+				war_support_weekly_factor = 0.002
+				production_speed_arms_factory_factor = 0.075
+				
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+				    build_cost_ic = -0.075
+                    instant = yes
+                }
+			}
+		}
+		
+		PIN_low_legitimity = {
+			allowed = {
+				original_tag = PIN
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_core_defence_factor = -0.1
+				required_garrison_factor = 0.1
+				enemy_operative_intel_extraction_rate = 0.2
+				political_power_factor = -0.2
+				conscription_factor = -0.1
+				land_reinforce_rate = -0.15
+				supply_factor = -0.1
+				stability_factor = -0.1
+			} 
+			targeted_modifier = {
+				tag = GRE
+				defense_bonus_against = -0.1
+			}
+		}
+		
+		PIN_Romanian_politics_support = {
+			allowed = {
+				original_tag = PIN
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_factory_donations = 1
+				production_speed_fuel_silo_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1	
+			} 
+			targeted_modifier = {
+				tag = ROM
+				mic_to_target_factor = 0.085
+				Cic_to_target_factor = 0.1
+			} 
+			custom_effect_tooltip = industrual_complex_tt
+		}
+		
+		PIN_kingdom_gaze = {
+			allowed = {
+				original_tag = PIN
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				operative_slot = 1
+				party_popularity_stability_factor = 0.15
+				production_speed_arms_factory_factor = 0.1
+				autonomy_gain_warscore_factor = 0.15
+			} 
+		}
+	}
+}

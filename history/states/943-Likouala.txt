@@ -1,0 +1,22 @@
+state={
+	id=943
+	name="STATE_943"
+	provinces={
+		6008 13994 13996 13998 14001 14002 14003 14004 14005 14006 14007 13989  
+	}
+	manpower=30170
+	state_category = pastoral
+	history={
+		owner = EZO
+		add_core_of = EZO
+		add_core_of = RCG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14002 1 
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	}

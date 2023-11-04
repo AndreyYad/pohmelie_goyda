@@ -1,0 +1,27 @@
+state={
+	id=951
+	name="STATE_951"
+	provinces={
+		988 7931 10071 10883 12741 12824 14102 14110 14113 14116 14122 14125 14126 14130 14134 14135 14140 14144 14145 14147 14149 14150 14153 14158 14159 14162 14164 14166 14167 14168 14174 
+	}
+	manpower=1623800
+	resources={
+		rubber=17.000
+		}
+	state_category = town
+	
+	history={
+		set_demilitarized_zone = yes
+		owner = LAN
+		add_core_of = COG
+		victory_points = {
+			14135 7
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+
+	}
+	local_supplies=1.000
+}

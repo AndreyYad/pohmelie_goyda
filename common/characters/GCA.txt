@@ -1,0 +1,16 @@
+characters={
+   GCA_gering={
+		name=GCA_gering
+		portraits={
+			civilian = {
+				large = "gfx/leaders/GCA/gering.dds"
+			}
+		}
+		country_leader={
+			ideology=national_capitalism
+			traits={ morphine_fun mired_body progression_megalomania}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

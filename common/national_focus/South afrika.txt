@@ -1,0 +1,11 @@
+focus_tree = {
+	id = South_Afrika
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAF
+		}
+	}
+	
+}

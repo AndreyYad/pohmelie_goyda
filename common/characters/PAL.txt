@@ -1,0 +1,46 @@
+characters={
+	 PAL_Fawsi_al_Kawukji={
+		name=PAL_Fawsi_al_Kawukji
+		portraits={
+			civilian={
+				large=GFX_portrait_PAL_Fawsi_al_Kawukji
+			}
+		}
+		country_leader={
+			ideology=kawukjism
+			traits={New_Salahuddin}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PAL_Amin_al_Husaini={
+		name=PAL_Amin_al_Husaini
+		portraits={
+			civilian={
+				large=GFX_PAL_Amin_al_Husaini
+			}
+		}
+		country_leader={
+			ideology=panarabism
+			traits={ Great_mufti Egoist_autocrat}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+    PAL_Taqi_al_Din={
+		name=PAL_Taqi_al_Din
+		portraits={
+			civilian={
+				large=GFX_portrait_PAL_Taqi_al_Din
+			}
+		}
+		country_leader={
+			ideology=panislamic_traditionalism
+			traits={ Pseudo_Caliph Pseudo_Mujahid }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

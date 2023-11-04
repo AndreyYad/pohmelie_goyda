@@ -1,0 +1,23 @@
+state={
+	id=1167
+	name="STATE_1167"
+	provinces={
+		4175 7647 7909 7974 12317 
+	}
+	manpower=114188
+	state_category = town
+	history={
+		add_core_of = BRM
+		add_core_of = SIA
+		owner = SIA
+        victory_points = {
+			7909 3 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+}

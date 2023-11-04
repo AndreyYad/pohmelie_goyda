@@ -1,0 +1,38 @@
+capital = 551
+
+oob = "SUD_1952"
+set_naval_oob = "SUD_1952_Naval"
+set_research_slots = 1
+set_stability = 0.62
+set_war_support = 0.51
+set_convoys = 8
+
+ENG = {
+	set_autonomy = {
+		target = SUD
+		autonomy_state = autonomy_selfrule_colony
+		freedom_level = 0.3
+	}
+}
+
+
+set_popularities = {
+	conservatism = 55
+	etatism = 45
+}
+
+set_politics = {
+	ruling_party = conservatism
+	elections_allowed = yes
+}
+
+recruit_character = SUD_mahdi
+recruit_character = SUD_azhari
+
+
+add_ideas = {
+  SUD_prepare_sudan_independency
+  SUD_south_sudan_conflict
+  SUD_strength_defense_sudan
+  SUD_political_pat
+}

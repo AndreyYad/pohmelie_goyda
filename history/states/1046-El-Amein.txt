@@ -1,0 +1,33 @@
+state={
+	id=1046
+	name="STATE_1046"
+	provinces={
+		1071 4145 
+	}
+	manpower=18006
+	state_category = town
+	resources={
+		oil=5.000
+	}
+	
+	
+	history = {
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+			fuel_silo = 1
+			1071 = {
+			        naval_base = 2
+			}
+		}
+
+		victory_points = {
+			1071 1
+		}
+
+		add_core_of = EGY
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

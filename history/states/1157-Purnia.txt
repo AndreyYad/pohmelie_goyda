@@ -1,0 +1,25 @@
+state={
+	id=1157
+	name="STATE_1157"
+	provinces={
+		1656 7475 7565 10361 10878 
+	}
+	manpower=3974100
+	resources={
+		steel=9.000
+		tungsten=7.000
+	}
+	state_category = rural
+	history={
+		owner = AZH
+		victory_points = {
+			7475 3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

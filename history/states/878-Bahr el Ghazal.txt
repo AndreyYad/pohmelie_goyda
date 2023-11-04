@@ -1,0 +1,28 @@
+state={
+	id=878
+	name="STATE_878"
+	provinces={
+		1953 4033 7996 10764 10908 13484 13485 13487 13489 13491 13492 13495 13497 13498 13499 13500 
+	}
+	manpower=570630
+	resources={
+		oil=23 # was: 11
+	}
+	
+	state_category = rural
+
+	history=
+	{
+		owner = SUD
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13487 2
+		}
+		add_core_of = SUD
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

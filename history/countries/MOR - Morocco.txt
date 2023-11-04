@@ -1,0 +1,36 @@
+capital = 461
+
+oob = "MOR_1952"
+set_naval_oob = "MOR_1952_Naval"
+set_research_slots = 2
+set_stability = 0.62
+set_war_support = 0.58
+set_convoys = 11
+
+
+
+set_popularities = {
+	ultranationalism = 29
+	conservatism = 61
+	etatism = 10
+}
+
+set_politics = {
+	ruling_party = conservatism
+}
+
+recruit_character = MOR_fassi
+recruit_character = MOR_muhhamedv
+
+diplomatic_relation = {
+    country = FFR
+    relation = military_access
+    active = no
+}
+
+
+add_ideas = {
+ MOR_revolution_king_peoples
+ MOR_marrocan_freedom
+ MOR_save_postcolonial_pacts
+}

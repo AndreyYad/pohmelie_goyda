@@ -1,0 +1,35 @@
+state={
+	id=1193
+	name="STATE_1193"
+	provinces={
+		13066 15349 15350 15351 15352 15353 15354 15355 15356 15357 15358 15359 15360 15361 15362 
+	}
+	manpower=11488
+	state_category = town
+	history={
+		owner = HYP
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			radar_station = 2
+			13066 = {
+				naval_base = 2
+			}
+			15357 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HYP
+		victory_points = {
+			13066 3
+		}
+		victory_points = {
+			15357 1
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=8.000
+}
