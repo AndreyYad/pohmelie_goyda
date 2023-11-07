@@ -4,20 +4,15 @@ ideologies = {
 	
 		types = {
 			
-			stalinism = {
-			}
-			
-			autsoc_subtype = {
-			}
+			autsoc_subtype = {}
+					
+			stalinism = { can_be_randomly_selected = no }
+
+			maoism = { can_be_randomly_selected = no }
 		
-			maoism = {
-			}
-		
-			islamsocialism = {
-			}
+			islamsocialism = { can_be_randomly_selected = no }
 			
-			afrosocialism = {
-			}
+			afrosocialism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
@@ -64,29 +59,22 @@ ideologies = {
 	left_nationalism = {
 		
 		types = {
-		
-			national_bolshevism = {
-			}
 			
-			strasserism = {
-			}
+			left_nationalism_subtype = {}
+					
+			national_bolshevism = { can_be_randomly_selected = no }
 			
-			katarism = {
-			}
+			strasserism = { can_be_randomly_selected = no }
 			
-			left_nationalism_subtype = {
-			}
+			katarism = { can_be_randomly_selected = no }
+
+			anarcho_synd = { can_be_randomly_selected = no }
 			
-			anarcho_synd = {
-			}
+			kransoslavism = { can_be_randomly_selected = no }
 			
-			kransoslavism = {
-			}
+			neosocialism = { can_be_randomly_selected = no }
 			
-			neosocialism = {
-			}
-			
-			irland_republicanism = {}
+			irland_republicanism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
@@ -138,21 +126,16 @@ ideologies = {
 	libsoc = {
 	
 		types = {
-		
-			anarcho_communism = {
-			}
 
-			marxism = {
-			}
+			libsoc_subtype = {}		
+
+			anarcho_communism = { can_be_randomly_selected = no }
+
+			marxism = { can_be_randomly_selected = no }
 			
-			christian_soclaism = {
-			}
+			christian_soclaism = { can_be_randomly_selected = no }
 			
-			libsoc_subtype = {
-			}
-			
-			socialism_udjama= {
-			}
+			socialism_udjama = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
@@ -194,19 +177,15 @@ ideologies = {
 	social_democracy = {
 	
 		types = {
-		
-			new_left  = {
-			}
 			
-			liber_socalism  = {
-			}
-
-			progressivism = {
+			social_democracy_subtype = {}	
 				
-			}
+			new_left  = { can_be_randomly_selected = no }
 			
-			social_democracy_subtype = {
-			}
+			liber_socalism  = { can_be_randomly_selected = no }
+
+			progressivism = { can_be_randomly_selected = no }
+
 		}
 
 		dynamic_faction_names = {
@@ -258,18 +237,14 @@ ideologies = {
 	liberalism = {
 	
 		types = {
-		
-			social_liberalism  = {
-			}
-			
-			neoliberalism  = {
-			}
 
-			liberalism_subtype = {
-			}
+			liberalism_subtype = {}
+					
+			social_liberalism  = { can_be_randomly_selected = no }
 			
-			pujadism = {
-			}
+			neoliberalism  = { can_be_randomly_selected = no }
+
+			pujadism = { can_be_randomly_selected = no }
 			
 		}
 
@@ -323,24 +298,18 @@ ideologies = {
 	conservatism = {
 	
 		types = {
-		
-			christian_democracy  = {
-			}
 			
-			national_conservatism  = {
-			}
+			conservatism_subtype = {}
+					
+			christian_democracy  = { can_be_randomly_selected = no }
 			
-			paleoconservatism  = {
-			}
+			national_conservatism  = { can_be_randomly_selected = no }
 			
-			neoconservatism  = {
-			}
+			paleoconservatism  = { can_be_randomly_selected = no }
 			
-			conservatism_subtype = {
-			}
-			
-			atlanto_nordism = {
-			}
+			neoconservatism  = { can_be_randomly_selected = no }
+
+			atlanto_nordism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -396,36 +365,27 @@ ideologies = {
 	
 		types = {
 			
-			petenism = {
-			}
+			etatism_subtype = {}
+						
+			petenism = { can_be_randomly_selected = no }
 			
-			national_capitalism = {
-			}
+			national_capitalism = { can_be_randomly_selected = no }
 			
-			authoritarian_democracy  = {
-			}
+			authoritarian_democracy  = { can_be_randomly_selected = no }
 			
-			parafascism  = {
-			}
+			parafascism  = { can_be_randomly_selected = no }
 			
-			monarchy  = {
-			}
+			monarchy  = { can_be_randomly_selected = no }
 			
-			militocracy  = {
-			}
+			militocracy  = { can_be_randomly_selected = no }
+
+			panislamic_traditionalism  = { can_be_randomly_selected = no }
 			
-			etatism_subtype = {
-			}
+			islamic_fundamentalism = { can_be_randomly_selected = no }
 			
-			panislamic_traditionalism  = {
-			}
+			christian_fundamentalism = { can_be_randomly_selected = no }
 			
-			islamic_fundamentalism = {
-			}
-			
-			christian_fundamentalism = {}
-			
-			afrikaner_nationalism = {}
+			afrikaner_nationalism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -475,20 +435,18 @@ ideologies = {
 	fascism = {
 	
 		types = {
-		
-			falangism  = {
-			}
 			
-			national_syndicalism  = {
-			}
-			
-			klerk_facism  = {
-			}
-			
-			integralism  = {
-			}
 			fascism_subtype = {}
-			kawukjism = {}
+		
+			falangism  = { can_be_randomly_selected = no }
+			
+			national_syndicalism  = { can_be_randomly_selected = no }
+			
+			klerk_facism  = { can_be_randomly_selected = no }
+			
+			integralism  = { can_be_randomly_selected = no }
+
+			kawukjism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -537,23 +495,20 @@ ideologies = {
 	ultranationalism = {
 	
 		types = {
-		
-			black_rasism = {
-			}
+
+			ultranationalism_subtype  = {}	
+
+			black_rasism = { can_be_randomly_selected = no }
 			
-			panasiatism  = {
-			}
+			panasiatism  = { can_be_randomly_selected = no }
 			
-			turanism  = {
-			}
+			turanism  = { can_be_randomly_selected = no }
 			
-			white_nationalism  = {
-			}
+			white_nationalism  = { can_be_randomly_selected = no }
 			
-			panarabism = {}
-			
-			ultranationalism_subtype  = {
-			}
+			panarabism = { can_be_randomly_selected = no }
+
+			hindutva = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -607,16 +562,12 @@ ideologies = {
 	occult_nazism = {
 	
 		types = {
-		
-			social_darvinism = {
 			
-			}
-			
-			occult_nazism_subtype = {
-			
-			}
-			
-			occult_vudhuism = {}
+			occult_nazism_subtype = {}
+					
+			social_darvinism = { can_be_randomly_selected = no }
+
+			occult_vudhuism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
