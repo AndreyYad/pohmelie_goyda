@@ -2,7 +2,7 @@ version="1"
 tags={
 	"Alternative History"
 }
-name="Poh"
+name="pohmelie_goyda"
 supported_version="1.13.*"
 replace_path="common/units"
 replace_path="common/technologies"

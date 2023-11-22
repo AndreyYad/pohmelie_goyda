@@ -386,6 +386,8 @@ ideologies = {
 			christian_fundamentalism = { can_be_randomly_selected = no }
 			
 			afrikaner_nationalism = { can_be_randomly_selected = no }
+			
+			guided_democracy = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {

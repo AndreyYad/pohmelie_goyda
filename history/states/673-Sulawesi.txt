@@ -10,7 +10,7 @@ state={
 
 
 	history= {
-		owner = JAP
+		owner = INS
 		add_core_of = INS
 		buildings = {
 			infrastructure = 2

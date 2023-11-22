@@ -1,0 +1,37 @@
+﻿capital = 335
+
+oob = "INS_1952"
+set_research_slots = 3
+set_stability = 0.65
+set_war_support = 0.4
+
+recruit_character = INS_sukarno
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	basic_train = 1
+}
+
+add_ideas = {
+	INS_rice_field
+	INS_japanese_gas_station
+	INS_guided_democracy_principles
+	INS_nationalism_propaganda
+	INS_separatism_fever
+}
+
+set_convoys = 100
+
+set_politics = {
+	ruling_party = etatism
+	last_election = "1950.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	etatism = 100
+}

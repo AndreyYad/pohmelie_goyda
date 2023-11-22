@@ -7,8 +7,8 @@ state={
 	manpower=47230
 	state_category = pastoral
 	history={
-		add_core_of = MAL
-		owner = MAL
+		add_core_of = INS
+		owner = INS
 		buildings = {
 			infrastructure = 1
 			}

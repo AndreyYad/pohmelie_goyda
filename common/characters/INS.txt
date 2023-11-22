@@ -1,0 +1,16 @@
+characters={
+	INS_sukarno={
+		name=INS_sukarno
+		portraits={
+			civilian={
+				large = "gfx/leaders/INS/sukarno.dds"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy
+			traits={bung_karno}
+			expire="1970.6.21.1"
+			id=-1
+		}
+	}
+}
